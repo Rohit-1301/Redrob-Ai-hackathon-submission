@@ -1,0 +1,40 @@
+{
+  "total_candidates": 100000,
+  "status_distribution": {
+    "VALID": 14019,
+    "REVIEW": 9111,
+    "WEAK": 1717,
+    "INVALID": 75153
+  },
+  "signal_distributions": {
+    "average_profile_completeness_score": 56.76,
+    "average_recruiter_response_rate": 0.437,
+    "average_interview_completion_rate": 0.62,
+    "average_offer_acceptance_rate": 0.475,
+    "github_connection_rate": 0.354,
+    "average_connection_count": 345.7,
+    "last_active_recency_distribution": {
+      "<= 7 days": 0,
+      "<= 30 days": 3395,
+      "<= 90 days": 28498,
+      "> 90 days": 68107
+    },
+    "notice_period_distribution": {
+      "0-30 days": 13809,
+      "31-60 days": 24543,
+      "61-90 days": 31097,
+      "> 90 days": 30551
+    }
+  },
+  "common_failure_reasons": {
+    "TITLE_DESCRIPTION_MISMATCH": 152735,
+    "SKILL_DURATION_MISMATCH": 29777,
+    "SKILL_EMPLOYMENT_INCONSISTENCY": 14173,
+    "IMPOSSIBLE_EXPERIENCE_DURATION": 7734,
+    "IMPOSSIBLE_WORK_GRADUATION_TIMELINE": 2282,
+    "KEYWORD_STUFFED_HONEYPOT": 1676,
+    "EXPERIENCE_MISMATCH": 49,
+    "SUSPICIOUS_SKILL_DISTRIBUTION": 1,
+    "SKILL_INFLATION": 1
+  }
+}
