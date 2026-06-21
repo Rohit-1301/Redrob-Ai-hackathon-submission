@@ -1,2 +1,7 @@
 # Large datasets
 Redrobsdataset/candidates.jsonl
+
+# Large output files
+outputs/valid_candidates.json
+outputs/invalid_candidates.json
+outputs/
