@@ -39,6 +39,7 @@ FOUNDING_YEARS = {
     "vedantu": 2011,
     "locobuzz": 2015,
     "mad street den": 2013,
+    "glance": 2019,
 }
 
 
