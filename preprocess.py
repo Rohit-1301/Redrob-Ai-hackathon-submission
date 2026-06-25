@@ -7,12 +7,15 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 from utils.score_candidates import check_honeypot
 
 def main():
-    input_file = os.path.join("data", "cleaned_candidates.jsonl")
+    input_file = os.path.join("data", "candidates.jsonl")
+    if not os.path.exists(input_file):
+        input_file = os.path.join("data", "cleaned_candidates.jsonl")
+        
     valid_file = os.path.join("data", "valid_candidates.jsonl")
     invalid_file = os.path.join("data", "invalid_candidates.jsonl")
     
     if not os.path.exists(input_file):
-        print(f"Error: {input_file} not found! Run the directory cleanup and folder layout setup first.")
+        print(f"Error: Candidates file not found under data/ directory!")
         return
         
     print(f"Starting candidate preprocessing on {input_file}...")

@@ -16,13 +16,22 @@ def load_candidates(file_path):
     print(f"Loading candidates from {file_path}...")
     candidates = []
     
-    # Support both gzipped and raw jsonl files
+    # Support both gzipped and raw json/jsonl files
     is_gzip = file_path.endswith('.gz')
     open_func = gzip.open if is_gzip else open
     mode = 'rt' if is_gzip else 'r'
     
     with open_func(file_path, mode, encoding='utf-8') as f:
-        for idx, line in enumerate(f):
+        content = f.read()
+        
+    stripped = content.strip()
+    if stripped.startswith("["):
+        try:
+            candidates = json.loads(stripped)
+        except Exception as e:
+            print(f"Error parsing JSON array: {e}")
+    else:
+        for idx, line in enumerate(stripped.splitlines()):
             if not line.strip():
                 continue
             try:

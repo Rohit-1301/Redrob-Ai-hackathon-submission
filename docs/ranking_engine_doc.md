@@ -78,6 +78,8 @@ We identify honeypots using three absolute temporal and structural contradiction
    * *Rule:* A candidate lists working at a startup before its actual founding year. For instance:
      * **Sarvam AI** (Founded in 2023)
      * **Krutrim** (Founded in 2023)
+     * **Glance** (Founded in 2019)
+     * **Rephrase.ai** (Founded in 2019)
    * *Rationale:* You cannot work at a company before it exists.
    * *Code Reference:* `start.year < founding` (e.g., checking if the candidate claims they worked at Sarvam AI in 2021).
 
