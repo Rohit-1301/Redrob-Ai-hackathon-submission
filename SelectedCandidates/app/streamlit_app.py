@@ -235,15 +235,68 @@ else:
     elif page == "Interactive Charts":
         st.markdown("### 📈 Visualizing the Talent Pool")
         
+        # Load the pre-computed stats of all 100K candidates
+        stats_path = os.path.join(project_root, "SelectedCandidates/outputs/all_candidates_stats.json")
+        if os.path.exists(stats_path):
+            with open(stats_path, "r", encoding="utf-8") as f:
+                all_stats = json.load(f)
+                
+            st.markdown("#### 📊 Analysis of All Candidates (100,000 Pool)")
+            
+            # Row 1: Status Distribution and Experience Distribution
+            col_s1, col_s2 = st.columns(2)
+            with col_s1:
+                st.markdown("##### Candidate Classification Breakdown")
+                status_df = pd.DataFrame(
+                    list(all_stats["status_distribution"].items()), 
+                    columns=["Status", "Count"]
+                ).set_index("Status")
+                st.bar_chart(status_df)
+                
+            with col_s2:
+                st.markdown("##### Years of Experience Distribution")
+                exp_df = pd.DataFrame(all_stats["experience_distribution"])
+                exp_df = exp_df.rename(columns={"experience_years": "Years of Experience", "count": "Candidate Count"}).set_index("Years of Experience")
+                st.bar_chart(exp_df)
+                
+            # Row 2: Top Skills and Top Locations
+            col_s3, col_s4 = st.columns(2)
+            with col_s3:
+                st.markdown("##### Top 15 Most Common Skills")
+                skills_df = pd.DataFrame(all_stats["top_skills"][:15])
+                skills_df = skills_df.rename(columns={"skill": "Skill", "count": "Frequency"}).set_index("Skill")
+                st.bar_chart(skills_df)
+                
+            with col_s4:
+                st.markdown("##### Top 15 Candidate Locations")
+                loc_df = pd.DataFrame(all_stats["top_locations"][:15])
+                loc_df = loc_df.rename(columns={"location": "Location", "count": "Frequency"}).set_index("Location")
+                st.bar_chart(loc_df)
+                
+            # Row 3: Common Companies worked at
+            st.markdown("##### Top 15 Most Common Companies Candidates Have Worked For")
+            comp_df = pd.DataFrame(all_stats["top_companies"][:15])
+            comp_df = comp_df.rename(columns={"company": "Company", "count": "Frequency"}).set_index("Company")
+            st.bar_chart(comp_df, use_container_width=True)
+            
+        else:
+            st.warning("⚠️ All candidates statistics file not found. Showing top 100 distributions instead.")
+            
+        st.markdown("---")
+        st.markdown("#### 🏆 Top 100 Selected Candidate Distributions")
         col_c1, col_c2 = st.columns(2)
         
         with col_c1:
-            st.image(os.path.join(reports_dir, "score_distribution.png"), caption="Score Distribution Profile", use_container_width=True)
-            st.image(os.path.join(reports_dir, "experience_distribution.png"), caption="Candidate Experience Range", use_container_width=True)
+            if os.path.exists(os.path.join(reports_dir, "score_distribution.png")):
+                st.image(os.path.join(reports_dir, "score_distribution.png"), caption="Score Distribution Profile", use_container_width=True)
+            if os.path.exists(os.path.join(reports_dir, "experience_distribution.png")):
+                st.image(os.path.join(reports_dir, "experience_distribution.png"), caption="Candidate Experience Range", use_container_width=True)
             
         with col_c2:
-            st.image(os.path.join(reports_dir, "category_distribution.png"), caption="Eligible Category Splits", use_container_width=True)
-            st.image(os.path.join(reports_dir, "skill_coverage.png"), caption="Skills Coverage Spectrum", use_container_width=True)
+            if os.path.exists(os.path.join(reports_dir, "category_distribution.png")):
+                st.image(os.path.join(reports_dir, "category_distribution.png"), caption="Eligible Category Splits", use_container_width=True)
+            if os.path.exists(os.path.join(reports_dir, "skill_coverage.png")):
+                st.image(os.path.join(reports_dir, "skill_coverage.png"), caption="Skills Coverage Spectrum", use_container_width=True)
             
     elif page == "System Report":
         st.markdown("### 📄 Pipeline Execution & Methodology")

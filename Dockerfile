@@ -1,14 +1,16 @@
 # Use official lightweight Python image
 FROM python:3.11-slim
 
-# Set environment variables to optimize Python performance inside Docker
+# Set environment variables to optimize Python performance
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
+ENV PYTHONPATH=/app
+ENV HF_HOME=/app/models/hf_cache
 
 # Set the working directory in the container
 WORKDIR /app
 
-# Install system dependencies if any are needed
+# Install system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
@@ -17,17 +19,26 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Pre-cache the semantic embedding model in the image to run fully offline
+RUN mkdir -p /app/models/hf_cache && \
+    python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('BAAI/bge-small-en-v1.5')"
+
 # Copy the application directories and files
-COPY configs/ ./configs/
-COPY validators/ ./validators/
-COPY scoring/ ./scoring/
-COPY preprocess.py .
+COPY configs/ /app/configs/
+COPY Redrobsdataset/ /app/Redrobsdataset/
+COPY Preprocessing\ pipeline/ /app/Preprocessing\ pipeline/
+COPY SelectedCandidates/ /app/SelectedCandidates/
+COPY run_all.py /app/run_all.py
 
-# Create directories for mounting data and outputs
-RUN mkdir -p /app/data /app/outputs
+# Create a non-root user and assign ownership of the app directory
+RUN useradd -u 8888 appuser && \
+    chown -R appuser:appuser /app
 
-# Set entrypoint to run the preprocessing script
-ENTRYPOINT ["python", "preprocess.py"]
+# Switch to the non-root user
+USER appuser
 
-# Default command-line arguments to preprocess (expects files to be mounted)
-CMD ["/app/data/candidates.jsonl", "/app/outputs/validated_candidates.parquet", "/app/outputs/validation_report.json"]
+# Expose Streamlit default port
+EXPOSE 8501
+
+# Set the default command to run the orchestrator script
+CMD ["python", "run_all.py"]
