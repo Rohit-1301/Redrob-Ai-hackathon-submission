@@ -1,0 +1,41 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .dockerignore  —  SelectedCandidates/
+# Keeps the Docker build context lean and fast.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Models cache (large; not needed in dashboard image)
+models/hf_cache/
+models/embeddings.pkl
+models/faiss/
+
+# Logs
+logs/
+
+# Dev / editor
+.env
+.env.*
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docs & extras
+README.md
+*.md

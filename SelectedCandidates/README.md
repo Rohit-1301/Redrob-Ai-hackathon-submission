@@ -1,78 +1,348 @@
-# Redrob Candidate Discovery & Ranking Engine
+# 🏆 RedRob — Intelligent Candidate Discovery & Ranking Engine
 
-This directory contains the core scoring, semantic vector matching, and ranking engine designed for the **Redrob Candidate Discovery & Ranking challenge**. It parses the target Job Description (JD), ingests preprocessed candidate lists (`VALID`, `REVIEW`, `WEAK`), embeds profiles using neural models, indexes them with FAISS, and ranks them to output the top 100 fits.
+> **Senior AI Engineer (Ranking & Retrieval)** · RedRob Hackathon Submission  
+> Automated talent pipeline that evaluates 100,000 candidates and surfaces the **Top 100** most qualified profiles using a multi-signal hybrid scoring framework.
+
+---
+
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Live Dashboard](#-live-dashboard)
+- [Project Structure](#-project-structure)
+- [How It Works](#-how-it-works)
+  - [Stage 1 — Pre-filtering](#stage-1--non-semantic-pre-filtering)
+  - [Stage 2 — Hybrid Scoring](#stage-2--semantic-matching--hybrid-scoring)
+  - [Scoring Weights](#scoring-weight-breakdown)
+  - [Category Multipliers & Penalties](#category-multipliers--penalties)
+  - [Disqualification Rules](#disqualification-hard-caps)
+- [Pipeline Outputs](#-pipeline-outputs)
+- [Key Results](#-key-results)
+- [Running Locally](#-running-locally)
+- [Running with Docker](#-running-with-docker)
+- [Makefile Commands](#-makefile-commands)
+- [Environment Variables](#️-environment-variables)
+- [Dashboard Pages](#-dashboard-pages)
+- [Tech Stack](#-tech-stack)
+
+---
+
+## 🚀 Overview
+
+This repository contains the full scoring, semantic vector matching, and ranking pipeline for the **RedRob Intelligent Candidate Discovery & Ranking Challenge**. The system:
+
+1. **Parses** the target Job Description (JD) from a `.docx` file
+2. **Ingests** pre-validated candidate lists (`VALID`, `REVIEW`, `WEAK`) from the Preprocessing pipeline
+3. **Embeds** candidate profiles using SentenceTransformers (`BAAI/bge-small-en-v1.5`)
+4. **Indexes** embeddings with FAISS for fast vector similarity search
+5. **Scores** each candidate across 6 weighted signal dimensions
+6. **Ranks** and outputs the definitive **Top 100 candidates** with full explainability
+
+---
+
+## 📊 Live Dashboard
+
+An interactive Streamlit analytics dashboard is included that visualises the **Top 100 candidates exclusively** across 8 analysis pages:
+
+| Page | Description |
+|------|-------------|
+| 📊 Overview & KPIs | 10 KPI cards, Top-10 table, score band distribution |
+| 📈 Data Analysis | Score histogram, experience pie, scatter plots, summary stats |
+| 🗺️ Location Insights | City distribution, pie chart, avg score per location |
+| 💼 Role & Experience | Role breakdown, avg score per role, experience box-plots |
+| ⚙️ Skills Intelligence | Required & preferred skill frequencies, missing skills analysis |
+| 🏢 Company Insights | Current company distribution, avg score per company |
+| 🔍 Candidate Deep-Dive | Full profile card, radar chart, component score bar chart |
+| 📋 Full Candidates Table | Filterable, searchable list with CSV/JSON export |
 
 ---
 
 ## 📁 Project Structure
 
-*   [run_pipeline.py](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/run_pipeline.py): Pipeline orchestration script.
-*   [src/ranking/ranker.py](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/src/ranking/ranker.py): Controls Stage 1 pre-filtering (down to 400 profiles) and Stage 2 hybrid sorting.
-*   [src/scoring/score_engine.py](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/src/scoring/score_engine.py): Contains component scoring rules for Career fit, Skills match, Behavioral engagement, Quality validation, and Product Company pedigree.
-*   [src/semantic/embeddings.py](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/src/semantic/embeddings.py): Computes SentenceTransformer embeddings and serializes them in a FAISS index.
-*   [src/utils/jd_parser.py](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/src/utils/jd_parser.py): Parses input Word document (.docx) JDs using python-docx.
-*   [src/explainability/explainer.py](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/src/explainability/explainer.py): Generates detailed structured natural language explanations for candidate matches.
-*   [app/streamlit_app.py](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/app/streamlit_app.py): Streamlit dashboard to interactively inspect candidate scores and explanations.
-*   [reports/](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/reports/): Evaluation and audit reports folder:
-    *   [final_report.md](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/reports/final_report.md): Output ranking summary statistics and charts.
-    *   [reportlogic.md](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/reports/reportlogic.md): Scoring weight specifications and visual flowchart.
-    *   [honeypot_report.md](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/reports/honeypot_report.md): Details on honeypot detector rules and preprocessing failure stats.
-*   [Makefile](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/Makefile): Automation triggers.
-*   [Dockerfile](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/Dockerfile) & [docker-compose.yml](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/docker-compose.yml): Non-root Docker execution configuration.
+```
+SelectedCandidates/
+│
+├── app/
+│   └── streamlit_app.py          # Streamlit analytics dashboard (Top 100 only)
+│
+├── src/
+│   ├── ranking/
+│   │   └── ranker.py             # Stage 1 pre-filter + Stage 2 hybrid sort
+│   ├── scoring/
+│   │   └── score_engine.py       # 6-component scoring rules
+│   ├── semantic/
+│   │   └── embeddings.py         # SentenceTransformer embeddings + FAISS index
+│   ├── explainability/
+│   │   └── explainer.py          # Natural language match explanations
+│   ├── reporting/
+│   │   └── generator.py          # Charts + markdown report generation
+│   └── utils/
+│       └── jd_parser.py          # .docx Job Description parser
+│
+├── outputs/                       # Generated by the pipeline (git-ignored model cache)
+│   ├── top_100_candidates.csv     # Final ranked Top 100 (submission file)
+│   ├── top_100_explanations.json  # Detailed per-candidate explainability data
+│   ├── submission.csv             # Baseline submission for comparison
+│   ├── comparison_result.csv      # Diff between baseline and new output
+│   ├── all_candidates_stats.json  # Aggregate stats for the full 100k pool
+│   └── scoring_and_penalties_report.md
+│
+├── reports/                       # Human-readable analysis reports
+│   ├── final_report.md
+│   ├── reportlogic.md
+│   └── honeypot_report.md
+│
+├── models/                        # Embedding cache (auto-created, git-ignored)
+├── logs/                          # Pipeline execution logs
+│
+├── Redrobsdataset/                # Challenge dataset (job description, validator)
+├── config/                        # Scoring configuration files
+│
+├── run_pipeline.py                # Main pipeline entry point
+├── requirements.txt               # Full pipeline dependencies
+├── requirements-dashboard.txt     # Lightweight dashboard-only dependencies
+├── Dockerfile                     # Multi-stage Docker image for the dashboard
+├── docker-compose.yml             # Docker Compose service definition
+├── Makefile                       # Shortcut commands
+└── .env.example                   # Environment variable template
+```
 
 ---
 
-## ⚙️ Hybrid Scoring & Ranking Framework
+## ⚙️ How It Works
 
-Candidates matching valid/review/weak status are processed across two stages:
+### Stage 1 — Non-Semantic Pre-filtering
 
-### Stage 1: Non-Semantic Pre-filtering
-Computes non-semantic profiles for all candidates to compute a maximum potential score (assuming a perfect semantic match of 1.0). The pipeline filters candidate records down to the **top 400** to restrict expensive vector embedding operations to the most viable candidates, guaranteeing lossless candidate selection.
+To avoid running expensive vector embeddings on all ~25,000 eligible candidates, Stage 1 computes a **theoretical maximum score** for every candidate (assuming a perfect semantic similarity of `1.0`). Only the **top 400** candidates by this ceiling score proceed to Stage 2.
 
-### Stage 2: Semantic Matching & Blended Score
-Computes cosine similarity of candidate profile text versus Job Description embedding vectors using SentenceTransformers and FAISS index search. The score components are blended as follows:
-1.  **Semantic Match (40% weight)**: Cosine similarity score.
-2.  **Career Match (20% weight)**: Match of years of experience (preferred range 5–9 years), title seniority alignment, and non-consulting background pedigree.
-3.  **Skill Match (15% weight)**: Required skill intersection (70%) and preferred skill intersection (30%).
-4.  **Behavioral Health (10% weight)**: Blend of Computed behavior score (completeness, verified channel points, recruiter responsiveness) and dataset raw behavior score.
-5.  **Validation Quality (10% weight)**: Blend of validation score (80%) and credibility score (20%).
-6.  **Product Company Pedigree (5% weight)**: 1.0 if the career has zero consulting firm history, 0.0 otherwise.
+This guarantees **zero lossless candidate selection** — any candidate that could make the Top 100 with a perfect semantic score will not be dropped.
 
-### Category Multiplier & Penalties
-*   **Multiplier**: VALID (x1.00), REVIEW (x0.85), WEAK (x0.60).
-*   **Honeypot Penalty**: Subtracts 999.0 if candidate validation honeypot flag is active.
+### Stage 2 — Semantic Matching & Hybrid Scoring
+
+Each of the 400 shortlisted candidates has their profile text embedded and compared against the JD embedding using **cosine similarity** via FAISS. The 6 component scores are then blended:
+
+### Scoring Weight Breakdown
+
+| # | Component | Weight | Description |
+|---|-----------|--------|-------------|
+| 1 | **Semantic Fit** | **40%** | Cosine similarity of candidate profile vs JD embedding (BAAI/bge-small-en-v1.5) |
+| 2 | **Career Match** | **20%** | Experience range (5–9 yrs preferred), title seniority, non-consulting background |
+| 3 | **Skill Alignment** | **15%** | Required skills intersection (70%) + preferred skills intersection (30%) |
+| 4 | **Behavioral Score** | **10%** | Profile completeness, verified channel points, recruiter responsiveness |
+| 5 | **Quality Validation** | **10%** | Validation score (80%) + credibility score (20%) from the preprocessing stage |
+| 6 | **Product Company** | **5%** | `1.0` if candidate has **zero** consulting firm history; `0.0` otherwise |
+
+**Final Score = Σ (component × weight) × category_multiplier**
+
+### Category Multipliers & Penalties
+
+| Category | Multiplier | Validation Score Range |
+|----------|:----------:|------------------------|
+| `VALID`  | **×1.00**  | ≥ 80.0                 |
+| `REVIEW` | **×0.85**  | 60.0 – 79.9            |
+| `WEAK`   | **×0.60**  | 40.0 – 59.9            |
+| `INVALID`| ❌ Excluded | < 40.0                 |
+
+> **Honeypot Penalty:** Any candidate flagged as a high-probability synthetic/bot profile receives a `-999.0` penalty, effectively eliminating them from ranking.
+
+### Disqualification Hard Caps
+
+A candidate's validation score is **instantly capped at 35.0** (forcing `INVALID`) if **any** of the following hard disqualifiers are triggered:
+
+| Flag | Reason |
+|------|--------|
+| `PURE_CV_SPEECH_BACKGROUND` | Background in Computer Vision / Speech with no NLP/Search alignment |
+| `LOCATION_OUTSIDE_INDIA` | Based outside India and unwilling to relocate |
+| `CONSULTING_ONLY_BACKGROUND` | Career exclusively at large IT consulting firms (TCS, Infosys, Wipro, etc.) |
+| `PURE_RESEARCH_BACKGROUND` | Purely academic with no industry/production deployment experience |
+| `TITLE_CHASER_JOB_HOPPER` | Average tenure ≤ 18 months across ≥ 3 job switches |
+| `LANGCHAIN_ONLY_SHORT_EXPERIENCE` | LLM-only skills < 12 months, lacking core NLP/ML foundation |
+| `Honeypot Score ≥ 40.0` | High-probability generated, synthetic, or bot profile |
+
+### Validation Deduction Framework
+
+| Category | Specific Issue | Deduction |
+|----------|---------------|:---------:|
+| Schema Quality | Malformed keys / schema violations | −30 pts |
+| Schema Quality | Missing minor fields (summary, headline) | −10 pts |
+| Career Timeline | Chronological errors (start > end) | −15 pts |
+| Career Timeline | Claimed experience vs actual duration mismatch | −10 pts |
+| Career Timeline | Concurrent employment overlaps (> 90 days) | −10 pts |
+| Skill Credibility | Skill duration exceeds total career length | −15 pts |
+| Skill Credibility | Expert skill inflation with short career | −15 pts |
+| Platform Behavior | Engagement score < 40 | −15 pts |
+| Platform Behavior | Engagement score 40–60 | −7 pts |
+| Honeypot Risk | Proportional: `honeypot_score × 0.8` | Up to −80 pts |
 
 ---
 
-## 🚀 Execution Instructions
+## 📦 Pipeline Outputs
 
-Use the automated `Makefile` targets to build and run the pipeline:
+| File | Description |
+|------|-------------|
+| `outputs/top_100_candidates.csv` | **Primary submission file** — 100 ranked candidates with ID, rank, score, reasoning |
+| `outputs/top_100_explanations.json` | Per-candidate scoring breakdown, skills, strengths, weaknesses, profile highlights |
+| `outputs/all_candidates_stats.json` | Aggregate stats: status distribution, top skills/locations/companies across 100k |
+| `outputs/scoring_and_penalties_report.md` | Full audit report of penalties, disqualifications, and baseline comparison |
+| `outputs/comparison_result.csv` | Side-by-side comparison of baseline vs. new rankings |
 
-### 1. Local Run
-To run the ranking pipeline locally:
+---
+
+## 📈 Key Results
+
+| Metric | Baseline `submission.csv` | Our `top_100_candidates.csv` |
+|--------|:-------------------------:|:----------------------------:|
+| VALID candidates | 71 (71%) | **100 (100%)** ✅ |
+| REVIEW candidates | 20 (20%) | 0 |
+| INVALID candidates | **9 (9%)** ❌ | **0** ✅ |
+| Top score | — | **0.8246** |
+| Score range | — | 0.7655 – 0.8246 |
+| Avg experience | — | ~6.4 years |
+| Unique locations | — | 16 cities |
+
+> The baseline `submission.csv` included **9 INVALID candidates** (CV/Speech backgrounds, job-hoppers, honeypots, location mismatches). Our pipeline correctly excludes all 9 and replaces them with verified VALID candidates.
+
+---
+
+## 🖥️ Running Locally
+
+### Prerequisites
+
+- Python 3.10+
+- The preprocessing pipeline outputs must already exist at:
+  - `Preprocessing pipeline/output/valid.json`
+  - `Preprocessing pipeline/output/review.json`
+  - `Preprocessing pipeline/output/weak.json`
+
+### Setup
+
 ```bash
-make run
-```
-To launch the Streamlit sandbox dashboard:
-```bash
-make app
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. (Optional) Copy and configure environment variables
+cp .env.example .env
+
+# 3. Run the full ranking pipeline
+python run_pipeline.py
+
+# 4. Launch the Streamlit dashboard
+streamlit run app/streamlit_app.py
 ```
 
-### 2. Docker Compose
-To build the Docker image:
+The dashboard will be available at **http://localhost:8501**
+
+---
+
+## 🐳 Running with Docker
+
+The Docker setup uses a **multi-stage build** — stage 1 installs only the lightweight dashboard dependencies (~250 MB image vs ~2 GB with full ML stack). The pre-generated `outputs/` are baked into the image and also volume-mounted so you can refresh data without rebuilding.
+
+> **All commands must be run from inside the `SelectedCandidates/` directory.**
+
+### Quick Start
+
 ```bash
-make docker-build
+# Build the image and start the dashboard (foreground)
+docker compose up --build
+
+# OR — run in the background
+docker compose up --build -d
+
+# Open in your browser:
+# http://localhost:8501
 ```
-To run candidate ranking container:
+
+### Updating Data Without Rebuilding
+
+Because `outputs/` is mounted as a volume, if you re-run the pipeline locally and want the dashboard to pick up new results — just restart the container, no rebuild needed:
+
 ```bash
-make docker-run
+docker compose restart dashboard
 ```
-To run the Streamlit dashboard inside Docker:
+
+### Stopping
+
 ```bash
-make docker-app
+docker compose down
 ```
-To clean volumes and cache:
-```bash
-make docker-clean
+
+---
+
+## 🛠️ Makefile Commands
+
+Run `make` or `make help` to see all available commands:
+
+| Command | Description |
+|---------|-------------|
+| `make up` | Build image + start dashboard in **foreground** |
+| `make up-bg` | Build image + start dashboard in **background** |
+| `make down` | Stop and remove the container |
+| `make restart` | Restart the container without rebuilding |
+| `make build` | Build (or rebuild) the Docker image only |
+| `make logs` | Tail live container logs (`Ctrl+C` to exit) |
+| `make shell` | Open a bash shell inside the running container |
+| `make clean` | Stop container + remove the local image |
+| `make prune` | Remove all stopped containers and dangling images |
+| `make app` | Run the dashboard **locally** (no Docker) |
+
+---
+
+## 🗺️ Environment Variables
+
+Copy `.env.example` to `.env` and adjust paths if your dataset is in a non-default location:
+
+```env
+# Input paths (relative to workspace root)
+JD_PATH=Redrobsdataset/job_description.docx
+VALID_PATH=Preprocessing pipeline/output/valid.json
+REVIEW_PATH=Preprocessing pipeline/output/review.json
+WEAK_PATH=Preprocessing pipeline/output/weak.json
 ```
-All outputs (ranked CSVs, explanations JSONs, final reports, and score charts) are written to the host `outputs/` and `reports/` directories.
+
+These are only needed when running `run_pipeline.py`. The dashboard reads from `outputs/` and requires no environment variables.
+
+---
+
+## 📱 Dashboard Pages
+
+The Streamlit dashboard is focused **exclusively on the Top 100 candidates**. It reads directly from the two output files and has no dependency on the ML pipeline libraries.
+
+### Navigation
+
+```
+📊 Overview & KPIs       → 10 headline metrics + Top-10 table + score bands
+📈 Data Analysis         → Score & experience distributions, scatter plots, stats table
+🗺️ Location Insights     → City bar chart, share pie, avg score per city
+💼 Role & Experience     → Role breakdown, score per role, box-plots, tier table
+⚙️ Skills Intelligence   → Required/preferred skill frequencies, missing skills histogram
+🏢 Company Insights      → Company distribution, share pie, avg score per company
+🔍 Candidate Deep-Dive   → Full profile card + radar chart + component score bars
+📋 Full Candidates Table → Filterable by score/role/location + CSV/JSON download
+```
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| **Semantic Embeddings** | `sentence-transformers` · `BAAI/bge-small-en-v1.5` |
+| **Vector Search** | `FAISS` (CPU) |
+| **JD Parsing** | `python-docx` |
+| **Data Processing** | `pandas` · `numpy` |
+| **Dashboard** | `Streamlit` |
+| **Visualisation** | `matplotlib` |
+| **Containerisation** | `Docker` (multi-stage) · `Docker Compose` |
+| **Automation** | `GNU Make` |
+| **Language** | Python 3.11 |
+
+---
+
+## 📄 License
+
+This project was built for the **RedRob Intelligent Candidate Discovery & Ranking Hackathon**.
+
+---
+
+*Built with ❤️ by Rohit Gupta · 23101A0019 · INFT-A · Vidyalankar Institute of Technology*

@@ -1,0 +1,8 @@
+# ──────────────────────────────────────────────────────────────────
+# Dashboard-only dependencies (no ML pipeline libs needed)
+# Used by the Streamlit analytics container
+# ──────────────────────────────────────────────────────────────────
+streamlit>=1.28.0
+pandas>=1.5.0
+matplotlib>=3.6.0
+numpy>=1.23.0
