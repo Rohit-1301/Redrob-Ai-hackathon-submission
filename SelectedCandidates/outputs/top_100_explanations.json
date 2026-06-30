@@ -1,0 +1,4051 @@
+[
+  {
+    "candidate_id": "CAND_0071974",
+    "rank": 1,
+    "final_score": 0.8246,
+    "raw_hybrid_score": 0.8246,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8569,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2854,
+      "behavior_score_10pct": 0.8903,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.8,
+      "matched_required_skills": [
+        "pinecone",
+        "elasticsearch",
+        "weaviate",
+        "embeddings",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "peft"
+      ],
+      "recruiter_response_rate": 0.76,
+      "days_since_active": 65
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 11
+    },
+    "profile_highlights": {
+      "name": "Sai Verma",
+      "headline": "Senior AI Engineer | Production ML at scale | 7.8+ yrs",
+      "summary": "Senior AI engineer with 7.8 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I led the migration from keyword-based ranking to a learning-to-rank model with embedded behavioral signals, handling peak QPS of 8K with sub-200ms p95. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.",
+      "location": "Vizag, Andhra Pradesh",
+      "current_title": "Senior AI Engineer",
+      "current_company": "Netflix"
+    }
+  },
+  {
+    "candidate_id": "CAND_0046064",
+    "rank": 2,
+    "final_score": 0.8192,
+    "raw_hybrid_score": 0.8192,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8703,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2417,
+      "behavior_score_10pct": 0.8481,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 8.9,
+      "matched_required_skills": [
+        "elasticsearch",
+        "opensearch",
+        "python",
+        "pinecone"
+      ],
+      "matched_preferred_skills": [
+        "peft",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.78,
+      "days_since_active": 55
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Saanvi Naidu",
+      "headline": "Senior NLP Engineer | LLMs, RAG, Vector Search | ex-Top Tech",
+      "summary": "Senior AI engineer with 8.9 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I rebuilt the candidate-JD matching pipeline from scratch, taking it from 0.72 to 0.91 NDCG@10, operating at single-digit-millisecond p95 retrieval latency. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.",
+      "location": "Coimbatore, Tamil Nadu",
+      "current_title": "Senior NLP Engineer",
+      "current_company": "Salesforce"
+    }
+  },
+  {
+    "candidate_id": "CAND_0041669",
+    "rank": 3,
+    "final_score": 0.8091,
+    "raw_hybrid_score": 0.8091,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8433,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2417,
+      "behavior_score_10pct": 0.8557,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 8.0,
+      "matched_required_skills": [
+        "faiss",
+        "weaviate",
+        "milvus",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "peft",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.77,
+      "days_since_active": 75
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Aisha Banerjee",
+      "headline": "Recommendation Systems Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 8.0 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. I've spent enough time debugging production ranking issues to know which signals matter and which are noise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Noida, Uttar Pradesh",
+      "current_title": "Recommendation Systems Engineer",
+      "current_company": "CRED"
+    }
+  },
+  {
+    "candidate_id": "CAND_0080766",
+    "rank": 4,
+    "final_score": 0.8066,
+    "raw_hybrid_score": 0.8066,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8503,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2417,
+      "behavior_score_10pct": 0.8127,
+      "quality_score_10pct": 0.99,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 8.8,
+      "matched_required_skills": [
+        "elasticsearch",
+        "opensearch",
+        "python",
+        "milvus"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.66,
+      "days_since_active": 72
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Kiara Mittal",
+      "headline": "Senior Engineer | Search & Discovery Infrastructure",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Coimbatore, Tamil Nadu",
+      "current_title": "Staff Machine Learning Engineer",
+      "current_company": "Salesforce"
+    }
+  },
+  {
+    "candidate_id": "CAND_0011687",
+    "rank": 5,
+    "final_score": 0.8064,
+    "raw_hybrid_score": 0.8064,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8491,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2083,
+      "behavior_score_10pct": 0.8548,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.8,
+      "matched_required_skills": [
+        "opensearch",
+        "faiss",
+        "weaviate",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.89,
+      "days_since_active": 41
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Shreya Tiwari",
+      "headline": "Senior NLP Engineer | Production ML at scale | 7.8+ yrs",
+      "summary": "Senior AI engineer with 7.8 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I owned the offline-online evaluation harness — NDCG/MRR/recall calibrated to live A/B metrics, with an index footprint of ~600GB and incremental refresh every 15 min. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.",
+      "location": "Indore, Madhya Pradesh",
+      "current_title": "Senior NLP Engineer",
+      "current_company": "Niramai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0077337",
+    "rank": 6,
+    "final_score": 0.8018,
+    "raw_hybrid_score": 0.8018,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8429,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2083,
+      "behavior_score_10pct": 0.8342,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.0,
+      "matched_required_skills": [
+        "python",
+        "opensearch",
+        "pinecone",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.95,
+      "days_since_active": 25
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Aarav Agarwal",
+      "headline": "Staff Machine Learning Engineer | Building AI-native search & ranking systems",
+      "summary": "Senior AI engineer with 7.0 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I designed the company's first hybrid retrieval system combining BM25 with dense vector recall, serving 50M+ queries per month. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I care more about shipping a working system in 6 weeks than a theoretically perfect one in 6 months. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.",
+      "location": "Kochi, Kerala",
+      "current_title": "Staff Machine Learning Engineer",
+      "current_company": "Paytm"
+    }
+  },
+  {
+    "candidate_id": "CAND_0088025",
+    "rank": 7,
+    "final_score": 0.8003,
+    "raw_hybrid_score": 0.8003,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8502,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1979,
+      "behavior_score_10pct": 0.835,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 8.6,
+      "matched_required_skills": [
+        "elasticsearch",
+        "python",
+        "pinecone"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.83,
+      "days_since_active": 37
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Amit Arora",
+      "headline": "Staff Machine Learning Engineer | Building AI-native search & ranking systems",
+      "summary": "Senior AI engineer with 8.6 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I designed the company's first hybrid retrieval system combining BM25 with dense vector recall, serving 50M+ queries per month. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I'm comfortable across the stack from infra to algorithms, but my heart is in retrieval and ranking. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.",
+      "location": "Jaipur, Rajasthan",
+      "current_title": "Staff Machine Learning Engineer",
+      "current_company": "Yellow.ai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0079387",
+    "rank": 8,
+    "final_score": 0.7991,
+    "raw_hybrid_score": 0.7991,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8426,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1542,
+      "behavior_score_10pct": 0.89,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.9,
+      "matched_required_skills": [
+        "python",
+        "opensearch"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.81,
+      "days_since_active": 56
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Sneha Arora",
+      "headline": "AI Engineer | Applied ML | Building intelligent products",
+      "summary": "Machine learning engineer with 6.9 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I've been the de-facto ML lead on a small team, shipping models across NLP and recsys. I've learned that most retrieval problems are actually evaluation problems in disguise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Trivandrum, Kerala",
+      "current_title": "AI Engineer",
+      "current_company": "Microsoft"
+    }
+  },
+  {
+    "candidate_id": "CAND_0083307",
+    "rank": 9,
+    "final_score": 0.7972,
+    "raw_hybrid_score": 0.7972,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8431,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2417,
+      "behavior_score_10pct": 0.7671,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.8,
+      "matched_required_skills": [
+        "python",
+        "weaviate",
+        "pinecone",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "peft",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.7,
+      "days_since_active": 91
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Neha Patel",
+      "headline": "Search Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 7.8 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. Along the way I've gotten comfortable with the operational side — A/B testing, drift monitoring, retraining schedules. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Vizag, Andhra Pradesh",
+      "current_title": "Search Engineer",
+      "current_company": "CRED"
+    }
+  },
+  {
+    "candidate_id": "CAND_0061257",
+    "rank": 10,
+    "final_score": 0.7931,
+    "raw_hybrid_score": 0.7931,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8611,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0771,
+      "behavior_score_10pct": 0.8811,
+      "quality_score_10pct": 0.99,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 8.0,
+      "matched_required_skills": [
+        "python"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.87,
+      "days_since_active": 65
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 15
+    },
+    "profile_highlights": {
+      "name": "Advaith Pillai",
+      "headline": "Senior Engineer | 8.0+ yrs in production systems",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Noida, Uttar Pradesh",
+      "current_title": "Staff Machine Learning Engineer",
+      "current_company": "LinkedIn"
+    }
+  },
+  {
+    "candidate_id": "CAND_0086151",
+    "rank": 11,
+    "final_score": 0.7929,
+    "raw_hybrid_score": 0.7929,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8431,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2417,
+      "behavior_score_10pct": 0.7437,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.7,
+      "matched_required_skills": [
+        "elasticsearch",
+        "opensearch",
+        "embeddings",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "peft"
+      ],
+      "recruiter_response_rate": 0.52,
+      "days_since_active": 89
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Ayaan Tiwari",
+      "headline": "Recommendation Systems Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 7.7 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, my main project for the last 18 months has been the recommendation system that powers our discovery feed. I've learned that most retrieval problems are actually evaluation problems in disguise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Vizag, Andhra Pradesh",
+      "current_title": "Recommendation Systems Engineer",
+      "current_company": "Wysa"
+    }
+  },
+  {
+    "candidate_id": "CAND_0018549",
+    "rank": 12,
+    "final_score": 0.7928,
+    "raw_hybrid_score": 0.7928,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8392,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2188,
+      "behavior_score_10pct": 0.7635,
+      "quality_score_10pct": 0.98,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.8,
+      "matched_required_skills": [
+        "milvus",
+        "elasticsearch",
+        "weaviate",
+        "opensearch",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.73,
+      "days_since_active": 53
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 11
+    },
+    "profile_highlights": {
+      "name": "Mira Verma",
+      "headline": "Recommendation Systems Engineer | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 6.8 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I've learned that most retrieval problems are actually evaluation problems in disguise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Coimbatore, Tamil Nadu",
+      "current_title": "Recommendation Systems Engineer",
+      "current_company": "Uber"
+    }
+  },
+  {
+    "candidate_id": "CAND_0028793",
+    "rank": 13,
+    "final_score": 0.7926,
+    "raw_hybrid_score": 0.7926,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8342,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1437,
+      "behavior_score_10pct": 0.8735,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.2,
+      "matched_required_skills": [
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "qlora",
+        "peft"
+      ],
+      "recruiter_response_rate": 0.57,
+      "days_since_active": 68
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 15
+    },
+    "profile_highlights": {
+      "name": "Myra Dutta",
+      "headline": "Search Engineer | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 7.2 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. I care a lot about evaluation rigor — too many teams ship models without offline benchmarks they trust. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Trivandrum, Kerala",
+      "current_title": "Search Engineer",
+      "current_company": "Google"
+    }
+  },
+  {
+    "candidate_id": "CAND_0070514",
+    "rank": 14,
+    "final_score": 0.7918,
+    "raw_hybrid_score": 0.7918,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8012,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2417,
+      "behavior_score_10pct": 0.8606,
+      "quality_score_10pct": 0.99,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.5,
+      "matched_required_skills": [
+        "python",
+        "opensearch",
+        "faiss",
+        "pinecone"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "peft"
+      ],
+      "recruiter_response_rate": 0.8,
+      "days_since_active": 31
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Anika Banerjee",
+      "headline": "AI Specialist | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 5.5 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. Looking for a role where I can step up to more end-to-end ownership of ML systems, not just modeling.",
+      "location": "Bangalore, Karnataka",
+      "current_title": "AI Specialist",
+      "current_company": "Glance"
+    }
+  },
+  {
+    "candidate_id": "CAND_0067866",
+    "rank": 15,
+    "final_score": 0.7908,
+    "raw_hybrid_score": 0.7908,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8185,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1979,
+      "behavior_score_10pct": 0.8673,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.4,
+      "matched_required_skills": [
+        "elasticsearch",
+        "embeddings",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "peft"
+      ],
+      "recruiter_response_rate": 0.79,
+      "days_since_active": 29
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Kiara Sethi",
+      "headline": "Senior Software Engineer (ML) | 6.4 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 6.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Noida, Uttar Pradesh",
+      "current_title": "Senior Software Engineer (ML)",
+      "current_company": "Tech Mahindra"
+    }
+  },
+  {
+    "candidate_id": "CAND_0068351",
+    "rank": 16,
+    "final_score": 0.7906,
+    "raw_hybrid_score": 0.7906,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8571,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1979,
+      "behavior_score_10pct": 0.8405,
+      "quality_score_10pct": 0.84,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.4,
+      "matched_required_skills": [
+        "elasticsearch",
+        "python",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "peft"
+      ],
+      "recruiter_response_rate": 0.86,
+      "days_since_active": 70
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Aadhya Iyer",
+      "headline": "Senior Engineer | Search & Discovery Infrastructure",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Delhi, Delhi",
+      "current_title": "Lead AI Engineer",
+      "current_company": "Sarvam AI"
+    }
+  },
+  {
+    "candidate_id": "CAND_0046525",
+    "rank": 17,
+    "final_score": 0.7905,
+    "raw_hybrid_score": 0.7905,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8645,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0875,
+      "behavior_score_10pct": 0.8461,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.1,
+      "matched_required_skills": [
+        "elasticsearch",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.88,
+      "days_since_active": 28
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Tanvi Mukherjee",
+      "headline": "Senior Machine Learning Engineer | Building AI-native search & ranking systems",
+      "summary": "Senior AI engineer with 6.1 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I designed the company's first hybrid retrieval system combining BM25 with dense vector recall, handling peak QPS of 8K with sub-200ms p95. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I care more about shipping a working system in 6 weeks than a theoretically perfect one in 6 months. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.",
+      "location": "Pune, Maharashtra",
+      "current_title": "Senior Machine Learning Engineer",
+      "current_company": "Genpact AI"
+    }
+  },
+  {
+    "candidate_id": "CAND_0068811",
+    "rank": 18,
+    "final_score": 0.7899,
+    "raw_hybrid_score": 0.7899,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8354,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2521,
+      "behavior_score_10pct": 0.7386,
+      "quality_score_10pct": 0.94,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 8.0,
+      "matched_required_skills": [
+        "pinecone",
+        "embeddings",
+        "weaviate",
+        "opensearch",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.42,
+      "days_since_active": 30
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 11
+    },
+    "profile_highlights": {
+      "name": "Krishna Mittal",
+      "headline": "Applied ML Engineer | Applied ML | Building intelligent products",
+      "summary": "Machine learning engineer with 8.0 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I care a lot about evaluation rigor — too many teams ship models without offline benchmarks they trust. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Pune, Maharashtra",
+      "current_title": "Applied ML Engineer",
+      "current_company": "Freshworks"
+    }
+  },
+  {
+    "candidate_id": "CAND_0081852",
+    "rank": 19,
+    "final_score": 0.789,
+    "raw_hybrid_score": 0.789,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8586,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.8238,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.9,
+      "matched_required_skills": [
+        "weaviate",
+        "milvus"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.44,
+      "days_since_active": 28
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Krishna Subramanian",
+      "headline": "Senior Data Scientist | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 5.9 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I care a lot about evaluation rigor — too many teams ship models without offline benchmarks they trust. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Delhi, Delhi",
+      "current_title": "Senior Data Scientist",
+      "current_company": "Mad Street Den"
+    }
+  },
+  {
+    "candidate_id": "CAND_0014440",
+    "rank": 20,
+    "final_score": 0.7883,
+    "raw_hybrid_score": 0.7883,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8441,
+      "career_score_20pct": 0.94,
+      "skill_score_15pct": 0.175,
+      "behavior_score_10pct": 0.8637,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.4,
+      "matched_required_skills": [
+        "elasticsearch",
+        "faiss",
+        "milvus",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.64,
+      "days_since_active": 41
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Ananya Singh",
+      "headline": "Recommendation Systems Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 6.4 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. Along the way I've gotten comfortable with the operational side — A/B testing, drift monitoring, retraining schedules. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Chennai, Tamil Nadu",
+      "current_title": "Recommendation Systems Engineer",
+      "current_company": "CRED"
+    }
+  },
+  {
+    "candidate_id": "CAND_0093193",
+    "rank": 21,
+    "final_score": 0.7882,
+    "raw_hybrid_score": 0.7882,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8644,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0875,
+      "behavior_score_10pct": 0.8333,
+      "quality_score_10pct": 0.96,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.9,
+      "matched_required_skills": [
+        "opensearch",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.61,
+      "days_since_active": 63
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Aarohi Bose",
+      "headline": "Senior Engineer | 7.9+ yrs in production systems",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Bangalore, Karnataka",
+      "current_title": "Senior Machine Learning Engineer",
+      "current_company": "Niramai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0098846",
+    "rank": 22,
+    "final_score": 0.7858,
+    "raw_hybrid_score": 0.7858,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8248,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1104,
+      "behavior_score_10pct": 0.8926,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.6,
+      "matched_required_skills": [
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "peft",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.62,
+      "days_since_active": 58
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 15
+    },
+    "profile_highlights": {
+      "name": "Shreya Saxena",
+      "headline": "AI Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 7.6 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I've been the de-facto ML lead on a small team, shipping models across NLP and recsys. Along the way I've gotten comfortable with the operational side — A/B testing, drift monitoring, retraining schedules. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Indore, Madhya Pradesh",
+      "current_title": "AI Engineer",
+      "current_company": "upGrad"
+    }
+  },
+  {
+    "candidate_id": "CAND_0007009",
+    "rank": 23,
+    "final_score": 0.7851,
+    "raw_hybrid_score": 0.7851,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8274,
+      "career_score_20pct": 0.94,
+      "skill_score_15pct": 0.275,
+      "behavior_score_10pct": 0.7791,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.9,
+      "matched_required_skills": [
+        "python",
+        "opensearch",
+        "weaviate",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "qlora",
+        "peft"
+      ],
+      "recruiter_response_rate": 0.62,
+      "days_since_active": 93
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Anika Pillai",
+      "headline": "Recommendation Systems Engineer | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 7.9 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. I care a lot about evaluation rigor — too many teams ship models without offline benchmarks they trust. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Noida, Uttar Pradesh",
+      "current_title": "Recommendation Systems Engineer",
+      "current_company": "Wysa"
+    }
+  },
+  {
+    "candidate_id": "CAND_0044855",
+    "rank": 24,
+    "final_score": 0.7851,
+    "raw_hybrid_score": 0.7851,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8513,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2083,
+      "behavior_score_10pct": 0.793,
+      "quality_score_10pct": 0.84,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.6,
+      "matched_required_skills": [
+        "opensearch",
+        "qdrant",
+        "pinecone",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.57,
+      "days_since_active": 57
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Kavya Joshi",
+      "headline": "Senior Data Scientist | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 6.6 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, my main project for the last 18 months has been the recommendation system that powers our discovery feed. Along the way I've gotten comfortable with the operational side — A/B testing, drift monitoring, retraining schedules. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Coimbatore, Tamil Nadu",
+      "current_title": "Senior Data Scientist",
+      "current_company": "Flipkart"
+    }
+  },
+  {
+    "candidate_id": "CAND_0044222",
+    "rank": 25,
+    "final_score": 0.785,
+    "raw_hybrid_score": 0.785,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8327,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.7823,
+      "quality_score_10pct": 0.99,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.7,
+      "matched_required_skills": [
+        "weaviate",
+        "opensearch",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.6,
+      "days_since_active": 36
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Dev Shah",
+      "headline": "AI Engineer | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 7.7 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I care a lot about evaluation rigor — too many teams ship models without offline benchmarks they trust. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Vizag, Andhra Pradesh",
+      "current_title": "AI Engineer",
+      "current_company": "PolicyBazaar"
+    }
+  },
+  {
+    "candidate_id": "CAND_0073007",
+    "rank": 26,
+    "final_score": 0.7849,
+    "raw_hybrid_score": 0.7849,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8307,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1312,
+      "behavior_score_10pct": 0.8294,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.8,
+      "matched_required_skills": [
+        "faiss",
+        "milvus",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.83,
+      "days_since_active": 44
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Ayaan Saxena",
+      "headline": "AI Specialist | 5.8 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 5.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Bangalore, Karnataka",
+      "current_title": "AI Specialist",
+      "current_company": "Aganitha"
+    }
+  },
+  {
+    "candidate_id": "CAND_0065786",
+    "rank": 27,
+    "final_score": 0.7844,
+    "raw_hybrid_score": 0.7844,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8117,
+      "career_score_20pct": 0.992,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.9316,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 4.9,
+      "matched_required_skills": [
+        "pinecone",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.89,
+      "days_since_active": 28
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Advaith Pandey",
+      "headline": "AI Specialist | 4.9 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 4.9 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. Looking for a role where I can step up to more end-to-end ownership of ML systems, not just modeling.",
+      "location": "Indore, Madhya Pradesh",
+      "current_title": "AI Specialist",
+      "current_company": "Swiggy"
+    }
+  },
+  {
+    "candidate_id": "CAND_0010257",
+    "rank": 28,
+    "final_score": 0.7839,
+    "raw_hybrid_score": 0.7839,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8532,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.175,
+      "behavior_score_10pct": 0.8433,
+      "quality_score_10pct": 0.82,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.5,
+      "matched_required_skills": [
+        "python",
+        "opensearch",
+        "milvus",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.72,
+      "days_since_active": 38
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Ira Shetty",
+      "headline": "Senior Data Scientist | Applied ML | Building intelligent products",
+      "summary": "Machine learning engineer with 6.5 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I care a lot about evaluation rigor — too many teams ship models without offline benchmarks they trust. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Noida, Uttar Pradesh",
+      "current_title": "Senior Data Scientist",
+      "current_company": "Google"
+    }
+  },
+  {
+    "candidate_id": "CAND_0033861",
+    "rank": 29,
+    "final_score": 0.7838,
+    "raw_hybrid_score": 0.7838,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8371,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2854,
+      "behavior_score_10pct": 0.5709,
+      "quality_score_10pct": 0.99,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 8.0,
+      "matched_required_skills": [
+        "pinecone",
+        "milvus",
+        "elasticsearch",
+        "weaviate",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "peft"
+      ],
+      "recruiter_response_rate": 0.16,
+      "days_since_active": 124
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 11
+    },
+    "profile_highlights": {
+      "name": "Kabir Kapoor",
+      "headline": "Senior NLP Engineer | Building AI-native search & ranking systems",
+      "summary": "Senior AI engineer with 8.0 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I drove the platform's RAG strategy from prototype to production, including the eval framework, across a corpus of 30M+ candidate profiles. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I have strong opinions about when LLMs are the right hammer and when classical IR is — usually it's both. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.",
+      "location": "Vizag, Andhra Pradesh",
+      "current_title": "Senior NLP Engineer",
+      "current_company": "Mad Street Den"
+    }
+  },
+  {
+    "candidate_id": "CAND_0011432",
+    "rank": 30,
+    "final_score": 0.7834,
+    "raw_hybrid_score": 0.7834,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.837,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1542,
+      "behavior_score_10pct": 0.8146,
+      "quality_score_10pct": 0.94,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.6,
+      "matched_required_skills": [
+        "elasticsearch",
+        "opensearch"
+      ],
+      "matched_preferred_skills": [
+        "peft",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.67,
+      "days_since_active": 96
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Deepak Trivedi",
+      "headline": "Senior Data Scientist | Applied ML | Building intelligent products",
+      "summary": "Machine learning engineer with 7.6 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I've been the de-facto ML lead on a small team, shipping models across NLP and recsys. I've learned that most retrieval problems are actually evaluation problems in disguise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Chennai, Tamil Nadu",
+      "current_title": "Senior Data Scientist",
+      "current_company": "Amazon"
+    }
+  },
+  {
+    "candidate_id": "CAND_0020991",
+    "rank": 31,
+    "final_score": 0.783,
+    "raw_hybrid_score": 0.783,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8011,
+      "career_score_20pct": 0.992,
+      "skill_score_15pct": 0.1979,
+      "behavior_score_10pct": 0.8642,
+      "quality_score_10pct": 0.98,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 4.9,
+      "matched_required_skills": [
+        "python",
+        "weaviate",
+        "opensearch"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.88,
+      "days_since_active": 25
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Pranav Nair",
+      "headline": "Junior ML Engineer | 4.9 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 4.9 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Vizag, Andhra Pradesh",
+      "current_title": "Junior ML Engineer",
+      "current_company": "PhonePe"
+    }
+  },
+  {
+    "candidate_id": "CAND_0025640",
+    "rank": 32,
+    "final_score": 0.7829,
+    "raw_hybrid_score": 0.7829,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8299,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.7829,
+      "quality_score_10pct": 0.98,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.6,
+      "matched_required_skills": [
+        "elasticsearch",
+        "faiss",
+        "opensearch"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.87,
+      "days_since_active": 48
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Anjali Kapoor",
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 5.6 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. Looking for a role where I can step up to more end-to-end ownership of ML systems, not just modeling.",
+      "location": "Jaipur, Rajasthan",
+      "current_title": "AI Research Engineer",
+      "current_company": "HCL"
+    }
+  },
+  {
+    "candidate_id": "CAND_0064326",
+    "rank": 33,
+    "final_score": 0.7825,
+    "raw_hybrid_score": 0.7825,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8192,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.8313,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.6,
+      "matched_required_skills": [
+        "python",
+        "weaviate",
+        "milvus"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.94,
+      "days_since_active": 30
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Nisha Pillai",
+      "headline": "Search Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 7.6 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. I've spent enough time debugging production ranking issues to know which signals matter and which are noise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Gurgaon, Haryana",
+      "current_title": "Search Engineer",
+      "current_company": "Sarvam AI"
+    }
+  },
+  {
+    "candidate_id": "CAND_0008425",
+    "rank": 34,
+    "final_score": 0.7818,
+    "raw_hybrid_score": 0.7818,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8421,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.7879,
+      "quality_score_10pct": 0.98,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.8,
+      "matched_required_skills": [
+        "python",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.66,
+      "days_since_active": 56
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Myra Krishnan",
+      "headline": "Senior NLP Engineer | Production ML at scale | 7.8+ yrs",
+      "summary": "Senior AI engineer with 7.8 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I rebuilt the candidate-JD matching pipeline from scratch, taking it from 0.72 to 0.91 NDCG@10, operating at single-digit-millisecond p95 retrieval latency. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I've made all the standard mistakes — embedding everything before defining the metric, over-investing in fine-tuning, optimizing offline metrics that don't move online — so I notice them faster now. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.",
+      "location": "Kolkata, West Bengal",
+      "current_title": "Senior NLP Engineer",
+      "current_company": "Ola"
+    }
+  },
+  {
+    "candidate_id": "CAND_0061265",
+    "rank": 35,
+    "final_score": 0.7818,
+    "raw_hybrid_score": 0.7818,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8573,
+      "career_score_20pct": 0.94,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.7818,
+      "quality_score_10pct": 0.98,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.6,
+      "matched_required_skills": [
+        "milvus",
+        "embeddings",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.94,
+      "days_since_active": 87
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Tanya Chopra",
+      "headline": "Recommendation Systems Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 6.6 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I've learned that most retrieval problems are actually evaluation problems in disguise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Delhi, Delhi",
+      "current_title": "Recommendation Systems Engineer",
+      "current_company": "Zoho"
+    }
+  },
+  {
+    "candidate_id": "CAND_0077498",
+    "rank": 36,
+    "final_score": 0.7817,
+    "raw_hybrid_score": 0.7817,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8248,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1312,
+      "behavior_score_10pct": 0.871,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.4,
+      "matched_required_skills": [
+        "elasticsearch",
+        "milvus",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.89,
+      "days_since_active": 25
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Aarav Kapoor",
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 5.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Ahmedabad, Gujarat",
+      "current_title": "Senior Software Engineer (ML)",
+      "current_company": "Niramai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0073883",
+    "rank": 37,
+    "final_score": 0.7807,
+    "raw_hybrid_score": 0.7807,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.7995,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.912,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.3,
+      "matched_required_skills": [
+        "python",
+        "faiss",
+        "opensearch"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.92,
+      "days_since_active": 27
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Zara Sen",
+      "headline": "AI Specialist | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 5.3 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Chandigarh, Chandigarh",
+      "current_title": "AI Specialist",
+      "current_company": "Krutrim"
+    }
+  },
+  {
+    "candidate_id": "CAND_0005649",
+    "rank": 38,
+    "final_score": 0.7802,
+    "raw_hybrid_score": 0.7802,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8569,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0771,
+      "behavior_score_10pct": 0.7886,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.4,
+      "matched_required_skills": [
+        "weaviate"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.57,
+      "days_since_active": 67
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 15
+    },
+    "profile_highlights": {
+      "name": "Riya Kapoor",
+      "headline": "Senior Data Scientist | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 7.4 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I built our semantic search infrastructure from scratch — sentence-transformers, FAISS, the works. Along the way I've gotten comfortable with the operational side — A/B testing, drift monitoring, retraining schedules. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Delhi, Delhi",
+      "current_title": "Senior Data Scientist",
+      "current_company": "Sarvam AI"
+    }
+  },
+  {
+    "candidate_id": "CAND_0024878",
+    "rank": 39,
+    "final_score": 0.7802,
+    "raw_hybrid_score": 0.7802,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8374,
+      "career_score_20pct": 0.94,
+      "skill_score_15pct": 0.1104,
+      "behavior_score_10pct": 0.9167,
+      "quality_score_10pct": 0.99,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.7,
+      "matched_required_skills": [
+        "elasticsearch"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "peft"
+      ],
+      "recruiter_response_rate": 0.84,
+      "days_since_active": 25
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 15
+    },
+    "profile_highlights": {
+      "name": "Aanya Shetty",
+      "headline": "AI Specialist | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 5.7 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Vizag, Andhra Pradesh",
+      "current_title": "AI Specialist",
+      "current_company": "HCL"
+    }
+  },
+  {
+    "candidate_id": "CAND_0069905",
+    "rank": 40,
+    "final_score": 0.7796,
+    "raw_hybrid_score": 0.7796,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8324,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.8253,
+      "quality_score_10pct": 0.96,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.6,
+      "matched_required_skills": [
+        "python",
+        "weaviate"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.78,
+      "days_since_active": 60
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Nisha Bansal",
+      "headline": "Applied ML Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 6.6 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. Along the way I've gotten comfortable with the operational side — A/B testing, drift monitoring, retraining schedules. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Bhubaneswar, Odisha",
+      "current_title": "Applied ML Engineer",
+      "current_company": "Sarvam AI"
+    }
+  },
+  {
+    "candidate_id": "CAND_0016163",
+    "rank": 41,
+    "final_score": 0.7793,
+    "raw_hybrid_score": 0.7793,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8076,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.8458,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.7,
+      "matched_required_skills": [
+        "weaviate",
+        "pinecone",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.72,
+      "days_since_active": 70
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Suresh Shah",
+      "headline": "Applied ML Engineer | Applied ML | Building intelligent products",
+      "summary": "Machine learning engineer with 6.7 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I've spent enough time debugging production ranking issues to know which signals matter and which are noise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Gurgaon, Haryana",
+      "current_title": "Applied ML Engineer",
+      "current_company": "Dream11"
+    }
+  },
+  {
+    "candidate_id": "CAND_0006418",
+    "rank": 42,
+    "final_score": 0.779,
+    "raw_hybrid_score": 0.779,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8197,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2188,
+      "behavior_score_10pct": 0.8033,
+      "quality_score_10pct": 0.88,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.7,
+      "matched_required_skills": [
+        "embeddings",
+        "elasticsearch",
+        "weaviate",
+        "opensearch",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.92,
+      "days_since_active": 81
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 11
+    },
+    "profile_highlights": {
+      "name": "Rahul Mukherjee",
+      "headline": "Machine Learning Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 5.7 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. I care a lot about evaluation rigor — too many teams ship models without offline benchmarks they trust. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Gurgaon, Haryana",
+      "current_title": "Machine Learning Engineer",
+      "current_company": "Verloop.io"
+    }
+  },
+  {
+    "candidate_id": "CAND_0052744",
+    "rank": 43,
+    "final_score": 0.7786,
+    "raw_hybrid_score": 0.7786,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8217,
+      "career_score_20pct": 0.992,
+      "skill_score_15pct": 0.1542,
+      "behavior_score_10pct": 0.8335,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 4.9,
+      "matched_required_skills": [
+        "weaviate",
+        "pinecone"
+      ],
+      "matched_preferred_skills": [
+        "peft",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.79,
+      "days_since_active": 28
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Naina Chowdary",
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 4.9 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Bhubaneswar, Odisha",
+      "current_title": "Senior Software Engineer (ML)",
+      "current_company": "Niramai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0062247",
+    "rank": 44,
+    "final_score": 0.7786,
+    "raw_hybrid_score": 0.7786,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8293,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.7872,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.3,
+      "matched_required_skills": [
+        "pinecone",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.78,
+      "days_since_active": 58
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Saanvi Trivedi",
+      "headline": "AI Engineer | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 7.3 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I've spent enough time debugging production ranking issues to know which signals matter and which are noise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Kochi, Kerala",
+      "current_title": "AI Engineer",
+      "current_company": "Google"
+    }
+  },
+  {
+    "candidate_id": "CAND_0010541",
+    "rank": 45,
+    "final_score": 0.7782,
+    "raw_hybrid_score": 0.7782,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.819,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2083,
+      "behavior_score_10pct": 0.7632,
+      "quality_score_10pct": 0.93,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.2,
+      "matched_required_skills": [
+        "python",
+        "weaviate",
+        "pinecone",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.59,
+      "days_since_active": 104
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Meera Krishnan",
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 6.2 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Hyderabad, Telangana",
+      "current_title": "AI Research Engineer",
+      "current_company": "Wysa"
+    }
+  },
+  {
+    "candidate_id": "CAND_0081321",
+    "rank": 46,
+    "final_score": 0.7781,
+    "raw_hybrid_score": 0.7781,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8088,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1979,
+      "behavior_score_10pct": 0.7888,
+      "quality_score_10pct": 0.96,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.3,
+      "matched_required_skills": [
+        "python",
+        "weaviate",
+        "milvus"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "peft"
+      ],
+      "recruiter_response_rate": 0.47,
+      "days_since_active": 56
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Avni Dalal",
+      "headline": "Senior Software Engineer (ML) | 5.3 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 5.3 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Coimbatore, Tamil Nadu",
+      "current_title": "Senior Software Engineer (ML)",
+      "current_company": "Freshworks"
+    }
+  },
+  {
+    "candidate_id": "CAND_0015528",
+    "rank": 47,
+    "final_score": 0.7779,
+    "raw_hybrid_score": 0.7779,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.829,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.7165,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.4,
+      "matched_required_skills": [
+        "faiss",
+        "weaviate",
+        "opensearch"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.53,
+      "days_since_active": 65
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Aisha Reddy",
+      "headline": "Applied ML Engineer | Applied ML | Building intelligent products",
+      "summary": "Machine learning engineer with 7.4 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I've spent enough time debugging production ranking issues to know which signals matter and which are noise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Coimbatore, Tamil Nadu",
+      "current_title": "Applied ML Engineer",
+      "current_company": "Krutrim"
+    }
+  },
+  {
+    "candidate_id": "CAND_0017960",
+    "rank": 48,
+    "final_score": 0.7778,
+    "raw_hybrid_score": 0.7778,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8143,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1542,
+      "behavior_score_10pct": 0.7895,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.7,
+      "matched_required_skills": [
+        "python",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "peft",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.72,
+      "days_since_active": 54
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Pari Shah",
+      "headline": "Recommendation Systems Engineer | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 7.7 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I built our semantic search infrastructure from scratch — sentence-transformers, FAISS, the works. Along the way I've gotten comfortable with the operational side — A/B testing, drift monitoring, retraining schedules. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Bangalore, Karnataka",
+      "current_title": "Recommendation Systems Engineer",
+      "current_company": "Nykaa"
+    }
+  },
+  {
+    "candidate_id": "CAND_0096104",
+    "rank": 49,
+    "final_score": 0.7778,
+    "raw_hybrid_score": 0.7778,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8348,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0771,
+      "behavior_score_10pct": 0.8231,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.0,
+      "matched_required_skills": [
+        "pinecone"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.33,
+      "days_since_active": 44
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 15
+    },
+    "profile_highlights": {
+      "name": "Ritu Shetty",
+      "headline": "AI Specialist | 7.0 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 7.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Delhi, Delhi",
+      "current_title": "AI Specialist",
+      "current_company": "Yellow.ai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0095528",
+    "rank": 50,
+    "final_score": 0.7775,
+    "raw_hybrid_score": 0.7775,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8598,
+      "career_score_20pct": 0.94,
+      "skill_score_15pct": 0.175,
+      "behavior_score_10pct": 0.7328,
+      "quality_score_10pct": 0.96,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.3,
+      "matched_required_skills": [
+        "elasticsearch",
+        "python",
+        "opensearch",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.55,
+      "days_since_active": 48
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Amit Dalal",
+      "headline": "Senior Data Scientist | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 5.3 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I've been the de-facto ML lead on a small team, shipping models across NLP and recsys. I care a lot about evaluation rigor — too many teams ship models without offline benchmarks they trust. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Indore, Madhya Pradesh",
+      "current_title": "Senior Data Scientist",
+      "current_company": "Netflix"
+    }
+  },
+  {
+    "candidate_id": "CAND_0006557",
+    "rank": 51,
+    "final_score": 0.777,
+    "raw_hybrid_score": 0.777,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8274,
+      "career_score_20pct": 0.94,
+      "skill_score_15pct": 0.2958,
+      "behavior_score_10pct": 0.7069,
+      "quality_score_10pct": 0.93,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.9,
+      "matched_required_skills": [
+        "pinecone",
+        "elasticsearch",
+        "faiss",
+        "weaviate",
+        "opensearch",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.63,
+      "days_since_active": 71
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 10
+    },
+    "profile_highlights": {
+      "name": "Divya Goyal",
+      "headline": "NLP Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 7.9 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. I care a lot about evaluation rigor — too many teams ship models without offline benchmarks they trust. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Jaipur, Rajasthan",
+      "current_title": "NLP Engineer",
+      "current_company": "Paytm"
+    }
+  },
+  {
+    "candidate_id": "CAND_0036184",
+    "rank": 52,
+    "final_score": 0.7769,
+    "raw_hybrid_score": 0.7769,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8322,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.8536,
+      "quality_score_10pct": 0.84,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.0,
+      "matched_required_skills": [
+        "faiss",
+        "pinecone",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.9,
+      "days_since_active": 25
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Riya Chopra",
+      "headline": "Recommendation Systems Engineer | Applied ML | Building intelligent products",
+      "summary": "Machine learning engineer with 6.0 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, my main project for the last 18 months has been the recommendation system that powers our discovery feed. I've learned that most retrieval problems are actually evaluation problems in disguise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Trivandrum, Kerala",
+      "current_title": "Recommendation Systems Engineer",
+      "current_company": "CRED"
+    }
+  },
+  {
+    "candidate_id": "CAND_0006567",
+    "rank": 53,
+    "final_score": 0.7763,
+    "raw_hybrid_score": 0.7763,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8721,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0437,
+      "behavior_score_10pct": 0.7988,
+      "quality_score_10pct": 0.91,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.9,
+      "matched_required_skills": [
+        "python"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.79,
+      "days_since_active": 48
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 15
+    },
+    "profile_highlights": {
+      "name": "Aditya Subramanian",
+      "headline": "Senior Engineer | Information Retrieval at scale",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Noida, Uttar Pradesh",
+      "current_title": "Senior AI Engineer",
+      "current_company": "Meta"
+    }
+  },
+  {
+    "candidate_id": "CAND_0043637",
+    "rank": 54,
+    "final_score": 0.7763,
+    "raw_hybrid_score": 0.7763,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8233,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0771,
+      "behavior_score_10pct": 0.9041,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.5,
+      "matched_required_skills": [
+        "milvus"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.92,
+      "days_since_active": 27
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 15
+    },
+    "profile_highlights": {
+      "name": "Ela Menon",
+      "headline": "Junior ML Engineer | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 5.5 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Delhi, Delhi",
+      "current_title": "Junior ML Engineer",
+      "current_company": "Rephrase.ai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0004402",
+    "rank": 55,
+    "final_score": 0.7756,
+    "raw_hybrid_score": 0.7756,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8072,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.8663,
+      "quality_score_10pct": 0.98,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.0,
+      "matched_required_skills": [
+        "opensearch",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.83,
+      "days_since_active": 26
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Priya Malhotra",
+      "headline": "AI Research Engineer | 6.0 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 6.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Delhi, Delhi",
+      "current_title": "AI Research Engineer",
+      "current_company": "Yellow.ai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0090155",
+    "rank": 56,
+    "final_score": 0.7756,
+    "raw_hybrid_score": 0.7756,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.798,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1979,
+      "behavior_score_10pct": 0.7974,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.8,
+      "matched_required_skills": [
+        "milvus",
+        "pinecone",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "peft",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.64,
+      "days_since_active": 38
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Sai Chowdary",
+      "headline": "ML Engineer | 5.8 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 5.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Pune, Maharashtra",
+      "current_title": "ML Engineer",
+      "current_company": "Swiggy"
+    }
+  },
+  {
+    "candidate_id": "CAND_0042100",
+    "rank": 57,
+    "final_score": 0.7754,
+    "raw_hybrid_score": 0.7754,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8164,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.8674,
+      "quality_score_10pct": 0.94,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.3,
+      "matched_required_skills": [
+        "elasticsearch",
+        "pinecone"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.87,
+      "days_since_active": 89
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Siya Trivedi",
+      "headline": "Machine Learning Engineer | Applied ML | Building intelligent products",
+      "summary": "Machine learning engineer with 7.3 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. Along the way I've gotten comfortable with the operational side — A/B testing, drift monitoring, retraining schedules. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Singapore",
+      "current_title": "Machine Learning Engineer",
+      "current_company": "Freshworks"
+    }
+  },
+  {
+    "candidate_id": "CAND_0095213",
+    "rank": 58,
+    "final_score": 0.774,
+    "raw_hybrid_score": 0.774,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.805,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2417,
+      "behavior_score_10pct": 0.7175,
+      "quality_score_10pct": 0.94,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.1,
+      "matched_required_skills": [
+        "python",
+        "milvus",
+        "weaviate",
+        "pinecone"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "peft"
+      ],
+      "recruiter_response_rate": 0.67,
+      "days_since_active": 86
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Rajesh Dalal",
+      "headline": "ML Engineer | 5.1 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 5.1 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Gurgaon, Haryana",
+      "current_title": "ML Engineer",
+      "current_company": "Genpact AI"
+    }
+  },
+  {
+    "candidate_id": "CAND_0037980",
+    "rank": 59,
+    "final_score": 0.7739,
+    "raw_hybrid_score": 0.7739,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8659,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0667,
+      "behavior_score_10pct": 0.7857,
+      "quality_score_10pct": 0.89,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 9.0,
+      "matched_required_skills": [],
+      "matched_preferred_skills": [
+        "lora",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.63,
+      "days_since_active": 84
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 16
+    },
+    "profile_highlights": {
+      "name": "Reyansh Chowdary",
+      "headline": "Senior Engineer | Information Retrieval at scale",
+      "summary": "Senior engineer who has spent the last several years building systems that connect users with relevant information at scale. Comfortable across the full stack from infrastructure to algorithms to product experience, though most of my time has been in the middle layer — the ranking and retrieval systems that decide what to show. Strong preference for shipping real systems over research-only work; I'd rather have a working v1 in 6 weeks than a perfect v2 in 6 months. I've made the standard mistakes — over-engineering early, optimizing offline metrics that didn't move online numbers, building beautiful infrastructure for features that users didn't actually want — so I notice them faster now. Looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end at a product company.",
+      "location": "Kolkata, West Bengal",
+      "current_title": "Senior Applied Scientist",
+      "current_company": "Niramai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0027801",
+    "rank": 60,
+    "final_score": 0.7733,
+    "raw_hybrid_score": 0.7733,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8047,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.7975,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.4,
+      "matched_required_skills": [
+        "opensearch",
+        "faiss",
+        "milvus"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.65,
+      "days_since_active": 69
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Anil Mittal",
+      "headline": "NLP Engineer | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 7.4 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. Along the way I've gotten comfortable with the operational side — A/B testing, drift monitoring, retraining schedules. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Hyderabad, Telangana",
+      "current_title": "NLP Engineer",
+      "current_company": "InMobi"
+    }
+  },
+  {
+    "candidate_id": "CAND_0098952",
+    "rank": 61,
+    "final_score": 0.7732,
+    "raw_hybrid_score": 0.7732,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8297,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.7721,
+      "quality_score_10pct": 0.96,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.5,
+      "matched_required_skills": [
+        "python",
+        "opensearch"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.66,
+      "days_since_active": 107
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Dev Sethi",
+      "headline": "AI Research Engineer | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 5.5 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Gurgaon, Haryana",
+      "current_title": "AI Research Engineer",
+      "current_company": "CRED"
+    }
+  },
+  {
+    "candidate_id": "CAND_0012632",
+    "rank": 62,
+    "final_score": 0.7731,
+    "raw_hybrid_score": 0.7731,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8258,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.175,
+      "behavior_score_10pct": 0.6956,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.0,
+      "matched_required_skills": [
+        "python",
+        "milvus",
+        "pinecone",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.53,
+      "days_since_active": 88
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Ishaan Chatterjee",
+      "headline": "AI Specialist | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 6.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Austin",
+      "current_title": "AI Specialist",
+      "current_company": "Razorpay"
+    }
+  },
+  {
+    "candidate_id": "CAND_0005269",
+    "rank": 63,
+    "final_score": 0.7728,
+    "raw_hybrid_score": 0.7728,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8373,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1312,
+      "behavior_score_10pct": 0.7117,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.1,
+      "matched_required_skills": [
+        "elasticsearch",
+        "faiss",
+        "weaviate"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.28,
+      "days_since_active": 52
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Nisha Bose",
+      "headline": "Senior Software Engineer (ML) | 6.1 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 6.1 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Kochi, Kerala",
+      "current_title": "Senior Software Engineer (ML)",
+      "current_company": "Sarvam AI"
+    }
+  },
+  {
+    "candidate_id": "CAND_0041610",
+    "rank": 64,
+    "final_score": 0.7728,
+    "raw_hybrid_score": 0.7728,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8464,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.7459,
+      "quality_score_10pct": 0.85,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.7,
+      "matched_required_skills": [
+        "elasticsearch",
+        "opensearch",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.52,
+      "days_since_active": 37
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Anil Subramanian",
+      "headline": "Recommendation Systems Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 6.7 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I care a lot about evaluation rigor — too many teams ship models without offline benchmarks they trust. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Indore, Madhya Pradesh",
+      "current_title": "Recommendation Systems Engineer",
+      "current_company": "Zoho"
+    }
+  },
+  {
+    "candidate_id": "CAND_0022870",
+    "rank": 65,
+    "final_score": 0.7726,
+    "raw_hybrid_score": 0.7726,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8139,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.175,
+      "behavior_score_10pct": 0.7677,
+      "quality_score_10pct": 0.94,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.7,
+      "matched_required_skills": [
+        "elasticsearch",
+        "python",
+        "embeddings",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.44,
+      "days_since_active": 86
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Krishna Menon",
+      "headline": "AI Specialist | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 6.7 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Ahmedabad, Gujarat",
+      "current_title": "AI Specialist",
+      "current_company": "HCL"
+    }
+  },
+  {
+    "candidate_id": "CAND_0031752",
+    "rank": 66,
+    "final_score": 0.7724,
+    "raw_hybrid_score": 0.7724,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8037,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.8321,
+      "quality_score_10pct": 0.93,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.0,
+      "matched_required_skills": [
+        "python",
+        "weaviate",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.82,
+      "days_since_active": 24
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Vihaan Menon",
+      "headline": "ML Engineer | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 5.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Kolkata, West Bengal",
+      "current_title": "ML Engineer",
+      "current_company": "Unacademy"
+    }
+  },
+  {
+    "candidate_id": "CAND_0060257",
+    "rank": 67,
+    "final_score": 0.7722,
+    "raw_hybrid_score": 0.7722,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8378,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1312,
+      "behavior_score_10pct": 0.7138,
+      "quality_score_10pct": 0.96,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.8,
+      "matched_required_skills": [
+        "opensearch",
+        "weaviate",
+        "milvus"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.57,
+      "days_since_active": 69
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Sai Chowdary",
+      "headline": "AI Specialist | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 5.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Gurgaon, Haryana",
+      "current_title": "AI Specialist",
+      "current_company": "Paytm"
+    }
+  },
+  {
+    "candidate_id": "CAND_0073314",
+    "rank": 68,
+    "final_score": 0.7722,
+    "raw_hybrid_score": 0.7722,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.7805,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.8832,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.2,
+      "matched_required_skills": [
+        "elasticsearch",
+        "weaviate",
+        "milvus"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.84,
+      "days_since_active": 26
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Vivaan Singh",
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 5.2 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. Looking for a role where I can step up to more end-to-end ownership of ML systems, not just modeling.",
+      "location": "Noida, Uttar Pradesh",
+      "current_title": "Senior Software Engineer (ML)",
+      "current_company": "Aganitha"
+    }
+  },
+  {
+    "candidate_id": "CAND_0059017",
+    "rank": 69,
+    "final_score": 0.7719,
+    "raw_hybrid_score": 0.7719,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8212,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.7933,
+      "quality_score_10pct": 0.96,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.8,
+      "matched_required_skills": [
+        "python",
+        "faiss"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.75,
+      "days_since_active": 81
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Pooja Mishra",
+      "headline": "AI Research Engineer | 6.8 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 6.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Ahmedabad, Gujarat",
+      "current_title": "AI Research Engineer",
+      "current_company": "PhonePe"
+    }
+  },
+  {
+    "candidate_id": "CAND_0031593",
+    "rank": 70,
+    "final_score": 0.7713,
+    "raw_hybrid_score": 0.7713,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8431,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0875,
+      "behavior_score_10pct": 0.7491,
+      "quality_score_10pct": 0.96,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.8,
+      "matched_required_skills": [
+        "elasticsearch",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.58,
+      "days_since_active": 93
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Aanya Chopra",
+      "headline": "Search Engineer | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 7.8 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, my main project for the last 18 months has been the recommendation system that powers our discovery feed. I've learned that most retrieval problems are actually evaluation problems in disguise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Kolkata, West Bengal",
+      "current_title": "Search Engineer",
+      "current_company": "Genpact AI"
+    }
+  },
+  {
+    "candidate_id": "CAND_0077067",
+    "rank": 71,
+    "final_score": 0.7707,
+    "raw_hybrid_score": 0.7707,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8163,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1312,
+      "behavior_score_10pct": 0.7555,
+      "quality_score_10pct": 0.99,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.4,
+      "matched_required_skills": [
+        "elasticsearch",
+        "python",
+        "pinecone"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.83,
+      "days_since_active": 43
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Vihaan Malhotra",
+      "headline": "AI Specialist | 5.4 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 5.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Kochi, Kerala",
+      "current_title": "AI Specialist",
+      "current_company": "PolicyBazaar"
+    }
+  },
+  {
+    "candidate_id": "CAND_0082086",
+    "rank": 72,
+    "final_score": 0.7706,
+    "raw_hybrid_score": 0.7706,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8119,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.7612,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.0,
+      "matched_required_skills": [
+        "faiss",
+        "milvus",
+        "pinecone"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.85,
+      "days_since_active": 37
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Aryan Krishnan",
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 6.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Delhi, Delhi",
+      "current_title": "Senior Software Engineer (ML)",
+      "current_company": "Razorpay"
+    }
+  },
+  {
+    "candidate_id": "CAND_0093401",
+    "rank": 73,
+    "final_score": 0.7705,
+    "raw_hybrid_score": 0.7705,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8321,
+      "career_score_20pct": 0.94,
+      "skill_score_15pct": 0.0771,
+      "behavior_score_10pct": 0.8808,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.0,
+      "matched_required_skills": [
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.85,
+      "days_since_active": 29
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 15
+    },
+    "profile_highlights": {
+      "name": "Kavya Rao",
+      "headline": "AI Specialist | 6.0 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 6.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Kolkata, West Bengal",
+      "current_title": "AI Specialist",
+      "current_company": "Haptik"
+    }
+  },
+  {
+    "candidate_id": "CAND_0030953",
+    "rank": 74,
+    "final_score": 0.7704,
+    "raw_hybrid_score": 0.7704,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8299,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1312,
+      "behavior_score_10pct": 0.697,
+      "quality_score_10pct": 0.99,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.8,
+      "matched_required_skills": [
+        "python",
+        "weaviate",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.63,
+      "days_since_active": 70
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Dhruv Hegde",
+      "headline": "Search Engineer | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 7.8 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. Along the way I've gotten comfortable with the operational side — A/B testing, drift monitoring, retraining schedules. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Chennai, Tamil Nadu",
+      "current_title": "Search Engineer",
+      "current_company": "Nykaa"
+    }
+  },
+  {
+    "candidate_id": "CAND_0070525",
+    "rank": 75,
+    "final_score": 0.7691,
+    "raw_hybrid_score": 0.7691,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8296,
+      "career_score_20pct": 0.94,
+      "skill_score_15pct": 0.0875,
+      "behavior_score_10pct": 0.9115,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.4,
+      "matched_required_skills": [
+        "python",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.93,
+      "days_since_active": 26
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Ved Kumar",
+      "headline": "Senior Software Engineer (ML) | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 5.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Hyderabad, Telangana",
+      "current_title": "Senior Software Engineer (ML)",
+      "current_company": "Mad Street Den"
+    }
+  },
+  {
+    "candidate_id": "CAND_0015097",
+    "rank": 76,
+    "final_score": 0.7689,
+    "raw_hybrid_score": 0.7689,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.837,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0771,
+      "behavior_score_10pct": 0.7651,
+      "quality_score_10pct": 0.96,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.0,
+      "matched_required_skills": [
+        "python"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.69,
+      "days_since_active": 46
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 15
+    },
+    "profile_highlights": {
+      "name": "Om Trivedi",
+      "headline": "Senior Software Engineer (ML) | 6.0 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 6.0 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Coimbatore, Tamil Nadu",
+      "current_title": "Senior Software Engineer (ML)",
+      "current_company": "Zoho"
+    }
+  },
+  {
+    "candidate_id": "CAND_0047492",
+    "rank": 77,
+    "final_score": 0.7689,
+    "raw_hybrid_score": 0.7689,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8148,
+      "career_score_20pct": 0.984,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.8106,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 4.8,
+      "matched_required_skills": [
+        "weaviate",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.71,
+      "days_since_active": 54
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Yash Bose",
+      "headline": "ML Engineer | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 4.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Vizag, Andhra Pradesh",
+      "current_title": "ML Engineer",
+      "current_company": "PolicyBazaar"
+    }
+  },
+  {
+    "candidate_id": "CAND_0070485",
+    "rank": 78,
+    "final_score": 0.7689,
+    "raw_hybrid_score": 0.7689,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8361,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1104,
+      "behavior_score_10pct": 0.6886,
+      "quality_score_10pct": 0.99,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.4,
+      "matched_required_skills": [
+        "faiss"
+      ],
+      "matched_preferred_skills": [
+        "peft",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.45,
+      "days_since_active": 79
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 15
+    },
+    "profile_highlights": {
+      "name": "Krishna Rao",
+      "headline": "Search Engineer | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 6.4 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I've been the de-facto ML lead on a small team, shipping models across NLP and recsys. I care a lot about evaluation rigor — too many teams ship models without offline benchmarks they trust. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Coimbatore, Tamil Nadu",
+      "current_title": "Search Engineer",
+      "current_company": "Saarthi.ai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0086154",
+    "rank": 79,
+    "final_score": 0.7689,
+    "raw_hybrid_score": 0.7689,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.789,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0875,
+      "behavior_score_10pct": 0.9313,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.8,
+      "matched_required_skills": [
+        "opensearch",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.9,
+      "days_since_active": 26
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Vivaan Verma",
+      "headline": "Data Scientist | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 6.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Ahmedabad, Gujarat",
+      "current_title": "Data Scientist",
+      "current_company": "Ola"
+    }
+  },
+  {
+    "candidate_id": "CAND_0024147",
+    "rank": 80,
+    "final_score": 0.7688,
+    "raw_hybrid_score": 0.7688,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8203,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.7752,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.9,
+      "matched_required_skills": [
+        "opensearch",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.84,
+      "days_since_active": 78
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Zara Bhatia",
+      "headline": "ML Engineer | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 5.9 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Jaipur, Rajasthan",
+      "current_title": "ML Engineer",
+      "current_company": "Ola"
+    }
+  },
+  {
+    "candidate_id": "CAND_0098780",
+    "rank": 81,
+    "final_score": 0.7687,
+    "raw_hybrid_score": 0.7687,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8068,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.753,
+      "quality_score_10pct": 0.96,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.9,
+      "matched_required_skills": [
+        "milvus",
+        "weaviate",
+        "pinecone"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.57,
+      "days_since_active": 63
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Shreya Singh",
+      "headline": "AI Research Engineer | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 5.9 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Bangalore, Karnataka",
+      "current_title": "AI Research Engineer",
+      "current_company": "Zomato"
+    }
+  },
+  {
+    "candidate_id": "CAND_0030784",
+    "rank": 82,
+    "final_score": 0.7681,
+    "raw_hybrid_score": 0.7681,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.7952,
+      "career_score_20pct": 0.952,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.8794,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 4.4,
+      "matched_required_skills": [
+        "python",
+        "pinecone",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.9,
+      "days_since_active": 27
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Ved Mukherjee",
+      "headline": "Data Scientist | 4.4 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 4.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Delhi, Delhi",
+      "current_title": "Data Scientist",
+      "current_company": "Yellow.ai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0011125",
+    "rank": 83,
+    "final_score": 0.768,
+    "raw_hybrid_score": 0.768,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.7927,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.7924,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.6,
+      "matched_required_skills": [
+        "weaviate",
+        "milvus",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.58,
+      "days_since_active": 100
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Ishaan Patel",
+      "headline": "Junior ML Engineer | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 6.6 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Bangalore, Karnataka",
+      "current_title": "Junior ML Engineer",
+      "current_company": "Wysa"
+    }
+  },
+  {
+    "candidate_id": "CAND_0043676",
+    "rank": 84,
+    "final_score": 0.768,
+    "raw_hybrid_score": 0.768,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8247,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1,
+      "behavior_score_10pct": 0.7513,
+      "quality_score_10pct": 0.98,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.1,
+      "matched_required_skills": [],
+      "matched_preferred_skills": [
+        "lora",
+        "qlora",
+        "peft"
+      ],
+      "recruiter_response_rate": 0.65,
+      "days_since_active": 111
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 16
+    },
+    "profile_highlights": {
+      "name": "Ishaan Pandey",
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 6.1 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Delhi, Delhi",
+      "current_title": "Senior Software Engineer (ML)",
+      "current_company": "Observe.AI"
+    }
+  },
+  {
+    "candidate_id": "CAND_0089947",
+    "rank": 85,
+    "final_score": 0.768,
+    "raw_hybrid_score": 0.768,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8205,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.7114,
+      "quality_score_10pct": 0.94,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.4,
+      "matched_required_skills": [
+        "elasticsearch",
+        "opensearch",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.59,
+      "days_since_active": 31
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Om Khanna",
+      "headline": "Junior ML Engineer | Building ML-powered solutions",
+      "summary": "Data scientist / ML engineer with 5.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Noida, Uttar Pradesh",
+      "current_title": "Junior ML Engineer",
+      "current_company": "Saarthi.ai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0037566",
+    "rank": 86,
+    "final_score": 0.7674,
+    "raw_hybrid_score": 0.7674,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8164,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1542,
+      "behavior_score_10pct": 0.8478,
+      "quality_score_10pct": 0.83,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.9,
+      "matched_required_skills": [
+        "elasticsearch",
+        "pinecone"
+      ],
+      "matched_preferred_skills": [
+        "lora",
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.5,
+      "days_since_active": 61
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Ritu Nair",
+      "headline": "Machine Learning Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 6.9 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. I've learned that most retrieval problems are actually evaluation problems in disguise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Bangalore, Karnataka",
+      "current_title": "Machine Learning Engineer",
+      "current_company": "LinkedIn"
+    }
+  },
+  {
+    "candidate_id": "CAND_0048558",
+    "rank": 87,
+    "final_score": 0.7671,
+    "raw_hybrid_score": 0.7671,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8075,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1312,
+      "behavior_score_10pct": 0.7937,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.7,
+      "matched_required_skills": [
+        "elasticsearch",
+        "opensearch",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.8,
+      "days_since_active": 24
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Aisha Joshi",
+      "headline": "Data Scientist | 6.7 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 6.7 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Noida, Uttar Pradesh",
+      "current_title": "Data Scientist",
+      "current_company": "Rephrase.ai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0094759",
+    "rank": 88,
+    "final_score": 0.7671,
+    "raw_hybrid_score": 0.7671,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8482,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1312,
+      "behavior_score_10pct": 0.6112,
+      "quality_score_10pct": 0.97,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 8.6,
+      "matched_required_skills": [
+        "faiss",
+        "weaviate",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.11,
+      "days_since_active": 163
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Aditya Pillai",
+      "headline": "Lead AI Engineer | Production ML at scale | 8.6+ yrs",
+      "summary": "Senior AI engineer with 8.6 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I rebuilt the candidate-JD matching pipeline from scratch, taking it from 0.72 to 0.91 NDCG@10, handling peak QPS of 8K with sub-200ms p95. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.",
+      "location": "Mumbai, Maharashtra",
+      "current_title": "Lead AI Engineer",
+      "current_company": "Meta"
+    }
+  },
+  {
+    "candidate_id": "CAND_0040200",
+    "rank": 89,
+    "final_score": 0.7669,
+    "raw_hybrid_score": 0.7669,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.7937,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.2083,
+      "behavior_score_10pct": 0.7316,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.5,
+      "matched_required_skills": [
+        "python",
+        "faiss",
+        "weaviate",
+        "milvus"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.52,
+      "days_since_active": 101
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Meera Mittal",
+      "headline": "AI Research Engineer | 5.5 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 5.5 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. Most of my recent work has been on predictive modeling for customer-facing problems — churn, conversion, lifetime value. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Pune, Maharashtra",
+      "current_title": "AI Research Engineer",
+      "current_company": "PharmEasy"
+    }
+  },
+  {
+    "candidate_id": "CAND_0015967",
+    "rank": 90,
+    "final_score": 0.7667,
+    "raw_hybrid_score": 0.7667,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8247,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.7268,
+      "quality_score_10pct": 0.96,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.4,
+      "matched_required_skills": [
+        "pinecone",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.45,
+      "days_since_active": 38
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Advik Sethi",
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 5.4 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've been working on recommendation-style features but lighter on the deep-learning side — mostly classical methods like collaborative filtering and gradient-boosted models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Hyderabad, Telangana",
+      "current_title": "Senior Software Engineer (ML)",
+      "current_company": "Razorpay"
+    }
+  },
+  {
+    "candidate_id": "CAND_0065878",
+    "rank": 91,
+    "final_score": 0.7667,
+    "raw_hybrid_score": 0.7667,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8491,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0333,
+      "behavior_score_10pct": 0.7706,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.8,
+      "matched_required_skills": [],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.48,
+      "days_since_active": 89
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 16
+    },
+    "profile_highlights": {
+      "name": "Suresh Kapoor",
+      "headline": "Senior Data Scientist | ML, NLP, Recommendation Systems",
+      "summary": "Machine learning engineer with 7.8 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. I've learned that most retrieval problems are actually evaluation problems in disguise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Trivandrum, Kerala",
+      "current_title": "Senior Data Scientist",
+      "current_company": "Niramai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0049540",
+    "rank": 92,
+    "final_score": 0.7662,
+    "raw_hybrid_score": 0.7662,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8174,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0333,
+      "behavior_score_10pct": 0.9125,
+      "quality_score_10pct": 0.93,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.8,
+      "matched_required_skills": [],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.86,
+      "days_since_active": 25
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 16
+    },
+    "profile_highlights": {
+      "name": "Pranav Iyer",
+      "headline": "ML Engineer | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 6.8 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Trivandrum, Kerala",
+      "current_title": "ML Engineer",
+      "current_company": "Saarthi.ai"
+    }
+  },
+  {
+    "candidate_id": "CAND_0076163",
+    "rank": 93,
+    "final_score": 0.766,
+    "raw_hybrid_score": 0.766,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.7989,
+      "career_score_20pct": 0.94,
+      "skill_score_15pct": 0.175,
+      "behavior_score_10pct": 0.8719,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.9,
+      "matched_required_skills": [
+        "elasticsearch",
+        "opensearch",
+        "python",
+        "weaviate"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.84,
+      "days_since_active": 41
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 12
+    },
+    "profile_highlights": {
+      "name": "Nikhil Mittal",
+      "headline": "NLP Engineer | Applied ML | Building intelligent products",
+      "summary": "Machine learning engineer with 6.9 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I shipped our first RAG-based feature this year and now own the eval framework for it. I've spent enough time debugging production ranking issues to know which signals matter and which are noise. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Chandigarh, Chandigarh",
+      "current_title": "NLP Engineer",
+      "current_company": "Ola"
+    }
+  },
+  {
+    "candidate_id": "CAND_0076251",
+    "rank": 94,
+    "final_score": 0.766,
+    "raw_hybrid_score": 0.766,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8491,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.6725,
+      "quality_score_10pct": 0.91,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.6,
+      "matched_required_skills": [
+        "elasticsearch",
+        "weaviate"
+      ],
+      "matched_preferred_skills": [
+        "peft"
+      ],
+      "recruiter_response_rate": 0.51,
+      "days_since_active": 66
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Atharv Pandey",
+      "headline": "Search Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 7.6 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I led the team that migrated our keyword-search-based product to embedding-based retrieval. I care a lot about evaluation rigor — too many teams ship models without offline benchmarks they trust. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Bhubaneswar, Odisha",
+      "current_title": "Search Engineer",
+      "current_company": "Haptik"
+    }
+  },
+  {
+    "candidate_id": "CAND_0005260",
+    "rank": 95,
+    "final_score": 0.7658,
+    "raw_hybrid_score": 0.7658,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8507,
+      "career_score_20pct": 0.94,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.8336,
+      "quality_score_10pct": 0.86,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.2,
+      "matched_required_skills": [
+        "python",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.86,
+      "days_since_active": 41
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Mira Ghosh",
+      "headline": "Senior NLP Engineer | LLMs, RAG, Vector Search | ex-Top Tech",
+      "summary": "Senior AI engineer with 5.2 years of hands-on experience building production ML systems, with a focus on search, retrieval, and ranking. Most recently, I drove the platform's RAG strategy from prototype to production, including the eval framework, operating at single-digit-millisecond p95 retrieval latency. My day-to-day work spans embedding model selection and fine-tuning, hybrid retrieval architecture, learning-to-rank, behavioral-signal integration, and the offline/online evaluation that ties it all together. I've shipped systems in both early-stage product companies and at larger scale, and I've spent enough time on both that I know which tradeoffs apply where. I believe most ranking problems are solved by careful feature engineering and rigorous eval, not by bigger models. Currently exploring my next move — looking for senior IC or tech-lead roles where I can own the intelligence layer end-to-end.",
+      "location": "Chennai, Tamil Nadu",
+      "current_title": "Senior NLP Engineer",
+      "current_company": "Netflix"
+    }
+  },
+  {
+    "candidate_id": "CAND_0049978",
+    "rank": 96,
+    "final_score": 0.7657,
+    "raw_hybrid_score": 0.7657,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8241,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.7592,
+      "quality_score_10pct": 0.92,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.6,
+      "matched_required_skills": [
+        "weaviate",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.71,
+      "days_since_active": 121
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Kabir Arora",
+      "headline": "Senior Software Engineer (ML) | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 6.6 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Trivandrum, Kerala",
+      "current_title": "Senior Software Engineer (ML)",
+      "current_company": "Sarvam AI"
+    }
+  },
+  {
+    "candidate_id": "CAND_0051486",
+    "rank": 97,
+    "final_score": 0.7657,
+    "raw_hybrid_score": 0.7657,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8234,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.0875,
+      "behavior_score_10pct": 0.7822,
+      "quality_score_10pct": 0.95,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.9,
+      "matched_required_skills": [
+        "pinecone",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.6,
+      "days_since_active": 92
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Vivaan Mehta",
+      "headline": "AI Specialist | 5.9 yrs in analytics & ML",
+      "summary": "Data scientist / ML engineer with 5.9 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I'm looking to grow into a deeper AI/ML system-building role — closer to retrieval, LLMs, and modern ranking systems.",
+      "location": "Bhubaneswar, Odisha",
+      "current_title": "AI Specialist",
+      "current_company": "Aganitha"
+    }
+  },
+  {
+    "candidate_id": "CAND_0000422",
+    "rank": 98,
+    "final_score": 0.7656,
+    "raw_hybrid_score": 0.7656,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8105,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1312,
+      "behavior_score_10pct": 0.7871,
+      "quality_score_10pct": 0.93,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.3,
+      "matched_required_skills": [
+        "python",
+        "opensearch",
+        "milvus"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.79,
+      "days_since_active": 88
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Anil Shah",
+      "headline": "AI Research Engineer | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 6.3 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. My current role is split between dashboarding/analytics and shipping production ML models. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. Looking for a role where I can step up to more end-to-end ownership of ML systems, not just modeling.",
+      "location": "Kolkata, West Bengal",
+      "current_title": "AI Research Engineer",
+      "current_company": "Haptik"
+    }
+  },
+  {
+    "candidate_id": "CAND_0070398",
+    "rank": 99,
+    "final_score": 0.7655,
+    "raw_hybrid_score": 0.7655,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8016,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1646,
+      "behavior_score_10pct": 0.7014,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.2,
+      "matched_required_skills": [
+        "python",
+        "faiss",
+        "embeddings"
+      ],
+      "matched_preferred_skills": [
+        "lora"
+      ],
+      "recruiter_response_rate": 0.6,
+      "days_since_active": 67
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 13
+    },
+    "profile_highlights": {
+      "name": "Riya Saxena",
+      "headline": "Machine Learning Engineer | Search, Ranking & Retrieval",
+      "summary": "Machine learning engineer with 7.2 years of experience building ML-powered features in production. Strong background in NLP, recommendation systems, and applied AI; comfortable across the ML stack from feature engineering through deployment. Recently, I've been the de-facto ML lead on a small team, shipping models across NLP and recsys. Along the way I've gotten comfortable with the operational side — A/B testing, drift monitoring, retraining schedules. My academic background is in CS/ML but my main learning has come from shipping real systems and seeing what holds up under production load. Open to senior IC roles in applied ML or AI engineering, ideally at product companies where I'd own a meaningful piece of the ML stack.",
+      "location": "Kochi, Kerala",
+      "current_title": "Machine Learning Engineer",
+      "current_company": "Genpact AI"
+    }
+  },
+  {
+    "candidate_id": "CAND_0080465",
+    "rank": 100,
+    "final_score": 0.7655,
+    "raw_hybrid_score": 0.7655,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.8043,
+      "career_score_20pct": 0.936,
+      "skill_score_15pct": 0.1208,
+      "behavior_score_10pct": 0.8848,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 4.2,
+      "matched_required_skills": [
+        "milvus",
+        "qdrant"
+      ],
+      "matched_preferred_skills": [
+        "qlora"
+      ],
+      "recruiter_response_rate": 0.83,
+      "days_since_active": 26
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 14
+    },
+    "profile_highlights": {
+      "name": "Kabir Goyal",
+      "headline": "ML Engineer | Data Science & ML enthusiast",
+      "summary": "Data scientist / ML engineer with 4.2 years of experience in applied machine learning. Worked across predictive modeling, NLP, analytics, and lightweight deployment workflows. I've spent the last couple of years building NLP-based classification and information extraction pipelines. I'm strongest at the modeling and analysis side; comfortable with Python, scikit-learn, pandas, and standard MLOps tooling, but I'm still building depth on the engineering and infra side of production ML. I want to grow into senior AI engineering — get serious about LLMs and retrieval beyond the surface level.",
+      "location": "Toronto",
+      "current_title": "ML Engineer",
+      "current_company": "Meesho"
+    }
+  }
+]

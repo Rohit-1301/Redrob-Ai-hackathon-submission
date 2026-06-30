@@ -1,0 +1,325 @@
+{
+  "total_candidates": 100000,
+  "status_distribution": {
+    "VALID": 14019,
+    "REVIEW": 9111,
+    "WEAK": 1717,
+    "INVALID": 75153
+  },
+  "top_skills": [
+    {
+      "skill": "HTML",
+      "count": 12246
+    },
+    {
+      "skill": "Databricks",
+      "count": 12244
+    },
+    {
+      "skill": "Redux",
+      "count": 12222
+    },
+    {
+      "skill": "Terraform",
+      "count": 12187
+    },
+    {
+      "skill": "Angular",
+      "count": 12173
+    },
+    {
+      "skill": "Figma",
+      "count": 12157
+    },
+    {
+      "skill": "Salesforce CRM",
+      "count": 12157
+    },
+    {
+      "skill": "Vue.js",
+      "count": 12142
+    },
+    {
+      "skill": "Sales",
+      "count": 12138
+    },
+    {
+      "skill": "Accounting",
+      "count": 12136
+    },
+    {
+      "skill": "Agile",
+      "count": 12135
+    },
+    {
+      "skill": "Kafka",
+      "count": 12114
+    },
+    {
+      "skill": "Excel",
+      "count": 12109
+    },
+    {
+      "skill": "BigQuery",
+      "count": 12108
+    },
+    {
+      "skill": "CI/CD",
+      "count": 12108
+    },
+    {
+      "skill": "Project Management",
+      "count": 12106
+    },
+    {
+      "skill": "Airflow",
+      "count": 12105
+    },
+    {
+      "skill": "AWS",
+      "count": 12104
+    },
+    {
+      "skill": "Flask",
+      "count": 12104
+    },
+    {
+      "skill": "Scrum",
+      "count": 12083
+    }
+  ],
+  "top_locations": [
+    {
+      "location": "Bhubaneswar, Odisha",
+      "count": 4321
+    },
+    {
+      "location": "Noida, Uttar Pradesh",
+      "count": 4283
+    },
+    {
+      "location": "Hyderabad, Telangana",
+      "count": 4283
+    },
+    {
+      "location": "Jaipur, Rajasthan",
+      "count": 4268
+    },
+    {
+      "location": "Bangalore, Karnataka",
+      "count": 4238
+    },
+    {
+      "location": "Kolkata, West Bengal",
+      "count": 4230
+    },
+    {
+      "location": "Indore, Madhya Pradesh",
+      "count": 4198
+    },
+    {
+      "location": "Pune, Maharashtra",
+      "count": 4186
+    },
+    {
+      "location": "Chennai, Tamil Nadu",
+      "count": 4164
+    },
+    {
+      "location": "Delhi, Delhi",
+      "count": 4161
+    },
+    {
+      "location": "Trivandrum, Kerala",
+      "count": 4151
+    },
+    {
+      "location": "Ahmedabad, Gujarat",
+      "count": 4143
+    },
+    {
+      "location": "Chandigarh, Chandigarh",
+      "count": 4128
+    },
+    {
+      "location": "Coimbatore, Tamil Nadu",
+      "count": 4113
+    },
+    {
+      "location": "Vizag, Andhra Pradesh",
+      "count": 4093
+    },
+    {
+      "location": "Kochi, Kerala",
+      "count": 4073
+    },
+    {
+      "location": "Mumbai, Maharashtra",
+      "count": 4043
+    },
+    {
+      "location": "Gurgaon, Haryana",
+      "count": 4037
+    },
+    {
+      "location": "Sydney",
+      "count": 2579
+    },
+    {
+      "location": "San Francisco",
+      "count": 2536
+    }
+  ],
+  "top_companies": [
+    {
+      "company": "Infosys",
+      "count": 23722
+    },
+    {
+      "company": "Wipro",
+      "count": 23682
+    },
+    {
+      "company": "Pied Piper",
+      "count": 23614
+    },
+    {
+      "company": "Initech",
+      "count": 23590
+    },
+    {
+      "company": "Wayne Enterprises",
+      "count": 23556
+    },
+    {
+      "company": "Acme Corp",
+      "count": 23546
+    },
+    {
+      "company": "Stark Industries",
+      "count": 23524
+    },
+    {
+      "company": "Hooli",
+      "count": 23509
+    },
+    {
+      "company": "TCS",
+      "count": 23483
+    },
+    {
+      "company": "Globex Inc",
+      "count": 23471
+    },
+    {
+      "company": "Dunder Mifflin",
+      "count": 23416
+    },
+    {
+      "company": "Swiggy",
+      "count": 3019
+    },
+    {
+      "company": "Razorpay",
+      "count": 2926
+    },
+    {
+      "company": "CRED",
+      "count": 2908
+    },
+    {
+      "company": "Capgemini",
+      "count": 2895
+    },
+    {
+      "company": "HCL",
+      "count": 2894
+    },
+    {
+      "company": "Zomato",
+      "count": 2883
+    },
+    {
+      "company": "Flipkart",
+      "count": 2882
+    },
+    {
+      "company": "Mindtree",
+      "count": 2879
+    },
+    {
+      "company": "Accenture",
+      "count": 2871
+    }
+  ],
+  "experience_distribution": [
+    {
+      "experience_years": 1,
+      "count": 3546
+    },
+    {
+      "experience_years": 2,
+      "count": 9091
+    },
+    {
+      "experience_years": 3,
+      "count": 7961
+    },
+    {
+      "experience_years": 4,
+      "count": 9631
+    },
+    {
+      "experience_years": 5,
+      "count": 7934
+    },
+    {
+      "experience_years": 6,
+      "count": 9516
+    },
+    {
+      "experience_years": 7,
+      "count": 7833
+    },
+    {
+      "experience_years": 8,
+      "count": 8978
+    },
+    {
+      "experience_years": 9,
+      "count": 6813
+    },
+    {
+      "experience_years": 10,
+      "count": 6908
+    },
+    {
+      "experience_years": 11,
+      "count": 4425
+    },
+    {
+      "experience_years": 12,
+      "count": 5399
+    },
+    {
+      "experience_years": 13,
+      "count": 4386
+    },
+    {
+      "experience_years": 14,
+      "count": 5328
+    },
+    {
+      "experience_years": 15,
+      "count": 2245
+    },
+    {
+      "experience_years": 16,
+      "count": 4
+    },
+    {
+      "experience_years": 17,
+      "count": 2
+    }
+  ]
+}
