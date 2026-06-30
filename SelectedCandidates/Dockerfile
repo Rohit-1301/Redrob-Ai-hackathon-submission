@@ -76,4 +76,5 @@ CMD ["streamlit", "run", "app/streamlit_app.py", \
      "--server.port=8501", \
      "--server.address=0.0.0.0", \
      "--server.headless=true", \
-     "--browser.gatherUsageStats=false"]
+     "--browser.gatherUsageStats=false", \
+     "--server.enableWebsocketCompression=false"]
