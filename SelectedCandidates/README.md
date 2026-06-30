@@ -345,4 +345,4 @@ This project was built for the **RedRob Intelligent Candidate Discovery & Rankin
 
 ---
 
-*Built with ❤️ by Rohit Gupta · 23101A0019 · INFT-A · Vidyalankar Institute of Technology*
+*Built with ❤️ by team DeepMind*

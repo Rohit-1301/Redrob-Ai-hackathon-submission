@@ -59,3 +59,8 @@ Run the automated Powershell script to rebuild the image and execute candidate p
 .\docker_build_run.ps1
 ```
 All outputs will write to the `Preprocessing pipeline/output/` directory on completion.
+
+---
+
+*Built with ❤️ by team DeepMind*
+

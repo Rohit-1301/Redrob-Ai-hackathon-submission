@@ -92,3 +92,8 @@ Ingests preprocessed VALID/REVIEW/WEAK splits, executes semantic vector indexing
 All output ranked results are deterministically sorted and automatically verified on completion using `Redrobsdataset/validate_submission.py`. Detailed system logic reports and anti-fraud indicators can be found inside:
 *   [SelectedCandidates/reports/reportlogic.md](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/reports/reportlogic.md) (Flowchart & scoring formulas)
 *   [SelectedCandidates/reports/honeypot_report.md](file:///c:/Users/rg975/OneDrive%20-%20Vidyalankar%20Institute%20of%20Technology/23101A0019%20Rohit%20Gupta%20INFT-A/redrobs/SelectedCandidates/reports/honeypot_report.md) (Honeypot audits and validator rules)
+
+---
+
+*Built with ❤️ by team DeepMind*
+
