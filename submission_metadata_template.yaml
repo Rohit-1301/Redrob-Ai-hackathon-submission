@@ -1,0 +1,106 @@
+# Redrob Hackathon — Submission Metadata Template
+#
+# Copy this file to your repo root as `submission_metadata.yaml` and fill it in.
+# The fields here should match what you submit via the portal at upload time.
+# Stage 3 review uses this file to verify your portal metadata.
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "DeepMind"  # Used in leaderboard and announcements
+
+primary_contact:
+  name: "Rohit Gupta"
+  email: "rohitgupta87798@gmail.com"   # Used for all organizer communication
+  phone: "+91-9322266657"        # Used for top-50 / top-10 outreach
+
+team_members:
+  - name: "Rohit Gupta"
+    email: "rohitgupta87798@gmail.com
+    role: "AI Engineer"          # Optional, e.g. "Team Lead", "Backend", "Data"
+  - name: "Aditya Singh"
+    email: "adityapsingh565@gmail.com"
+    role: "ML Engineer"
+  - name: "Kamraan Mulani"
+    email: "kamraanmulani8284@gmail.com"
+    role: "AI Engineer"
+  - name: "Navnath Kadam"
+    email: "navnathkadam284@gmail.com"
+    role: "ML Engineer"
+  # Add more members as needed; solo participants list just one member
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/Rohit-1301/Redrob-Ai-hackathon-submission.git"
+# Required. Must be reachable. Private repos OK if you can grant organizer
+# access at Stage 3 (the email to add will be communicated then).
+
+sandbox_link: "https://redrob-ai-hackathon-submissiongit-dwy3yfz2kgi74tjddtilap.streamlit.app/"
+# Required. A working hosted environment where the ranker can be run on a small
+# candidate sample. See Section 10.5 of submission_spec.md for acceptable
+# platforms (HuggingFace Spaces, Streamlit Cloud, Replit, Colab, Docker, Binder).
+
+reproduce_command: "python rank.py --candidates Redrobsdataset/candidates.jsonl --out submission.csv"
+# The single command that produces submission.csv from candidates.jsonl.
+# Should run end-to-end within 5 minutes on CPU with 16GB RAM and no network.
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Lenovo LOQ"                    # Or: "AWS EC2 c5.4xlarge", "Local Linux box", etc.
+  cpu_cores: 8                                  # Number of CPU cores used
+  ram_gb: 16                                    # Available RAM in GB
+  python_version: "3.11.4"                      # python --version
+  os: "Windows 11"                              # Or "Ubuntu 22.04 LTS", etc.
+  uses_gpu_for_inference: false                 # Must be false — see compute constraints
+  has_network_during_ranking: false             # Must be false — no API calls during ranking
+  pre_computation_required: false               # true if you pre-compute embeddings or train models offline
+  pre_computation_time_minutes: 5               # Approximate, if applicable
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+# Transparency only — declared use is NOT penalized. Be honest. Stage 5 interview
+# may verify these declarations against your code; declarations that contradict
+# your code or your interview are flagged.
+ai_tools_used:
+  - "Claude"        # e.g. for architecture discussion, code review
+  - "Google Antigravity"  # e.g. for autocomplete
+  # Other options: "ChatGPT", "Cursor", "Gemini", "Codeium", "Other", "None"
+
+ai_usage_summary: |
+  Briefly describe how AI tools were used. Examples:
+  - "Used Claude and Google Antigravity for code review and architectural discussion. Used Google Antigravity for autocomplete.
+     No candidate data was fed to any LLM."
+  - "Used Claude to debug Python issues and Google Antigravity for refactoring."
+  
+
+# ============================================================================
+# Approach summary (optional but recommended)
+# ============================================================================
+methodology_summary: |
+ "Cascaded two-stage ranker with strict logic validation and hybrid scoring.
+  Stage 1 executes multi-factor rule checks 
+  (schema, chronology, skill duration, and behavioral signal validity) 
+  alongside a custom honeypot detector to disqualify synthetic profiles, 
+  capping fraudulent candidates at a validation score of 35.
+   Stage 2 performs non-semantic pre-filtering to retrieve the 
+   top 400 candidates before executing semantic vector retrieval 
+   using SentenceTransformers and FAISS. 
+   Finally, a hybrid score is calculated by blending vector similarity (40%)
+  with pedigree credentials (60% across career, skills, behavior, 
+  quality, and company type), adjusted via status-based validation 
+  multipliers (VALID x1.0, REVIEW x0.85, WEAK x0.6) and 
+  lexicographical tie-breakers. Preprocessing runtime is 
+  ~2 minutes on 100K profiles, and retrieval completes in ~1.5 seconds."
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true        # I have read submission_spec.md in full
+  code_is_original_work: true       # My code is my team's original work (using AI as a tool is fine)
+  no_collusion: true                # I have not coordinated my submission with other teams
+  honeypot_check_done: false        # OPTIONAL — set true if you explicitly checked for honeypots in your ranking
+  reproduction_tested: true         # I have tested that my reproduce_command runs end-to-end

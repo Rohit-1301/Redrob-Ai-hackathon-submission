@@ -234,10 +234,11 @@ def run_ranking_pipeline(
     logger.info("Sorting and ranking candidates...")
     scored_candidates.sort(key=lambda x: (-x[1]["final_score"], x[1]["candidate_id"]))
     
-    # 8. Select Top 100 and write output files
     top_100 = scored_candidates[:100]
-    logger.info(f"Top candidate score: {top_100[0][1]['final_score']:.4f}")
-    logger.info(f"100th candidate score: {top_100[99][1]['final_score']:.4f}")
+    if top_100:
+        logger.info(f"Top candidate score: {top_100[0][1]['final_score']:.4f}")
+        last_idx = len(top_100) - 1
+        logger.info(f"Last ranked candidate ({last_idx+1}) score: {top_100[last_idx][1]['final_score']:.4f}")
     
     # CSV generation
     csv_path = os.path.join(output_dir, "top_100_candidates.csv")

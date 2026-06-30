@@ -1,0 +1,335 @@
+[
+{
+  "candidate_id": "CAND_0000020",
+  "profile": {
+    "anonymized_name": "Aditya Iyengar",
+    "headline": "Mechanical Engineer | 6.3+ yrs experience",
+    "summary": "Professional with 6.3+ years of experience. I'm a marketing manager with substantial experience in cross-functional collaboration, stakeholder management, and execution. Lately I've been curious about how AI tools could augment my work — I've experimented with ChatGPT and a few other tools for productivity and content creation, and I think the space is exciting. Open to roles where I can apply my domain expertise alongside emerging AI capabilities.",
+    "location": "Ahmedabad, Gujarat",
+    "country": "India",
+    "years_of_experience": 6.3,
+    "current_title": "Mechanical Engineer",
+    "current_company": "Wipro",
+    "current_company_size": "10001+",
+    "current_industry": "IT Services"
+  },
+  "career_history": [
+    {
+      "company": "Wipro",
+      "title": "Mechanical Engineer",
+      "start_date": "2023-06-12",
+      "end_date": null,
+      "duration_months": 36,
+      "is_current": true,
+      "industry": "IT Services",
+      "company_size": "10001+",
+      "description": "Marketing leadership role at a B2B SaaS company. Owned the demand-generation function — content marketing, paid acquisition, SEO, email nurture. Built and managed a team of 5 across content, performance marketing, and marketing operations. Worked closely with sales on lead-quality definitions and the SDR-handoff process. Recent focus has been on account-based marketing for our enterprise segment."
+    },
+    {
+      "company": "Stark Industries",
+      "title": "Graphic Designer",
+      "start_date": "2020-07-27",
+      "end_date": "2023-04-13",
+      "duration_months": 33,
+      "is_current": false,
+      "industry": "Manufacturing",
+      "company_size": "1001-5000",
+      "description": "Marketing leadership role at a B2B SaaS company. Owned the demand-generation function — content marketing, paid acquisition, SEO, email nurture. Built and managed a team of 5 across content, performance marketing, and marketing operations. Worked closely with sales on lead-quality definitions and the SDR-handoff process. Recent focus has been on account-based marketing for our enterprise segment."
+    },
+    {
+      "company": "Dunder Mifflin",
+      "title": "Civil Engineer",
+      "start_date": "2020-01-29",
+      "end_date": "2020-07-27",
+      "duration_months": 6,
+      "is_current": false,
+      "industry": "Paper Products",
+      "company_size": "201-500",
+      "description": "Content writing and SEO strategy for a tech-focused publication. Wrote longform articles on developer tools, cloud platforms, and AI/ML topics — including some that ranked on the first page of search for high-competition keywords. Managed a freelance writer pool and the editorial calendar. Recent work has been on AI-assisted content production, using LLM tools for research, drafting, and editing while maintaining editorial quality."
+    }
+  ],
+  "education": [
+    {
+      "institution": "IIT Kharagpur",
+      "degree": "B.E.",
+      "field_of_study": "Computer Science",
+      "start_year": 2018,
+      "end_year": 2022,
+      "grade": "6.67 CGPA",
+      "tier": "tier_1"
+    }
+  ],
+  "skills": [
+    {
+      "name": "GraphQL",
+      "proficiency": "beginner",
+      "endorsements": 15,
+      "duration_months": 18
+    },
+    {
+      "name": "TypeScript",
+      "proficiency": "beginner",
+      "endorsements": 7,
+      "duration_months": 8
+    },
+    {
+      "name": "Flask",
+      "proficiency": "beginner",
+      "endorsements": 11,
+      "duration_months": 16
+    },
+    {
+      "name": "Weights & Biases",
+      "proficiency": "advanced",
+      "endorsements": 50,
+      "duration_months": 30
+    },
+    {
+      "name": "GCP",
+      "proficiency": "intermediate",
+      "endorsements": 2,
+      "duration_months": 34
+    },
+    {
+      "name": "Salesforce CRM",
+      "proficiency": "beginner",
+      "endorsements": 8,
+      "duration_months": 16
+    },
+    {
+      "name": "HTML",
+      "proficiency": "intermediate",
+      "endorsements": 2,
+      "duration_months": 35
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Scrum Master Certified",
+      "issuer": "Scrum Alliance",
+      "year": 2021
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "professional"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "conversational"
+    }
+  ],
+  "redrob_signals": {
+    "profile_completeness_score": 73.0,
+    "signup_date": "2023-01-26",
+    "last_active_date": "2025-10-05",
+    "open_to_work_flag": false,
+    "profile_views_received_30d": 38,
+    "applications_submitted_30d": 9,
+    "recruiter_response_rate": 0.55,
+    "avg_response_time_hours": 207.8,
+    "skill_assessment_scores": {
+      "Weights & Biases": 53.7
+    },
+    "connection_count": 479,
+    "endorsements_received": 35,
+    "notice_period_days": 30,
+    "expected_salary_range_inr_lpa": {
+      "min": 17.2,
+      "max": 18.2
+    },
+    "preferred_work_mode": "remote",
+    "willing_to_relocate": false,
+    "github_activity_score": -1,
+    "search_appearance_30d": 31,
+    "saved_by_recruiters_30d": 11,
+    "interview_completion_rate": 0.71,
+    "offer_acceptance_rate": -1,
+    "verified_email": true,
+    "verified_phone": false,
+    "linkedin_connected": true
+  },
+  "validation_status": "REVIEW",
+  "validation_score": 69.0,
+  "behavioral_score": 57.58,
+  "credibility_score": 80.0,
+  "availability_score": 11.0,
+  "honeypot_score": 30.0,
+  "invalidation_reason": "",
+  "invalid_reasons": [
+    "Job index 2 at 'Dunder Mifflin' has description text matching 'content_writing' but title is 'Civil Engineer'",
+    "Weak platform activity behavior score of 57.6 (-7)",
+    "Honeypot risk: Job index 2 at 'Dunder Mifflin' has description text matching 'content_writing' but title is 'Civil Engineer' (-24)"
+  ],
+  "flags": [
+    "TITLE_DESCRIPTION_MISMATCH",
+    "LOCATION_OFF_TARGET"
+  ]
+},
+{
+  "candidate_id": "CAND_0000029",
+  "profile": {
+    "anonymized_name": "Priya Sethi",
+    "headline": "Business Analyst | Driving business outcomes",
+    "summary": "Professional with 7.2+ years of experience. I'm a marketing manager with substantial experience in cross-functional collaboration, stakeholder management, and execution. Lately I've been curious about how AI tools could augment my work — I've experimented with ChatGPT and a few other tools for productivity and content creation, and I think the space is exciting. Open to roles where I can apply my domain expertise alongside emerging AI capabilities.",
+    "location": "Noida, Uttar Pradesh",
+    "country": "India",
+    "years_of_experience": 7.2,
+    "current_title": "Business Analyst",
+    "current_company": "Wipro",
+    "current_company_size": "10001+",
+    "current_industry": "IT Services"
+  },
+  "career_history": [
+    {
+      "company": "Wipro",
+      "title": "Business Analyst",
+      "start_date": "2025-02-01",
+      "end_date": null,
+      "duration_months": 16,
+      "is_current": true,
+      "industry": "IT Services",
+      "company_size": "10001+",
+      "description": "Marketing leadership role at a B2B SaaS company. Owned the demand-generation function — content marketing, paid acquisition, SEO, email nurture. Built and managed a team of 5 across content, performance marketing, and marketing operations. Worked closely with sales on lead-quality definitions and the SDR-handoff process. Recent focus has been on account-based marketing for our enterprise segment."
+    },
+    {
+      "company": "Globex Inc",
+      "title": "Mechanical Engineer",
+      "start_date": "2023-12-09",
+      "end_date": "2025-02-01",
+      "duration_months": 14,
+      "is_current": false,
+      "industry": "Manufacturing",
+      "company_size": "501-1000",
+      "description": "Mechanical engineering design role at a hardware-product company. Led the design of two product subsystems through full lifecycle: concept, DFM/DFMA review, prototype, production tooling. Comfortable with CAD (SolidWorks, Creo), FEA (ANSYS), and the typical hardware-development cadence. Worked closely with manufacturing partners on production scale-up."
+    },
+    {
+      "company": "TCS",
+      "title": "Civil Engineer",
+      "start_date": "2019-05-27",
+      "end_date": "2023-12-02",
+      "duration_months": 55,
+      "is_current": false,
+      "industry": "IT Services",
+      "company_size": "10001+",
+      "description": "Customer support team lead at a SaaS product. Managed a team of 8 support agents handling tier-1 and tier-2 tickets; owned the escalation process to engineering and the customer-feedback loop to product. Built out the support knowledge base and the agent training program. Strong on the people-management side and the process side; lighter on technical depth beyond product expertise."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Symbiosis International",
+      "degree": "B.Tech",
+      "field_of_study": "Artificial Intelligence",
+      "start_year": 2007,
+      "end_year": 2011,
+      "grade": "6.59 CGPA",
+      "tier": "tier_3"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Node.js",
+      "proficiency": "beginner",
+      "endorsements": 9,
+      "duration_months": 18
+    },
+    {
+      "name": "Scrum",
+      "proficiency": "beginner",
+      "endorsements": 2,
+      "duration_months": 5
+    },
+    {
+      "name": "Tailwind",
+      "proficiency": "intermediate",
+      "endorsements": 5,
+      "duration_months": 21
+    },
+    {
+      "name": "Hadoop",
+      "proficiency": "beginner",
+      "endorsements": 10,
+      "duration_months": 4
+    },
+    {
+      "name": "Spring Boot",
+      "proficiency": "intermediate",
+      "endorsements": 1,
+      "duration_months": 10
+    },
+    {
+      "name": "CI/CD",
+      "proficiency": "beginner",
+      "endorsements": 4,
+      "duration_months": 18
+    },
+    {
+      "name": "gRPC",
+      "proficiency": "beginner",
+      "endorsements": 15,
+      "duration_months": 17
+    },
+    {
+      "name": "Terraform",
+      "proficiency": "beginner",
+      "endorsements": 9,
+      "duration_months": 10
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "native"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "native"
+    }
+  ],
+  "redrob_signals": {
+    "profile_completeness_score": 40.5,
+    "signup_date": "2025-06-17",
+    "last_active_date": "2025-09-29",
+    "open_to_work_flag": false,
+    "profile_views_received_30d": 51,
+    "applications_submitted_30d": 8,
+    "recruiter_response_rate": 0.12,
+    "avg_response_time_hours": 48.4,
+    "skill_assessment_scores": {},
+    "connection_count": 297,
+    "endorsements_received": 4,
+    "notice_period_days": 60,
+    "expected_salary_range_inr_lpa": {
+      "min": 17.5,
+      "max": 19.1
+    },
+    "preferred_work_mode": "onsite",
+    "willing_to_relocate": false,
+    "github_activity_score": 42.5,
+    "search_appearance_30d": 150,
+    "saved_by_recruiters_30d": 8,
+    "interview_completion_rate": 0.67,
+    "offer_acceptance_rate": -1,
+    "verified_email": true,
+    "verified_phone": false,
+    "linkedin_connected": true
+  },
+  "validation_status": "REVIEW",
+  "validation_score": 69.0,
+  "behavioral_score": 53.965,
+  "credibility_score": 60.0,
+  "availability_score": 0.0,
+  "honeypot_score": 30.0,
+  "invalidation_reason": "",
+  "invalid_reasons": [
+    "Job index 2 at 'TCS' has description text matching 'customer_support' but title is 'Civil Engineer'",
+    "Weak platform activity behavior score of 54.0 (-7)",
+    "Honeypot risk: Job index 2 at 'TCS' has description text matching 'customer_support' but title is 'Civil Engineer' (-24)"
+  ],
+  "flags": [
+    "TITLE_DESCRIPTION_MISMATCH"
+  ]
+}
+]

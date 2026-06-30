@@ -1,0 +1,1369 @@
+[
+{
+  "candidate_id": "CAND_0000011",
+  "profile": {
+    "anonymized_name": "Deepak Desai",
+    "headline": "QA Engineer | Cloud & DevOps",
+    "summary": "Software engineer with 2.0 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. Most of my work is conventional backend engineering — APIs, databases, queues, deployments. I've been keeping up with AI/ML at a self-learner level — taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project — but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+    "location": "Hyderabad, Telangana",
+    "country": "India",
+    "years_of_experience": 2.0,
+    "current_title": "QA Engineer",
+    "current_company": "Pied Piper",
+    "current_company_size": "11-50",
+    "current_industry": "Software"
+  },
+  "career_history": [
+    {
+      "company": "Pied Piper",
+      "title": "QA Engineer",
+      "start_date": "2025-05-02",
+      "end_date": null,
+      "duration_months": 13,
+      "is_current": true,
+      "industry": "Software",
+      "company_size": "11-50",
+      "description": "Android mobile development using Java and (more recently) Kotlin at a consumer-app company. Built and maintained multiple production features including the main shopping flow, push notification system, and the offline-first sync layer. Comfortable with the Android framework, Jetpack components, and the typical patterns (MVVM, Hilt, Coroutines). My career has been entirely on mobile so far; interested in expanding into broader backend or platform engineering."
+    },
+    {
+      "company": "Hooli",
+      "title": "QA Engineer",
+      "start_date": "2024-06-06",
+      "end_date": "2025-04-02",
+      "duration_months": 10,
+      "is_current": false,
+      "industry": "Software",
+      "company_size": "1001-5000",
+      "description": "Test automation and QA engineering for a fintech product. Built and maintained the end-to-end test suite using Selenium and pytest, plus the load-testing setup using Locust. Worked closely with developers on testability patterns and with product on acceptance criteria. Recent work has been on shifting test responsibility into the dev team — moving from QA-as-gate to QA-as-coach. Career has been entirely in QA/test engineering."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Chandigarh University",
+      "degree": "B.Tech",
+      "field_of_study": "Data Science",
+      "start_year": 2014,
+      "end_year": 2019,
+      "grade": "6.96 CGPA",
+      "tier": "tier_3"
+    },
+    {
+      "institution": "Anna University",
+      "degree": "B.Sc",
+      "field_of_study": "Information Technology",
+      "start_year": 2015,
+      "end_year": 2020,
+      "grade": "9.16 CGPA",
+      "tier": "tier_2"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Recommendation Systems",
+      "proficiency": "advanced",
+      "endorsements": 5,
+      "duration_months": 40
+    },
+    {
+      "name": "Scrum",
+      "proficiency": "beginner",
+      "endorsements": 13,
+      "duration_months": 7
+    },
+    {
+      "name": "FastAPI",
+      "proficiency": "beginner",
+      "endorsements": 4,
+      "duration_months": 12
+    },
+    {
+      "name": "Hugging Face Transformers",
+      "proficiency": "intermediate",
+      "endorsements": 1,
+      "duration_months": 30
+    },
+    {
+      "name": "AWS",
+      "proficiency": "beginner",
+      "endorsements": 4,
+      "duration_months": 18
+    },
+    {
+      "name": "Snowflake",
+      "proficiency": "beginner",
+      "endorsements": 4,
+      "duration_months": 11
+    },
+    {
+      "name": "Spring Boot",
+      "proficiency": "intermediate",
+      "endorsements": 12,
+      "duration_months": 31
+    },
+    {
+      "name": "PostgreSQL",
+      "proficiency": "intermediate",
+      "endorsements": 7,
+      "duration_months": 24
+    },
+    {
+      "name": "Kubeflow",
+      "proficiency": "advanced",
+      "endorsements": 6,
+      "duration_months": 59
+    },
+    {
+      "name": "Azure",
+      "proficiency": "beginner",
+      "endorsements": 12,
+      "duration_months": 8
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "AWS",
+      "year": 2019
+    },
+    {
+      "name": "Six Sigma Green Belt",
+      "issuer": "ASQ",
+      "year": 2021
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "native"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "professional"
+    }
+  ],
+  "redrob_signals": {
+    "profile_completeness_score": 59.2,
+    "signup_date": "2023-07-22",
+    "last_active_date": "2026-01-19",
+    "open_to_work_flag": false,
+    "profile_views_received_30d": 112,
+    "applications_submitted_30d": 0,
+    "recruiter_response_rate": 0.56,
+    "avg_response_time_hours": 184.4,
+    "skill_assessment_scores": {
+      "Recommendation Systems": 29.8
+    },
+    "connection_count": 496,
+    "endorsements_received": 9,
+    "notice_period_days": 90,
+    "expected_salary_range_inr_lpa": {
+      "min": 15.5,
+      "max": 13.9
+    },
+    "preferred_work_mode": "flexible",
+    "willing_to_relocate": false,
+    "github_activity_score": 32.3,
+    "search_appearance_30d": 200,
+    "saved_by_recruiters_30d": 13,
+    "interview_completion_rate": 0.45,
+    "offer_acceptance_rate": -1,
+    "verified_email": true,
+    "verified_phone": true,
+    "linkedin_connected": true
+  },
+  "validation_status": "WEAK",
+  "validation_score": 58.0,
+  "behavioral_score": 50.825,
+  "credibility_score": 80.0,
+  "availability_score": 11.200000000000001,
+  "honeypot_score": 0.0,
+  "invalidation_reason": "",
+  "invalid_reasons": [
+    "Skill 'Recommendation Systems' duration (40 months) exceeds candidate's total career history duration (24 months)",
+    "Skill 'Spring Boot' duration (31 months) exceeds candidate's total career history duration (24 months)",
+    "Skill 'Kubeflow' duration (59 months) exceeds candidate's total career history duration (24 months)",
+    "Candidate claims AI/ML skills (Recommendation Systems...) but career history has no mention of AI/ML engineering, search, or retrieval work",
+    "Skill credibility issue: Skill 'Recommendation Systems' duration (40 months) exceeds candidate's total career history duration (24 months) (-35)",
+    "Weak platform activity behavior score of 50.8 (-7)"
+  ],
+  "flags": [
+    "OUTSIDE_EXPERIENCE_BAND",
+    "SKILL_DURATION_MISMATCH"
+  ]
+},
+{
+  "candidate_id": "CAND_0000052",
+  "profile": {
+    "anonymized_name": "Vivaan Khanna",
+    "headline": "Mechanical Engineer | Helping teams scale",
+    "summary": "Professional with 1.4+ years of experience. I'm a marketing manager with substantial experience in cross-functional collaboration, stakeholder management, and execution. Lately I've been curious about how AI tools could augment my work — I've experimented with ChatGPT and a few other tools for productivity and content creation, and I think the space is exciting. Open to roles where I can apply my domain expertise alongside emerging AI capabilities.",
+    "location": "Gurgaon, Haryana",
+    "country": "India",
+    "years_of_experience": 1.4,
+    "current_title": "Mechanical Engineer",
+    "current_company": "Dunder Mifflin",
+    "current_company_size": "201-500",
+    "current_industry": "Paper Products"
+  },
+  "career_history": [
+    {
+      "company": "Dunder Mifflin",
+      "title": "Mechanical Engineer",
+      "start_date": "2025-02-01",
+      "end_date": null,
+      "duration_months": 16,
+      "is_current": true,
+      "industry": "Paper Products",
+      "company_size": "201-500",
+      "description": "Enterprise sales of cloud software solutions into the mid-market segment. Carried a $1.8M ARR quota and consistently delivered against it across the last three years. Owned the full sales cycle: prospecting, discovery, technical evaluation (with SE support), commercial negotiation, and close. Strong on consultative selling for technical buyers; comfortable engaging with both engineering and finance stakeholders."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Generic State University",
+      "degree": "M.Sc",
+      "field_of_study": "Data Science",
+      "start_year": 2008,
+      "end_year": 2012,
+      "grade": "6.62 CGPA",
+      "tier": "tier_4"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Webpack",
+      "proficiency": "intermediate",
+      "endorsements": 5,
+      "duration_months": 35
+    },
+    {
+      "name": "Docker",
+      "proficiency": "intermediate",
+      "endorsements": 3,
+      "duration_months": 30
+    },
+    {
+      "name": "Excel",
+      "proficiency": "beginner",
+      "endorsements": 2,
+      "duration_months": 16
+    },
+    {
+      "name": "BigQuery",
+      "proficiency": "intermediate",
+      "endorsements": 8,
+      "duration_months": 24
+    },
+    {
+      "name": "Redis",
+      "proficiency": "beginner",
+      "endorsements": 6,
+      "duration_months": 13
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Six Sigma Green Belt",
+      "issuer": "ASQ",
+      "year": 2025
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "AWS",
+      "year": 2025
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "professional"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "conversational"
+    }
+  ],
+  "redrob_signals": {
+    "profile_completeness_score": 31.6,
+    "signup_date": "2022-08-15",
+    "last_active_date": "2026-01-29",
+    "open_to_work_flag": false,
+    "profile_views_received_30d": 49,
+    "applications_submitted_30d": 7,
+    "recruiter_response_rate": 0.48,
+    "avg_response_time_hours": 193.5,
+    "skill_assessment_scores": {},
+    "connection_count": 540,
+    "endorsements_received": 1,
+    "notice_period_days": 90,
+    "expected_salary_range_inr_lpa": {
+      "min": 9.5,
+      "max": 12.5
+    },
+    "preferred_work_mode": "flexible",
+    "willing_to_relocate": true,
+    "github_activity_score": -1,
+    "search_appearance_30d": 147,
+    "saved_by_recruiters_30d": 9,
+    "interview_completion_rate": 0.53,
+    "offer_acceptance_rate": -1,
+    "verified_email": false,
+    "verified_phone": true,
+    "linkedin_connected": false
+  },
+  "validation_status": "WEAK",
+  "validation_score": 50.0,
+  "behavioral_score": 31.980000000000004,
+  "credibility_score": 50.0,
+  "availability_score": 9.6,
+  "honeypot_score": 0.0,
+  "invalidation_reason": "",
+  "invalid_reasons": [
+    "Skill 'Webpack' duration (35 months) exceeds candidate's total career history duration (16 months)",
+    "Skill 'Docker' duration (30 months) exceeds candidate's total career history duration (16 months)",
+    "Skill 'BigQuery' duration (24 months) exceeds candidate's total career history duration (16 months)",
+    "Skill credibility issue: Skill 'Webpack' duration (35 months) exceeds candidate's total career history duration (16 months) (-35)",
+    "Weak platform activity behavior score of 32.0 (-15)"
+  ],
+  "flags": [
+    "OUTSIDE_EXPERIENCE_BAND",
+    "SKILL_DURATION_MISMATCH"
+  ]
+},
+{
+  "candidate_id": "CAND_0000068",
+  "profile": {
+    "anonymized_name": "Priya Hegde",
+    "headline": "Java Developer | Full-stack development",
+    "summary": "Software engineer with 1.5 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. I've spent most of my career on web and API development — Python/Django and Node.js mostly. I've been keeping up with AI/ML at a self-learner level — taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project — but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+    "location": "Noida, Uttar Pradesh",
+    "country": "India",
+    "years_of_experience": 1.5,
+    "current_title": "Java Developer",
+    "current_company": "HCL",
+    "current_company_size": "10001+",
+    "current_industry": "IT Services"
+  },
+  "career_history": [
+    {
+      "company": "HCL",
+      "title": "Java Developer",
+      "start_date": "2024-12-03",
+      "end_date": null,
+      "duration_months": 18,
+      "is_current": true,
+      "industry": "IT Services",
+      "company_size": "10001+",
+      "description": "Java backend development at a large enterprise — Spring Boot microservices, Kafka for inter-service messaging, Postgres + Redis for storage. Worked on the customer onboarding flow which involved orchestrating multiple downstream services. Solid on the Spring ecosystem, transaction handling, and the operational side of Java services. Looking to either go deeper on distributed systems or expand into modern application stacks."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Chandigarh University",
+      "degree": "M.Sc",
+      "field_of_study": "MBA",
+      "start_year": 2007,
+      "end_year": 2012,
+      "grade": "9.25 CGPA",
+      "tier": "tier_3"
+    },
+    {
+      "institution": "Regional Technical Institute",
+      "degree": "B.E.",
+      "field_of_study": "Commerce",
+      "start_year": 2018,
+      "end_year": 2022,
+      "grade": "6.55 CGPA",
+      "tier": "tier_4"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Databricks",
+      "proficiency": "intermediate",
+      "endorsements": 13,
+      "duration_months": 17
+    },
+    {
+      "name": "Flask",
+      "proficiency": "beginner",
+      "endorsements": 7,
+      "duration_months": 12
+    },
+    {
+      "name": "GCP",
+      "proficiency": "beginner",
+      "endorsements": 1,
+      "duration_months": 13
+    },
+    {
+      "name": "TypeScript",
+      "proficiency": "beginner",
+      "endorsements": 0,
+      "duration_months": 7
+    },
+    {
+      "name": "FAISS",
+      "proficiency": "intermediate",
+      "endorsements": 4,
+      "duration_months": 24
+    },
+    {
+      "name": "SQL",
+      "proficiency": "intermediate",
+      "endorsements": 7,
+      "duration_months": 27
+    },
+    {
+      "name": "Agile",
+      "proficiency": "beginner",
+      "endorsements": 1,
+      "duration_months": 13
+    },
+    {
+      "name": "Kubeflow",
+      "proficiency": "intermediate",
+      "endorsements": 12,
+      "duration_months": 10
+    },
+    {
+      "name": "Weights & Biases",
+      "proficiency": "advanced",
+      "endorsements": 1,
+      "duration_months": 33
+    },
+    {
+      "name": "Excel",
+      "proficiency": "intermediate",
+      "endorsements": 11,
+      "duration_months": 33
+    },
+    {
+      "name": "Java",
+      "proficiency": "intermediate",
+      "endorsements": 12,
+      "duration_months": 30
+    },
+    {
+      "name": "REST APIs",
+      "proficiency": "beginner",
+      "endorsements": 2,
+      "duration_months": 4
+    },
+    {
+      "name": "GraphQL",
+      "proficiency": "beginner",
+      "endorsements": 3,
+      "duration_months": 7
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Scrum Master Certified",
+      "issuer": "Scrum Alliance",
+      "year": 2022
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "professional"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "professional"
+    }
+  ],
+  "redrob_signals": {
+    "profile_completeness_score": 61.4,
+    "signup_date": "2024-09-24",
+    "last_active_date": "2026-03-21",
+    "open_to_work_flag": true,
+    "profile_views_received_30d": 28,
+    "applications_submitted_30d": 2,
+    "recruiter_response_rate": 0.55,
+    "avg_response_time_hours": 219.9,
+    "skill_assessment_scores": {
+      "Weights & Biases": 37.5
+    },
+    "connection_count": 55,
+    "endorsements_received": 50,
+    "notice_period_days": 30,
+    "expected_salary_range_inr_lpa": {
+      "min": 20.8,
+      "max": 28.2
+    },
+    "preferred_work_mode": "hybrid",
+    "willing_to_relocate": false,
+    "github_activity_score": 20.2,
+    "search_appearance_30d": 166,
+    "saved_by_recruiters_30d": 5,
+    "interview_completion_rate": 0.89,
+    "offer_acceptance_rate": 0.49,
+    "verified_email": true,
+    "verified_phone": false,
+    "linkedin_connected": false
+  },
+  "validation_status": "WEAK",
+  "validation_score": 58.0,
+  "behavioral_score": 41.349999999999994,
+  "credibility_score": 50.0,
+  "availability_score": 61.0,
+  "honeypot_score": 0.0,
+  "invalidation_reason": "",
+  "invalid_reasons": [
+    "Skill 'SQL' duration (27 months) exceeds candidate's total career history duration (18 months)",
+    "Skill 'Weights & Biases' duration (33 months) exceeds candidate's total career history duration (18 months)",
+    "Skill 'Excel' duration (33 months) exceeds candidate's total career history duration (18 months)",
+    "Skill 'Java' duration (30 months) exceeds candidate's total career history duration (18 months)",
+    "Skill credibility issue: Skill 'SQL' duration (27 months) exceeds candidate's total career history duration (18 months) (-35)",
+    "Weak platform activity behavior score of 41.3 (-7)"
+  ],
+  "flags": [
+    "OUTSIDE_EXPERIENCE_BAND",
+    "SKILL_DURATION_MISMATCH"
+  ]
+},
+{
+  "candidate_id": "CAND_0000071",
+  "profile": {
+    "anonymized_name": "Vikram Shetty",
+    "headline": "DevOps Engineer | Full-stack development",
+    "summary": "Software engineer with 1.8 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. Most of my work is conventional backend engineering — APIs, databases, queues, deployments. I've been keeping up with AI/ML at a self-learner level — taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project — but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+    "location": "Singapore",
+    "country": "Singapore",
+    "years_of_experience": 1.8,
+    "current_title": "DevOps Engineer",
+    "current_company": "Wayne Enterprises",
+    "current_company_size": "10001+",
+    "current_industry": "Conglomerate"
+  },
+  "career_history": [
+    {
+      "company": "Wayne Enterprises",
+      "title": "DevOps Engineer",
+      "start_date": "2024-09-04",
+      "end_date": null,
+      "duration_months": 21,
+      "is_current": true,
+      "industry": "Conglomerate",
+      "company_size": "10001+",
+      "description": "Java backend development at a large enterprise — Spring Boot microservices, Kafka for inter-service messaging, Postgres + Redis for storage. Worked on the customer onboarding flow which involved orchestrating multiple downstream services. Solid on the Spring ecosystem, transaction handling, and the operational side of Java services. Looking to either go deeper on distributed systems or expand into modern application stacks."
+    }
+  ],
+  "education": [
+    {
+      "institution": "KIIT University",
+      "degree": "B.E.",
+      "field_of_study": "Machine Learning",
+      "start_year": 2004,
+      "end_year": 2008,
+      "grade": "8.81 CGPA",
+      "tier": "tier_3"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "proficiency": "intermediate",
+      "endorsements": 9,
+      "duration_months": 20
+    },
+    {
+      "name": "Qdrant",
+      "proficiency": "advanced",
+      "endorsements": 12,
+      "duration_months": 27
+    },
+    {
+      "name": "Excel",
+      "proficiency": "beginner",
+      "endorsements": 12,
+      "duration_months": 3
+    },
+    {
+      "name": "AWS",
+      "proficiency": "intermediate",
+      "endorsements": 5,
+      "duration_months": 16
+    },
+    {
+      "name": "Photoshop",
+      "proficiency": "beginner",
+      "endorsements": 5,
+      "duration_months": 2
+    },
+    {
+      "name": "BentoML",
+      "proficiency": "intermediate",
+      "endorsements": 6,
+      "duration_months": 16
+    },
+    {
+      "name": "CNN",
+      "proficiency": "advanced",
+      "endorsements": 26,
+      "duration_months": 36
+    },
+    {
+      "name": "Redis",
+      "proficiency": "intermediate",
+      "endorsements": 15,
+      "duration_months": 9
+    },
+    {
+      "name": "Figma",
+      "proficiency": "intermediate",
+      "endorsements": 12,
+      "duration_months": 34
+    },
+    {
+      "name": "Java",
+      "proficiency": "beginner",
+      "endorsements": 2,
+      "duration_months": 3
+    },
+    {
+      "name": "CI/CD",
+      "proficiency": "intermediate",
+      "endorsements": 9,
+      "duration_months": 23
+    },
+    {
+      "name": "Python",
+      "proficiency": "intermediate",
+      "endorsements": 3,
+      "duration_months": 26
+    },
+    {
+      "name": "ETL",
+      "proficiency": "beginner",
+      "endorsements": 2,
+      "duration_months": 5
+    },
+    {
+      "name": "Marketing",
+      "proficiency": "intermediate",
+      "endorsements": 9,
+      "duration_months": 18
+    },
+    {
+      "name": "OpenCV",
+      "proficiency": "advanced",
+      "endorsements": 52,
+      "duration_months": 38
+    },
+    {
+      "name": "Tally",
+      "proficiency": "intermediate",
+      "endorsements": 1,
+      "duration_months": 34
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "professional"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "conversational"
+    }
+  ],
+  "redrob_signals": {
+    "profile_completeness_score": 67.8,
+    "signup_date": "2023-12-22",
+    "last_active_date": "2026-01-14",
+    "open_to_work_flag": false,
+    "profile_views_received_30d": 66,
+    "applications_submitted_30d": 11,
+    "recruiter_response_rate": 0.17,
+    "avg_response_time_hours": 49.3,
+    "skill_assessment_scores": {
+      "Qdrant": 54.4,
+      "CNN": 54.8
+    },
+    "connection_count": 163,
+    "endorsements_received": 32,
+    "notice_period_days": 120,
+    "expected_salary_range_inr_lpa": {
+      "min": 8.9,
+      "max": 18.3
+    },
+    "preferred_work_mode": "hybrid",
+    "willing_to_relocate": true,
+    "github_activity_score": 53.3,
+    "search_appearance_30d": 229,
+    "saved_by_recruiters_30d": 1,
+    "interview_completion_rate": 0.47,
+    "offer_acceptance_rate": 0.32,
+    "verified_email": false,
+    "verified_phone": false,
+    "linkedin_connected": false
+  },
+  "validation_status": "WEAK",
+  "validation_score": 58.0,
+  "behavioral_score": 50.894999999999996,
+  "credibility_score": 45.0,
+  "availability_score": 0.0,
+  "honeypot_score": 0.0,
+  "invalidation_reason": "",
+  "invalid_reasons": [
+    "Skill 'CNN' duration (36 months) exceeds candidate's total career history duration (21 months)",
+    "Skill 'Figma' duration (34 months) exceeds candidate's total career history duration (21 months)",
+    "Skill 'OpenCV' duration (38 months) exceeds candidate's total career history duration (21 months)",
+    "Skill 'Tally' duration (34 months) exceeds candidate's total career history duration (21 months)",
+    "Skill credibility issue: Skill 'CNN' duration (36 months) exceeds candidate's total career history duration (21 months) (-35)",
+    "Weak platform activity behavior score of 50.9 (-7)"
+  ],
+  "flags": [
+    "OUTSIDE_EXPERIENCE_BAND",
+    "SKILL_DURATION_MISMATCH"
+  ]
+},
+{
+  "candidate_id": "CAND_0000097",
+  "profile": {
+    "anonymized_name": "Sai Pillai",
+    "headline": "Mechanical Engineer | AI enthusiast | Building with LLMs",
+    "summary": "Mechanical Engineer with 5.8+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, and project delivery. Recently I've been excited about how AI and GenAI tools can augment my work. I've been taking online courses on RAG and vector databases, experimenting with LangChain and the OpenAI API for side projects, and exploring how LLMs can streamline workflows in my current function. Open to roles that combine my existing domain experience with emerging AI technologies — I think the most interesting opportunities are at this intersection. Looking for positions where I can contribute both my functional expertise and grow my AI capabilities.",
+    "location": "Indore, Madhya Pradesh",
+    "country": "India",
+    "years_of_experience": 5.8,
+    "current_title": "Mechanical Engineer",
+    "current_company": "TCS",
+    "current_company_size": "10001+",
+    "current_industry": "IT Services"
+  },
+  "career_history": [
+    {
+      "company": "TCS",
+      "title": "Mechanical Engineer",
+      "start_date": "2022-04-18",
+      "end_date": null,
+      "duration_months": 50,
+      "is_current": true,
+      "industry": "IT Services",
+      "company_size": "10001+",
+      "description": "Marketing leadership role at a B2B SaaS company. Owned the demand-generation function — content marketing, paid acquisition, SEO, email nurture. Built and managed a team of 5 across content, performance marketing, and marketing operations. Worked closely with sales on lead-quality definitions and the SDR-handoff process. Recent focus has been on account-based marketing for our enterprise segment."
+    },
+    {
+      "company": "Initech",
+      "title": "Accountant",
+      "start_date": "2020-09-11",
+      "end_date": "2022-04-04",
+      "duration_months": 19,
+      "is_current": false,
+      "industry": "Software",
+      "company_size": "51-200",
+      "description": "Mechanical engineering design role at a hardware-product company. Led the design of two product subsystems through full lifecycle: concept, DFM/DFMA review, prototype, production tooling. Comfortable with CAD (SolidWorks, Creo), FEA (ANSYS), and the typical hardware-development cadence. Worked closely with manufacturing partners on production scale-up."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Regional Technical Institute",
+      "degree": "M.S.",
+      "field_of_study": "MBA",
+      "start_year": 2012,
+      "end_year": 2017,
+      "grade": "6.63 CGPA",
+      "tier": "tier_4"
+    }
+  ],
+  "skills": [
+    {
+      "name": "TypeScript",
+      "proficiency": "beginner",
+      "endorsements": 12,
+      "duration_months": 18
+    },
+    {
+      "name": "SEO",
+      "proficiency": "beginner",
+      "endorsements": 8,
+      "duration_months": 6
+    },
+    {
+      "name": "Node.js",
+      "proficiency": "intermediate",
+      "endorsements": 3,
+      "duration_months": 23
+    },
+    {
+      "name": "Tailwind",
+      "proficiency": "beginner",
+      "endorsements": 15,
+      "duration_months": 18
+    },
+    {
+      "name": "Terraform",
+      "proficiency": "beginner",
+      "endorsements": 15,
+      "duration_months": 9
+    },
+    {
+      "name": "Apache Beam",
+      "proficiency": "intermediate",
+      "endorsements": 10,
+      "duration_months": 24
+    },
+    {
+      "name": "MongoDB",
+      "proficiency": "beginner",
+      "endorsements": 8,
+      "duration_months": 6
+    },
+    {
+      "name": "Information Retrieval",
+      "proficiency": "advanced",
+      "endorsements": 0,
+      "duration_months": 4
+    },
+    {
+      "name": "Semantic Search",
+      "proficiency": "advanced",
+      "endorsements": 1,
+      "duration_months": 4
+    },
+    {
+      "name": "Sentence Transformers",
+      "proficiency": "intermediate",
+      "endorsements": 1,
+      "duration_months": 15
+    },
+    {
+      "name": "Hugging Face Transformers",
+      "proficiency": "intermediate",
+      "endorsements": 2,
+      "duration_months": 16
+    },
+    {
+      "name": "RAG",
+      "proficiency": "advanced",
+      "endorsements": 2,
+      "duration_months": 16
+    },
+    {
+      "name": "Pinecone",
+      "proficiency": "advanced",
+      "endorsements": 1,
+      "duration_months": 15
+    },
+    {
+      "name": "Prompt Engineering",
+      "proficiency": "advanced",
+      "endorsements": 1,
+      "duration_months": 12
+    },
+    {
+      "name": "Vector Search",
+      "proficiency": "advanced",
+      "endorsements": 4,
+      "duration_months": 11
+    },
+    {
+      "name": "FAISS",
+      "proficiency": "intermediate",
+      "endorsements": 1,
+      "duration_months": 5
+    },
+    {
+      "name": "LLMs",
+      "proficiency": "advanced",
+      "endorsements": 3,
+      "duration_months": 12
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Scrum Master Certified",
+      "issuer": "Scrum Alliance",
+      "year": 2020
+    },
+    {
+      "name": "Six Sigma Green Belt",
+      "issuer": "ASQ",
+      "year": 2019
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "native"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "professional"
+    }
+  ],
+  "redrob_signals": {
+    "profile_completeness_score": 30.3,
+    "signup_date": "2023-04-08",
+    "last_active_date": "2025-11-30",
+    "open_to_work_flag": false,
+    "profile_views_received_30d": 73,
+    "applications_submitted_30d": 8,
+    "recruiter_response_rate": 0.46,
+    "avg_response_time_hours": 35.3,
+    "skill_assessment_scores": {},
+    "connection_count": 82,
+    "endorsements_received": 40,
+    "notice_period_days": 30,
+    "expected_salary_range_inr_lpa": {
+      "min": 11.0,
+      "max": 22.5
+    },
+    "preferred_work_mode": "onsite",
+    "willing_to_relocate": false,
+    "github_activity_score": -1,
+    "search_appearance_30d": 71,
+    "saved_by_recruiters_30d": 0,
+    "interview_completion_rate": 0.48,
+    "offer_acceptance_rate": -1,
+    "verified_email": true,
+    "verified_phone": true,
+    "linkedin_connected": true
+  },
+  "validation_status": "WEAK",
+  "validation_score": 59.0,
+  "behavioral_score": 55.53,
+  "credibility_score": 60.0,
+  "availability_score": 9.200000000000001,
+  "honeypot_score": 30.0,
+  "invalidation_reason": "",
+  "invalid_reasons": [
+    "Candidate claims AI/ML skills (Information Retrieval, RAG, Pinecone, FAISS...) but career history has no mention of AI/ML engineering, search, or retrieval work",
+    "Job index 1 at 'Initech' has description text matching 'mechanical_design' but title is 'Accountant'",
+    "Skill credibility issue: Candidate claims AI/ML skills (Information Retrieval, RAG, Pinecone, FAISS...) but career history has no mention of AI/ML engineering, search, or retrieval work (-10)",
+    "Weak platform activity behavior score of 55.5 (-7)",
+    "Honeypot risk: Job index 1 at 'Initech' has description text matching 'mechanical_design' but title is 'Accountant' (-24)"
+  ],
+  "flags": [
+    "TITLE_DESCRIPTION_MISMATCH",
+    "LOCATION_OFF_TARGET"
+  ]
+},
+{
+  "candidate_id": "CAND_0000120",
+  "profile": {
+    "anonymized_name": "Neha Dutta",
+    "headline": "Graphic Designer | Exploring AI & GenAI applications",
+    "summary": "Graphic Designer with 5.7+ years of experience driving outcomes in my domain. I have built strong functional expertise in the typical responsibilities of the role, including team management, stakeholder communication, and project delivery. Recently I've been excited about how AI and GenAI tools can augment my work. I've been taking online courses on RAG and vector databases, experimenting with LangChain and the OpenAI API for side projects, and exploring how LLMs can streamline workflows in my current function. Open to roles that combine my existing domain experience with emerging AI technologies — I think the most interesting opportunities are at this intersection. Looking for positions where I can contribute both my functional expertise and grow my AI capabilities.",
+    "location": "Bhubaneswar, Odisha",
+    "country": "India",
+    "years_of_experience": 5.7,
+    "current_title": "Graphic Designer",
+    "current_company": "Wayne Enterprises",
+    "current_company_size": "10001+",
+    "current_industry": "Conglomerate"
+  },
+  "career_history": [
+    {
+      "company": "Wayne Enterprises",
+      "title": "Graphic Designer",
+      "start_date": "2024-03-08",
+      "end_date": null,
+      "duration_months": 27,
+      "is_current": true,
+      "industry": "Conglomerate",
+      "company_size": "10001+",
+      "description": "Mechanical engineering design role at a hardware-product company. Led the design of two product subsystems through full lifecycle: concept, DFM/DFMA review, prototype, production tooling. Comfortable with CAD (SolidWorks, Creo), FEA (ANSYS), and the typical hardware-development cadence. Worked closely with manufacturing partners on production scale-up."
+    },
+    {
+      "company": "Pied Piper",
+      "title": "Accountant",
+      "start_date": "2021-11-19",
+      "end_date": "2024-03-08",
+      "duration_months": 28,
+      "is_current": false,
+      "industry": "Software",
+      "company_size": "11-50",
+      "description": "Marketing leadership role at a B2B SaaS company. Owned the demand-generation function — content marketing, paid acquisition, SEO, email nurture. Built and managed a team of 5 across content, performance marketing, and marketing operations. Worked closely with sales on lead-quality definitions and the SDR-handoff process. Recent focus has been on account-based marketing for our enterprise segment."
+    },
+    {
+      "company": "Stark Industries",
+      "title": "Sales Executive",
+      "start_date": "2020-09-25",
+      "end_date": "2021-09-20",
+      "duration_months": 12,
+      "is_current": false,
+      "industry": "Manufacturing",
+      "company_size": "1001-5000",
+      "description": "Brand design and creative direction at a consumer-products company. Owned brand identity (logo, visual system, typography), packaging design, and digital creative across web and social. Led the recent rebrand and managed a small external agency for production work. Comfortable across the Adobe suite, Figma, and the production side of brand and packaging design."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Georgia Tech",
+      "degree": "B.E.",
+      "field_of_study": "Information Technology",
+      "start_year": 2015,
+      "end_year": 2018,
+      "grade": "8.04 CGPA",
+      "tier": "tier_1"
+    }
+  ],
+  "skills": [
+    {
+      "name": "FastAPI",
+      "proficiency": "beginner",
+      "endorsements": 13,
+      "duration_months": 6
+    },
+    {
+      "name": "AWS",
+      "proficiency": "beginner",
+      "endorsements": 12,
+      "duration_months": 7
+    },
+    {
+      "name": "Redux",
+      "proficiency": "beginner",
+      "endorsements": 7,
+      "duration_months": 9
+    },
+    {
+      "name": "Marketing",
+      "proficiency": "intermediate",
+      "endorsements": 0,
+      "duration_months": 27
+    },
+    {
+      "name": "SQL",
+      "proficiency": "beginner",
+      "endorsements": 0,
+      "duration_months": 9
+    },
+    {
+      "name": "React",
+      "proficiency": "beginner",
+      "endorsements": 1,
+      "duration_months": 6
+    },
+    {
+      "name": "Salesforce CRM",
+      "proficiency": "intermediate",
+      "endorsements": 9,
+      "duration_months": 35
+    },
+    {
+      "name": "Forecasting",
+      "proficiency": "intermediate",
+      "endorsements": 3,
+      "duration_months": 24
+    },
+    {
+      "name": "Content Writing",
+      "proficiency": "intermediate",
+      "endorsements": 10,
+      "duration_months": 14
+    },
+    {
+      "name": "RAG",
+      "proficiency": "intermediate",
+      "endorsements": 4,
+      "duration_months": 16
+    },
+    {
+      "name": "Hugging Face Transformers",
+      "proficiency": "advanced",
+      "endorsements": 2,
+      "duration_months": 16
+    },
+    {
+      "name": "Vector Search",
+      "proficiency": "advanced",
+      "endorsements": 3,
+      "duration_months": 9
+    },
+    {
+      "name": "LangChain",
+      "proficiency": "intermediate",
+      "endorsements": 2,
+      "duration_months": 14
+    },
+    {
+      "name": "Semantic Search",
+      "proficiency": "advanced",
+      "endorsements": 4,
+      "duration_months": 6
+    },
+    {
+      "name": "Information Retrieval",
+      "proficiency": "advanced",
+      "endorsements": 2,
+      "duration_months": 6
+    },
+    {
+      "name": "LLMs",
+      "proficiency": "intermediate",
+      "endorsements": 2,
+      "duration_months": 7
+    },
+    {
+      "name": "Fine-tuning LLMs",
+      "proficiency": "intermediate",
+      "endorsements": 2,
+      "duration_months": 4
+    },
+    {
+      "name": "Sentence Transformers",
+      "proficiency": "advanced",
+      "endorsements": 1,
+      "duration_months": 6
+    },
+    {
+      "name": "Embeddings",
+      "proficiency": "advanced",
+      "endorsements": 1,
+      "duration_months": 13
+    },
+    {
+      "name": "Recommendation Systems",
+      "proficiency": "advanced",
+      "endorsements": 3,
+      "duration_months": 13
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "native"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "conversational"
+    }
+  ],
+  "redrob_signals": {
+    "profile_completeness_score": 69.0,
+    "signup_date": "2024-11-27",
+    "last_active_date": "2026-03-10",
+    "open_to_work_flag": false,
+    "profile_views_received_30d": 59,
+    "applications_submitted_30d": 2,
+    "recruiter_response_rate": 0.58,
+    "avg_response_time_hours": 250.4,
+    "skill_assessment_scores": {},
+    "connection_count": 564,
+    "endorsements_received": 38,
+    "notice_period_days": 60,
+    "expected_salary_range_inr_lpa": {
+      "min": 9.0,
+      "max": 15.6
+    },
+    "preferred_work_mode": "hybrid",
+    "willing_to_relocate": false,
+    "github_activity_score": -1,
+    "search_appearance_30d": 130,
+    "saved_by_recruiters_30d": 8,
+    "interview_completion_rate": 0.41,
+    "offer_acceptance_rate": -1,
+    "verified_email": false,
+    "verified_phone": true,
+    "linkedin_connected": false
+  },
+  "validation_status": "WEAK",
+  "validation_score": 59.0,
+  "behavioral_score": 49.4,
+  "credibility_score": 80.0,
+  "availability_score": 16.6,
+  "honeypot_score": 30.0,
+  "invalidation_reason": "",
+  "invalid_reasons": [
+    "Candidate claims AI/ML skills (RAG, Information Retrieval, LLMs, Fine-tuning LLMs...) but career history has no mention of AI/ML engineering, search, or retrieval work",
+    "Job index 2 at 'Stark Industries' has description text matching 'brand_design' but title is 'Sales Executive'",
+    "Skill credibility issue: Candidate claims AI/ML skills (RAG, Information Retrieval, LLMs, Fine-tuning LLMs...) but career history has no mention of AI/ML engineering, search, or retrieval work (-10)",
+    "Weak platform activity behavior score of 49.4 (-7)",
+    "Honeypot risk: Job index 2 at 'Stark Industries' has description text matching 'brand_design' but title is 'Sales Executive' (-24)"
+  ],
+  "flags": [
+    "TITLE_DESCRIPTION_MISMATCH",
+    "LOCATION_OFF_TARGET"
+  ]
+},
+{
+  "candidate_id": "CAND_0000277",
+  "profile": {
+    "anonymized_name": "Avni Singh",
+    "headline": "QA Engineer | Backend systems & APIs",
+    "summary": "Software engineer with 2.1 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. I've worked across web frontends, REST APIs, and cloud deployments; comfortable in most parts of a typical SaaS stack. I've been keeping up with AI/ML at a self-learner level — taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project — but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+    "location": "Bangalore, Karnataka",
+    "country": "India",
+    "years_of_experience": 2.1,
+    "current_title": "QA Engineer",
+    "current_company": "Zomato",
+    "current_company_size": "5001-10000",
+    "current_industry": "Food Delivery"
+  },
+  "career_history": [
+    {
+      "company": "Zomato",
+      "title": "QA Engineer",
+      "start_date": "2024-05-07",
+      "end_date": null,
+      "duration_months": 25,
+      "is_current": true,
+      "industry": "Food Delivery",
+      "company_size": "5001-10000",
+      "description": "Android mobile development using Java and (more recently) Kotlin at a consumer-app company. Built and maintained multiple production features including the main shopping flow, push notification system, and the offline-first sync layer. Comfortable with the Android framework, Jetpack components, and the typical patterns (MVVM, Hilt, Coroutines). My career has been entirely on mobile so far; interested in expanding into broader backend or platform engineering."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Jadavpur University",
+      "degree": "M.Tech",
+      "field_of_study": "Artificial Intelligence",
+      "start_year": 2003,
+      "end_year": 2007,
+      "grade": "7.90 CGPA",
+      "tier": "tier_2"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Terraform",
+      "proficiency": "intermediate",
+      "endorsements": 1,
+      "duration_months": 14
+    },
+    {
+      "name": "BigQuery",
+      "proficiency": "intermediate",
+      "endorsements": 8,
+      "duration_months": 34
+    },
+    {
+      "name": "Project Management",
+      "proficiency": "beginner",
+      "endorsements": 11,
+      "duration_months": 11
+    },
+    {
+      "name": "HTML",
+      "proficiency": "intermediate",
+      "endorsements": 6,
+      "duration_months": 19
+    },
+    {
+      "name": "ETL",
+      "proficiency": "intermediate",
+      "endorsements": 2,
+      "duration_months": 30
+    },
+    {
+      "name": "PostgreSQL",
+      "proficiency": "intermediate",
+      "endorsements": 1,
+      "duration_months": 36
+    },
+    {
+      "name": "Go",
+      "proficiency": "beginner",
+      "endorsements": 8,
+      "duration_months": 14
+    },
+    {
+      "name": "Feature Engineering",
+      "proficiency": "intermediate",
+      "endorsements": 2,
+      "duration_months": 19
+    },
+    {
+      "name": "Tailwind",
+      "proficiency": "beginner",
+      "endorsements": 10,
+      "duration_months": 9
+    },
+    {
+      "name": "Spring Boot",
+      "proficiency": "intermediate",
+      "endorsements": 14,
+      "duration_months": 21
+    },
+    {
+      "name": "Reinforcement Learning",
+      "proficiency": "advanced",
+      "endorsements": 9,
+      "duration_months": 43
+    },
+    {
+      "name": "Redux",
+      "proficiency": "intermediate",
+      "endorsements": 8,
+      "duration_months": 21
+    },
+    {
+      "name": "Vector Search",
+      "proficiency": "intermediate",
+      "endorsements": 6,
+      "duration_months": 17
+    },
+    {
+      "name": "Django",
+      "proficiency": "intermediate",
+      "endorsements": 4,
+      "duration_months": 35
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "professional"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "native"
+    }
+  ],
+  "redrob_signals": {
+    "profile_completeness_score": 61.4,
+    "signup_date": "2023-08-17",
+    "last_active_date": "2026-05-19",
+    "open_to_work_flag": false,
+    "profile_views_received_30d": 53,
+    "applications_submitted_30d": 1,
+    "recruiter_response_rate": 0.65,
+    "avg_response_time_hours": 74.0,
+    "skill_assessment_scores": {},
+    "connection_count": 223,
+    "endorsements_received": 28,
+    "notice_period_days": 120,
+    "expected_salary_range_inr_lpa": {
+      "min": 10.3,
+      "max": 33.4
+    },
+    "preferred_work_mode": "remote",
+    "willing_to_relocate": false,
+    "github_activity_score": 58.5,
+    "search_appearance_30d": 288,
+    "saved_by_recruiters_30d": 4,
+    "interview_completion_rate": 0.56,
+    "offer_acceptance_rate": -1,
+    "verified_email": false,
+    "verified_phone": true,
+    "linkedin_connected": false
+  },
+  "validation_status": "WEAK",
+  "validation_score": 58.0,
+  "behavioral_score": 54.855000000000004,
+  "credibility_score": 65.0,
+  "availability_score": 18.0,
+  "honeypot_score": 0.0,
+  "invalidation_reason": "",
+  "invalid_reasons": [
+    "Skill 'BigQuery' duration (34 months) exceeds candidate's total career history duration (25 months)",
+    "Skill 'PostgreSQL' duration (36 months) exceeds candidate's total career history duration (25 months)",
+    "Skill 'Reinforcement Learning' duration (43 months) exceeds candidate's total career history duration (25 months)",
+    "Skill 'Django' duration (35 months) exceeds candidate's total career history duration (25 months)",
+    "Skill credibility issue: Skill 'BigQuery' duration (34 months) exceeds candidate's total career history duration (25 months) (-35)",
+    "Weak platform activity behavior score of 54.9 (-7)"
+  ],
+  "flags": [
+    "OUTSIDE_EXPERIENCE_BAND",
+    "SKILL_DURATION_MISMATCH"
+  ]
+}

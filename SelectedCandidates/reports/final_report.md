@@ -6,28 +6,28 @@ This report presents the analysis and final ranking outputs of the **Redrob Inte
 The candidate evaluation pipeline processed the eligible preprocessed candidate pools (VALID, REVIEW, and WEAK classifications). Using a custom multi-factor hybrid scoring model (Semantic, Career, Skills, Behavior, Quality, and Product-centric metrics), the system evaluated the candidates against the Senior AI Engineer (Ranking & Retrieval) Job Description. Exactly 100 top profiles were selected and ranked.
 
 ## 2. Ranking Statistics
-- **Top candidate score**: 0.8246
-- **100th candidate score**: 0.7655
-- **Mean score**: 0.7792
+- **Top candidate score**: 0.6818
+- **100th candidate score**: 0.3482
+- **Mean score**: 0.5775
 - **Category Breakdown in Top 100**:
-  - **VALID**: 100 candidates
-  - **REVIEW**: 0 candidates
-  - **WEAK**: 0 candidates
+  - **VALID**: 9 candidates
+  - **REVIEW**: 2 candidates
+  - **WEAK**: 1 candidates
 
 ## 3. Top 10 Ranked Candidates
 
 | Rank | Candidate ID | Score | Category | Experience | Current Title | Current Company | Matching Skills |
 |------|--------------|-------|----------|------------|---------------|-----------------|-----------------|
-| 1 | CAND_0071974 | 0.8246 | VALID | 7.8y | Senior AI Engineer | Netflix | 19 skills |
-| 2 | CAND_0046064 | 0.8192 | VALID | 8.9y | Senior NLP Engineer | Salesforce | 16 skills |
-| 3 | CAND_0041669 | 0.8091 | VALID | 8.0y | Recommendation Systems Engineer | CRED | 20 skills |
-| 4 | CAND_0080766 | 0.8066 | VALID | 8.8y | Staff Machine Learning Engineer | Salesforce | 21 skills |
-| 5 | CAND_0011687 | 0.8064 | VALID | 7.8y | Senior NLP Engineer | Niramai | 13 skills |
-| 6 | CAND_0077337 | 0.8018 | VALID | 7.0y | Staff Machine Learning Engineer | Paytm | 20 skills |
-| 7 | CAND_0088025 | 0.8003 | VALID | 8.6y | Staff Machine Learning Engineer | Yellow.ai | 19 skills |
-| 8 | CAND_0079387 | 0.7991 | VALID | 6.9y | AI Engineer | Microsoft | 20 skills |
-| 9 | CAND_0083307 | 0.7972 | VALID | 7.8y | Search Engineer | CRED | 18 skills |
-| 10 | CAND_0061257 | 0.7931 | VALID | 8.0y | Staff Machine Learning Engineer | LinkedIn | 16 skills |
+| 1 | CAND_0000014 | 0.6818 | VALID | 8.4y | Frontend Engineer | Zomato | 13 skills |
+| 2 | CAND_0000015 | 0.6816 | VALID | 5.4y | Software Engineer | Razorpay | 10 skills |
+| 3 | CAND_0000038 | 0.6700 | VALID | 6.7y | Java Developer | Swiggy | 11 skills |
+| 4 | CAND_0000018 | 0.6465 | VALID | 6.6y | Frontend Engineer | Acme Corp | 6 skills |
+| 5 | CAND_0000044 | 0.6448 | VALID | 5.7y | Frontend Engineer | Tech Mahindra | 6 skills |
+| 6 | CAND_0000025 | 0.5979 | VALID | 7.3y | Frontend Engineer | Tech Mahindra | 9 skills |
+| 7 | CAND_0000043 | 0.5861 | VALID | 8.3y | Cloud Engineer | Swiggy | 17 skills |
+| 8 | CAND_0000048 | 0.5775 | VALID | 9.7y | Mobile Developer | CRED | 5 skills |
+| 9 | CAND_0000032 | 0.5759 | VALID | 8.1y | .NET Developer | Cognizant | 10 skills |
+| 10 | CAND_0000020 | 0.4748 | REVIEW | 6.3y | Mechanical Engineer | Wipro | 7 skills |
 
 ## 4. Methodology & Weight Distribution
 The final score of each candidate is calculated using the following components and weights:

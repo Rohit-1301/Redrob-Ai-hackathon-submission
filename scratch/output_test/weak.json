@@ -1,0 +1,194 @@
+[
+{
+  "candidate_id": "CAND_0000011",
+  "profile": {
+    "anonymized_name": "Deepak Desai",
+    "headline": "QA Engineer | Cloud & DevOps",
+    "summary": "Software engineer with 2.0 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. Most of my work is conventional backend engineering — APIs, databases, queues, deployments. I've been keeping up with AI/ML at a self-learner level — taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project — but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+    "location": "Hyderabad, Telangana",
+    "country": "India",
+    "years_of_experience": 2.0,
+    "current_title": "QA Engineer",
+    "current_company": "Pied Piper",
+    "current_company_size": "11-50",
+    "current_industry": "Software"
+  },
+  "career_history": [
+    {
+      "company": "Pied Piper",
+      "title": "QA Engineer",
+      "start_date": "2025-05-02",
+      "end_date": null,
+      "duration_months": 13,
+      "is_current": true,
+      "industry": "Software",
+      "company_size": "11-50",
+      "description": "Android mobile development using Java and (more recently) Kotlin at a consumer-app company. Built and maintained multiple production features including the main shopping flow, push notification system, and the offline-first sync layer. Comfortable with the Android framework, Jetpack components, and the typical patterns (MVVM, Hilt, Coroutines). My career has been entirely on mobile so far; interested in expanding into broader backend or platform engineering."
+    },
+    {
+      "company": "Hooli",
+      "title": "QA Engineer",
+      "start_date": "2024-06-06",
+      "end_date": "2025-04-02",
+      "duration_months": 10,
+      "is_current": false,
+      "industry": "Software",
+      "company_size": "1001-5000",
+      "description": "Test automation and QA engineering for a fintech product. Built and maintained the end-to-end test suite using Selenium and pytest, plus the load-testing setup using Locust. Worked closely with developers on testability patterns and with product on acceptance criteria. Recent work has been on shifting test responsibility into the dev team — moving from QA-as-gate to QA-as-coach. Career has been entirely in QA/test engineering."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Chandigarh University",
+      "degree": "B.Tech",
+      "field_of_study": "Data Science",
+      "start_year": 2014,
+      "end_year": 2019,
+      "grade": "6.96 CGPA",
+      "tier": "tier_3"
+    },
+    {
+      "institution": "Anna University",
+      "degree": "B.Sc",
+      "field_of_study": "Information Technology",
+      "start_year": 2015,
+      "end_year": 2020,
+      "grade": "9.16 CGPA",
+      "tier": "tier_2"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Recommendation Systems",
+      "proficiency": "advanced",
+      "endorsements": 5,
+      "duration_months": 40
+    },
+    {
+      "name": "Scrum",
+      "proficiency": "beginner",
+      "endorsements": 13,
+      "duration_months": 7
+    },
+    {
+      "name": "FastAPI",
+      "proficiency": "beginner",
+      "endorsements": 4,
+      "duration_months": 12
+    },
+    {
+      "name": "Hugging Face Transformers",
+      "proficiency": "intermediate",
+      "endorsements": 1,
+      "duration_months": 30
+    },
+    {
+      "name": "AWS",
+      "proficiency": "beginner",
+      "endorsements": 4,
+      "duration_months": 18
+    },
+    {
+      "name": "Snowflake",
+      "proficiency": "beginner",
+      "endorsements": 4,
+      "duration_months": 11
+    },
+    {
+      "name": "Spring Boot",
+      "proficiency": "intermediate",
+      "endorsements": 12,
+      "duration_months": 31
+    },
+    {
+      "name": "PostgreSQL",
+      "proficiency": "intermediate",
+      "endorsements": 7,
+      "duration_months": 24
+    },
+    {
+      "name": "Kubeflow",
+      "proficiency": "advanced",
+      "endorsements": 6,
+      "duration_months": 59
+    },
+    {
+      "name": "Azure",
+      "proficiency": "beginner",
+      "endorsements": 12,
+      "duration_months": 8
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "AWS",
+      "year": 2019
+    },
+    {
+      "name": "Six Sigma Green Belt",
+      "issuer": "ASQ",
+      "year": 2021
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "native"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "professional"
+    }
+  ],
+  "redrob_signals": {
+    "profile_completeness_score": 59.2,
+    "signup_date": "2023-07-22",
+    "last_active_date": "2026-01-19",
+    "open_to_work_flag": false,
+    "profile_views_received_30d": 112,
+    "applications_submitted_30d": 0,
+    "recruiter_response_rate": 0.56,
+    "avg_response_time_hours": 184.4,
+    "skill_assessment_scores": {
+      "Recommendation Systems": 29.8
+    },
+    "connection_count": 496,
+    "endorsements_received": 9,
+    "notice_period_days": 90,
+    "expected_salary_range_inr_lpa": {
+      "min": 15.5,
+      "max": 13.9
+    },
+    "preferred_work_mode": "flexible",
+    "willing_to_relocate": false,
+    "github_activity_score": 32.3,
+    "search_appearance_30d": 200,
+    "saved_by_recruiters_30d": 13,
+    "interview_completion_rate": 0.45,
+    "offer_acceptance_rate": -1,
+    "verified_email": true,
+    "verified_phone": true,
+    "linkedin_connected": true
+  },
+  "validation_status": "WEAK",
+  "validation_score": 58.0,
+  "behavioral_score": 50.825,
+  "credibility_score": 80.0,
+  "availability_score": 11.200000000000001,
+  "honeypot_score": 0.0,
+  "invalidation_reason": "",
+  "invalid_reasons": [
+    "Skill 'Recommendation Systems' duration (40 months) exceeds candidate's total career history duration (24 months)",
+    "Skill 'Spring Boot' duration (31 months) exceeds candidate's total career history duration (24 months)",
+    "Skill 'Kubeflow' duration (59 months) exceeds candidate's total career history duration (24 months)",
+    "Candidate claims AI/ML skills (Recommendation Systems...) but career history has no mention of AI/ML engineering, search, or retrieval work",
+    "Skill credibility issue: Skill 'Recommendation Systems' duration (40 months) exceeds candidate's total career history duration (24 months) (-35)",
+    "Weak platform activity behavior score of 50.8 (-7)"
+  ],
+  "flags": [
+    "OUTSIDE_EXPERIENCE_BAND",
+    "SKILL_DURATION_MISMATCH"
+  ]
+}
+]

@@ -260,3 +260,159 @@ ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
 2026-06-23 14:38:21,223 [INFO] run_pipeline: Running compliance validation check on top_100_candidates.csv...
 2026-06-23 14:38:21,268 [INFO] run_pipeline: CSV compliance validation SUCCESS. Output file is fully compliant with challenge rules!
 2026-06-23 14:38:21,268 [INFO] run_pipeline: All pipeline processes completed successfully. Output files saved in outputs/ and reports/.
+2026-06-30 15:31:27,565 [INFO] faiss.loader: Loading faiss with AVX2 support.
+2026-06-30 15:31:27,566 [INFO] faiss.loader: Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-30 15:31:27,566 [INFO] faiss.loader: Loading faiss.
+2026-06-30 15:31:27,600 [INFO] faiss.loader: Successfully loaded faiss.
+2026-06-30 15:31:40,130 [INFO] numexpr.utils: NumExpr defaulting to 12 threads.
+2026-06-30 15:31:47,491 [INFO] run_pipeline: Starting candidate ranking pipeline...
+2026-06-30 15:31:47,492 [INFO] run_pipeline: Using Job Description: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\Redrobsdataset\job_description.docx
+2026-06-30 15:31:47,492 [INFO] run_pipeline: Using VALID Candidates: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\scratch\output_test\valid.json
+2026-06-30 15:31:47,492 [INFO] run_pipeline: Using REVIEW Candidates: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\scratch\output_test\review.json
+2026-06-30 15:31:47,492 [INFO] run_pipeline: Using WEAK Candidates: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\scratch\output_test\weak.json
+2026-06-30 15:31:47,494 [INFO] SelectedCandidates.src.utils.jd_parser: Parsing Job Description from: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\Redrobsdataset\job_description.docx
+2026-06-30 15:31:47,595 [INFO] SelectedCandidates.src.utils.jd_parser: JD Analysis written to: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\outputs\../data/jd_analysis.json
+2026-06-30 15:31:47,596 [INFO] src.ranking.ranker: Loading candidates from preprocessed JSON splits...
+2026-06-30 15:31:47,599 [INFO] src.ranking.ranker: Loaded 9 candidates from VALID split.
+2026-06-30 15:31:47,600 [INFO] src.ranking.ranker: Loaded 2 candidates from REVIEW split.
+2026-06-30 15:31:47,602 [INFO] src.ranking.ranker: Loaded 1 candidates from WEAK split.
+2026-06-30 15:31:47,603 [INFO] src.ranking.ranker: Stage 1: Computing non-semantic candidate profiles...
+2026-06-30 15:31:47,604 [INFO] src.ranking.ranker: Filtering down from 12 to top 12 candidates for Stage 2 semantic embedding.
+2026-06-30 15:31:47,605 [INFO] SelectedCandidates.src.semantic.embeddings: Loading semantic embedding model: BAAI/bge-small-en-v1.5
+2026-06-30 15:31:47,609 [INFO] sentence_transformers.base.model: No device provided, using cpu
+2026-06-30 15:31:48,286 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:31:48,287 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-30 15:31:48,295 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-06-30 15:31:48,533 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:31:48,545 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-30 15:31:48,564 [INFO] sentence_transformers.base.model: Loading SentenceTransformer model from BAAI/bge-small-en-v1.5.
+2026-06-30 15:31:48,791 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:31:48,802 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-30 15:31:49,020 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:31:49,034 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md "HTTP/1.1 200 OK"
+2026-06-30 15:31:49,289 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:31:49,300 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-06-30 15:31:49,528 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:31:49,543 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-30 15:31:49,828 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-30 15:31:50,059 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:31:50,308 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-06-30 15:31:51,025 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-30 15:31:51,236 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-30 15:31:51,470 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-30 15:31:52,108 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-30 15:31:52,317 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:31:52,326 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-30 15:31:52,563 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:31:52,575 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-06-30 15:31:52,814 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:31:52,825 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-06-30 15:31:53,053 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:31:53,065 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-30 15:31:53,420 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-30 15:31:53,649 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-30 15:31:54,018 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:31:54,029 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-30 15:31:54,306 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5 "HTTP/1.1 200 OK"
+2026-06-30 15:31:54,353 [INFO] SelectedCandidates.src.semantic.embeddings: Loading candidate embeddings from cache: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\models\embeddings.pkl
+2026-06-30 15:31:54,373 [WARNING] SelectedCandidates.src.semantic.embeddings: Cache size mismatch, recomputing embeddings...
+2026-06-30 15:31:54,373 [INFO] SelectedCandidates.src.semantic.embeddings: Computing semantic embeddings for 12 candidates...
+2026-06-30 15:31:55,775 [INFO] SelectedCandidates.src.semantic.embeddings: Semantic embeddings saved to cache.
+2026-06-30 15:31:55,775 [INFO] SelectedCandidates.src.semantic.embeddings: Building FAISS index...
+2026-06-30 15:31:55,781 [INFO] SelectedCandidates.src.semantic.embeddings: FAISS index persisted at: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\models\faiss/index.faiss
+2026-06-30 15:31:55,781 [INFO] src.ranking.ranker: Computing embedding for the parsed Job Description...
+2026-06-30 15:31:55,833 [INFO] src.ranking.ranker: Running FAISS vector query for candidate semantic matching...
+2026-06-30 15:31:55,835 [INFO] src.ranking.ranker: Blending semantic matching into final hybrid scores...
+2026-06-30 15:31:55,835 [INFO] src.ranking.ranker: Sorting and ranking candidates...
+2026-06-30 15:31:55,836 [INFO] src.ranking.ranker: Top candidate score: 0.6818
+2026-06-30 15:31:55,836 [ERROR] run_pipeline: Pipeline execution failed: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\run_pipeline.py", line 56, in main
+    results = run_ranking_pipeline(
+        docx_path=jd_path,
+    ...<4 lines>...
+        cache_dir=cache_dir
+    )
+  File "C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\src\ranking\ranker.py", line 240, in run_ranking_pipeline
+    logger.info(f"100th candidate score: {top_100[99][1]['final_score']:.4f}")
+                                          ~~~~~~~^^^^
+IndexError: list index out of range
+2026-06-30 15:32:33,911 [INFO] faiss.loader: Loading faiss with AVX2 support.
+2026-06-30 15:32:33,912 [INFO] faiss.loader: Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-06-30 15:32:33,912 [INFO] faiss.loader: Loading faiss.
+2026-06-30 15:32:33,948 [INFO] faiss.loader: Successfully loaded faiss.
+2026-06-30 15:32:46,556 [INFO] numexpr.utils: NumExpr defaulting to 12 threads.
+2026-06-30 15:32:53,555 [INFO] run_pipeline: Starting candidate ranking pipeline...
+2026-06-30 15:32:53,555 [INFO] run_pipeline: Using Job Description: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\Redrobsdataset\job_description.docx
+2026-06-30 15:32:53,556 [INFO] run_pipeline: Using VALID Candidates: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\scratch\output_test\valid.json
+2026-06-30 15:32:53,556 [INFO] run_pipeline: Using REVIEW Candidates: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\scratch\output_test\review.json
+2026-06-30 15:32:53,556 [INFO] run_pipeline: Using WEAK Candidates: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\scratch\output_test\weak.json
+2026-06-30 15:32:53,556 [INFO] SelectedCandidates.src.utils.jd_parser: Parsing Job Description from: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\Redrobsdataset\job_description.docx
+2026-06-30 15:32:53,589 [INFO] SelectedCandidates.src.utils.jd_parser: JD Analysis written to: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\outputs\../data/jd_analysis.json
+2026-06-30 15:32:53,589 [INFO] src.ranking.ranker: Loading candidates from preprocessed JSON splits...
+2026-06-30 15:32:53,590 [INFO] src.ranking.ranker: Loaded 9 candidates from VALID split.
+2026-06-30 15:32:53,591 [INFO] src.ranking.ranker: Loaded 2 candidates from REVIEW split.
+2026-06-30 15:32:53,591 [INFO] src.ranking.ranker: Loaded 1 candidates from WEAK split.
+2026-06-30 15:32:53,591 [INFO] src.ranking.ranker: Stage 1: Computing non-semantic candidate profiles...
+2026-06-30 15:32:53,592 [INFO] src.ranking.ranker: Filtering down from 12 to top 12 candidates for Stage 2 semantic embedding.
+2026-06-30 15:32:53,592 [INFO] SelectedCandidates.src.semantic.embeddings: Loading semantic embedding model: BAAI/bge-small-en-v1.5
+2026-06-30 15:32:53,594 [INFO] sentence_transformers.base.model: No device provided, using cpu
+2026-06-30 15:32:54,184 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:32:54,185 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-30 15:32:54,194 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-06-30 15:32:54,403 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:32:54,415 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-30 15:32:54,418 [INFO] sentence_transformers.base.model: Loading SentenceTransformer model from BAAI/bge-small-en-v1.5.
+2026-06-30 15:32:54,630 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:32:54,853 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-06-30 15:32:55,082 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:32:55,092 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md "HTTP/1.1 200 OK"
+2026-06-30 15:32:55,320 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:32:55,331 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/modules.json "HTTP/1.1 200 OK"
+2026-06-30 15:32:55,564 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:32:55,577 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-06-30 15:32:55,808 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-06-30 15:32:56,039 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:32:56,050 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-06-30 15:32:56,637 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-06-30 15:32:56,850 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-30 15:32:57,064 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-30 15:32:57,288 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-06-30 15:32:57,515 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:32:57,528 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-30 15:32:57,741 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:32:57,751 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-06-30 15:32:58,005 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:32:58,018 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json "HTTP/1.1 200 OK"
+2026-06-30 15:32:58,477 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:32:58,488 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-30 15:32:58,717 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-30 15:32:58,949 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-30 15:32:59,476 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-30 15:32:59,492 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-06-30 15:32:59,735 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/BAAI/bge-small-en-v1.5 "HTTP/1.1 200 OK"
+2026-06-30 15:32:59,750 [INFO] SelectedCandidates.src.semantic.embeddings: Loading candidate embeddings from cache: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\models\embeddings.pkl
+2026-06-30 15:32:59,782 [INFO] SelectedCandidates.src.semantic.embeddings: Building FAISS index...
+2026-06-30 15:32:59,786 [INFO] SelectedCandidates.src.semantic.embeddings: FAISS index persisted at: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\models\faiss/index.faiss
+2026-06-30 15:32:59,786 [INFO] src.ranking.ranker: Computing embedding for the parsed Job Description...
+2026-06-30 15:32:59,990 [INFO] src.ranking.ranker: Running FAISS vector query for candidate semantic matching...
+2026-06-30 15:32:59,991 [INFO] src.ranking.ranker: Blending semantic matching into final hybrid scores...
+2026-06-30 15:32:59,991 [INFO] src.ranking.ranker: Sorting and ranking candidates...
+2026-06-30 15:32:59,991 [INFO] src.ranking.ranker: Top candidate score: 0.6818
+2026-06-30 15:32:59,991 [INFO] src.ranking.ranker: Last ranked candidate (12) score: 0.3482
+2026-06-30 15:32:59,991 [INFO] src.ranking.ranker: Writing Top 100 candidates to CSV: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\outputs\top_100_candidates.csv
+2026-06-30 15:32:59,993 [INFO] src.ranking.ranker: Writing detailed explanations to JSON: C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\outputs\top_100_explanations.json
+2026-06-30 15:32:59,996 [INFO] src.ranking.ranker: Ranking pipeline run completed successfully.
+2026-06-30 15:32:59,997 [INFO] run_pipeline: Generating charts and final markdown report...
+2026-06-30 15:33:01,114 [INFO] src.reporting.generator: Saved score distribution chart to C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\reports\score_distribution.png
+2026-06-30 15:33:01,446 [INFO] src.reporting.generator: Saved category distribution chart to C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\reports\category_distribution.png
+2026-06-30 15:33:01,957 [INFO] src.reporting.generator: Saved experience distribution chart to C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\reports\experience_distribution.png
+2026-06-30 15:33:02,378 [INFO] src.reporting.generator: Saved skills coverage chart to C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\reports\skill_coverage.png
+2026-06-30 15:33:02,379 [INFO] src.reporting.generator: Writing final report markdown to C:\Users\rg975\OneDrive - Vidyalankar Institute of Technology\23101A0019 Rohit Gupta INFT-A\redrobs\SelectedCandidates\reports\final_report.md
+2026-06-30 15:33:02,380 [INFO] src.reporting.generator: Report generation complete.
+2026-06-30 15:33:02,380 [INFO] run_pipeline: Running compliance validation check on top_100_candidates.csv...
+2026-06-30 15:33:02,381 [ERROR] run_pipeline: CSV compliance validation FAILED with 2 issues:
+2026-06-30 15:33:02,382 [ERROR] run_pipeline: - After the header (row 1), there must be exactly 100 data rows (rows 2–101); found 12.
+2026-06-30 15:33:02,382 [ERROR] run_pipeline: - Each rank 1–100 must appear exactly once; missing: [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100]
