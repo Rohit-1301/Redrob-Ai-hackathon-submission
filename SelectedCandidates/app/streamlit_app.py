@@ -310,19 +310,14 @@ with st.sidebar:
     )
 
     st.markdown("---")
-    st.markdown("<p style='font-weight:600; font-size:0.85rem; color:#F1F5F9; margin-bottom:8px;'>👥 Display Cohort View</p>", unsafe_allow_html=True)
-    cohort_selection = st.radio(
-        "Candidate View Option",
-        options=["Top 10 Candidates", "Top 50 Candidates", "Top 100 Candidates"],
-        index=2 if st.session_state.cohort_size == 100 else (1 if st.session_state.cohort_size == 50 else 0),
-        label_visibility="collapsed"
-    )
-    new_cohort_size = 10 if "10" in cohort_selection else (50 if "50" in cohort_selection else 100)
-    st.session_state.cohort_size = new_cohort_size
-
-    st.markdown("---")
     st.markdown(
-        f"<div style='font-size:0.75rem;color:#64748B;text-align:center'>100,000 Profiles Evaluated<br>Showing Top <b>{st.session_state.cohort_size}</b> Fits</div>",
+        f"""
+        <div style='background:rgba(30,41,59,0.7); border:1px solid rgba(56,189,248,0.3); border-radius:10px; padding:12px; text-align:center;'>
+          <span style='font-size:0.75rem; color:#94A3B8; text-transform:uppercase; letter-spacing:1px;'>Active View Cohort</span><br>
+          <span style='font-family:Outfit; font-size:1.6rem; font-weight:800; color:#38BDF8;'>Top {st.session_state.cohort_size}</span><br>
+          <span style='font-size:0.72rem; color:#64748B;'>From 100,000 Pool</span>
+        </div>
+        """,
         unsafe_allow_html=True,
     )
 
@@ -420,6 +415,25 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Prominent Cohort Size Selector (Top 10 / 50 / 100)
+# ─────────────────────────────────────────────────────────────────────────────
+col_sel_left, col_sel_right = st.columns([1.2, 2.8])
+with col_sel_left:
+    st.markdown("<div style='padding-top:6px; font-weight:700; font-size:1.0rem; color:#F8FAFC;'>👥 Candidate Cohort View:</div>", unsafe_allow_html=True)
+with col_sel_right:
+    cohort_radio_val = st.radio(
+        "Candidate Cohort View Option",
+        options=["Top 10 Candidates", "Top 50 Candidates", "Top 100 Candidates"],
+        index=0 if st.session_state.cohort_size == 10 else (1 if st.session_state.cohort_size == 50 else 2),
+        horizontal=True,
+        label_visibility="collapsed",
+        key="global_cohort_selector"
+    )
+    st.session_state.cohort_size = 10 if "10" in cohort_radio_val else (50 if "50" in cohort_radio_val else 100)
+
+st.markdown("<div style='margin-bottom:12px;'></div>", unsafe_allow_html=True)
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Prepare Cohort Sliced Data
 # ─────────────────────────────────────────────────────────────────────────────
 full_df = st.session_state.ranked_results["df"]
@@ -485,13 +499,13 @@ if page == "📊 Overview & KPIs":
             """, unsafe_allow_html=True)
 
     st.markdown("<br>", unsafe_allow_html=True)
-    st.markdown(f"<div class='sec-header'><h3>🥇 Top Ranked Candidates Preview</h3></div>", unsafe_allow_html=True)
-    preview_limit = min(10, cohort_n)
-    top_preview = df.head(preview_limit)[["rank", "candidate_id", "name", "title", "location", "company", "experience", "skills", "response_rate", "score", "reasoning"]].copy()
-    top_preview.columns = ["Rank", "Candidate ID", "Name", "Title", "Location", "Company", "Exp (yrs)", "Skills", "Resp. Rate", "Score", "Why Chosen (Reasoning)"]
-    top_preview["Resp. Rate"] = top_preview["Resp. Rate"].apply(lambda x: f"{x*100:.0f}%")
-    top_preview["Score"] = top_preview["Score"].apply(lambda x: f"{x:.4f}")
-    st.dataframe(top_preview, use_container_width=True, hide_index=True)
+    st.markdown(f"<div class='sec-header'><h3>🥇 Top {cohort_n} Candidates Master Ranking Table</h3></div>", unsafe_allow_html=True)
+    st.markdown(f"<p style='color:#94A3B8;font-size:0.85rem;margin-bottom:10px;'>Displaying all <b>{cohort_n}</b> candidates ranked by multi-signal hybrid score.</p>", unsafe_allow_html=True)
+    top_display = df.head(cohort_n)[["rank", "candidate_id", "name", "title", "location", "company", "experience", "skills", "response_rate", "score", "reasoning"]].copy()
+    top_display.columns = ["Rank", "Candidate ID", "Name", "Title", "Location", "Company", "Exp (yrs)", "Skills", "Resp. Rate", "Score", "Why Chosen (Reasoning)"]
+    top_display["Resp. Rate"] = top_display["Resp. Rate"].apply(lambda x: f"{x*100:.0f}%")
+    top_display["Score"] = top_display["Score"].apply(lambda x: f"{x:.4f}")
+    st.dataframe(top_display, use_container_width=True, hide_index=True, height=min(650, 38 * (cohort_n + 1)))
 
     # Score Band Distribution
     st.markdown("<br><div class='sec-header'><h3>📉 Score Band Distribution</h3></div>", unsafe_allow_html=True)
@@ -1033,8 +1047,7 @@ elif page == "📋 Full Candidates Table":
     display_tbl = fdf[master_cols].copy()
     display_tbl.columns = ["Rank", "Candidate ID", "Name", "Title", "Location", "Company", "Exp (yrs)", "Skills", "Resp. Rate", "Score", "Reasoning"]
     display_tbl["Resp. Rate"] = display_tbl["Resp. Rate"].apply(lambda x: f"{x*100:.0f}%")
-    display_tbl["Score"] = display_tbl["Score"].apply(lambda x: f"{x:.4f}")
-    st.dataframe(display_tbl, use_container_width=True, hide_index=True)
+    st.dataframe(display_tbl, use_container_width=True, hide_index=True, height=min(650, 38 * (len(display_tbl) + 1)))
 
     st.markdown("<br><div class='sec-header'><h3>📥 Export Submission Files</h3></div>", unsafe_allow_html=True)
     dl_col1, dl_col2 = st.columns(2)
