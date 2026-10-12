@@ -1,13 +1,101 @@
 candidate_id,rank,score,reasoning
-CAND_0000014,1,0.6818,Frontend Engineer with 8.4 yrs; 2 AI core skills; response rate 0.80.
-CAND_0000015,2,0.6816,Software Engineer with 5.4 yrs; 1 AI core skills; response rate 0.32.
-CAND_0000038,3,0.6700,Java Developer with 6.7 yrs; 1 AI core skills; response rate 0.20.
-CAND_0000018,4,0.6465,Frontend Engineer with 6.6 yrs; 0 AI core skills; response rate 0.16.
-CAND_0000044,5,0.6448,Frontend Engineer with 5.7 yrs; 1 AI core skills; response rate 0.66.
-CAND_0000025,6,0.5979,Frontend Engineer with 7.3 yrs; 0 AI core skills; response rate 0.74.
-CAND_0000043,7,0.5861,Cloud Engineer with 8.3 yrs; 3 AI core skills; response rate 0.04.
-CAND_0000048,8,0.5775,Mobile Developer with 9.7 yrs; 0 AI core skills; response rate 0.65.
-CAND_0000032,9,0.5759,.NET Developer with 8.1 yrs; 2 AI core skills; response rate 0.69.
-CAND_0000020,10,0.4748,Mechanical Engineer with 6.3 yrs; 0 AI core skills; response rate 0.55.
-CAND_0000029,11,0.4449,Business Analyst with 7.2 yrs; 0 AI core skills; response rate 0.12.
-CAND_0000011,12,0.3482,QA Engineer with 2.0 yrs; 0 AI core skills; response rate 0.56.
+CAND_0071974,1,0.7929,Senior AI Engineer with 7.8 yrs; 9 skills matched; response rate 0.76.
+CAND_0006567,2,0.7907,Senior AI Engineer with 7.9 yrs; 3 skills matched; response rate 0.79.
+CAND_0077337,3,0.7743,Staff Machine Learning Engineer with 7.0 yrs; 7 skills matched; response rate 0.95.
+CAND_0098846,4,0.7682,AI Engineer with 7.6 yrs; 3 skills matched; response rate 0.62.
+CAND_0062247,5,0.7611,AI Engineer with 7.3 yrs; 5 skills matched; response rate 0.78.
+CAND_0046525,6,0.7593,Senior Machine Learning Engineer with 6.1 yrs; 4 skills matched; response rate 0.88.
+CAND_0079387,7,0.7588,AI Engineer with 6.9 yrs; 5 skills matched; response rate 0.81.
+CAND_0044222,8,0.7563,AI Engineer with 7.7 yrs; 7 skills matched; response rate 0.60.
+CAND_0088025,9,0.7562,Staff Machine Learning Engineer with 8.6 yrs; 8 skills matched; response rate 0.83.
+CAND_0098952,10,0.7546,AI Research Engineer with 5.5 yrs; 4 skills matched; response rate 0.66.
+CAND_0006418,11,0.7532,Machine Learning Engineer with 5.7 yrs; 5 skills matched; response rate 0.92.
+CAND_0033861,12,0.75,Senior NLP Engineer with 8.0 yrs; 7 skills matched; response rate 0.16.
+CAND_0064326,13,0.7446,Search Engineer with 7.6 yrs; 6 skills matched; response rate 0.94.
+CAND_0017590,14,0.7426,AI Research Engineer with 5.1 yrs; 4 skills matched; response rate 0.56.
+CAND_0049771,15,0.7423,AI Research Engineer with 5.0 yrs; 2 skills matched; response rate 0.81.
+CAND_0061175,16,0.7412,AI Research Engineer with 6.7 yrs; 3 skills matched; response rate 0.48.
+CAND_0070514,17,0.7396,AI Specialist with 5.5 yrs; 6 skills matched; response rate 0.80.
+CAND_0046064,18,0.7394,Senior NLP Engineer with 8.9 yrs; 7 skills matched; response rate 0.78.
+CAND_0065786,19,0.7394,AI Specialist with 4.9 yrs; 3 skills matched; response rate 0.89.
+CAND_0067643,20,0.7391,AI Research Engineer with 6.0 yrs; 5 skills matched; response rate 0.49.
+CAND_0095213,21,0.7386,ML Engineer with 5.1 yrs; 6 skills matched; response rate 0.67.
+CAND_0010257,22,0.7381,Senior Data Scientist with 6.5 yrs; 4 skills matched; response rate 0.72.
+CAND_0074317,23,0.7371,AI Research Engineer with 4.2 yrs; 3 skills matched; response rate 0.86.
+CAND_0047907,24,0.7362,AI Research Engineer with 6.6 yrs; 2 skills matched; response rate 0.48.
+CAND_0069248,25,0.7357,AI Research Engineer with 5.4 yrs; 2 skills matched; response rate 0.75.
+CAND_0005260,26,0.734,Senior NLP Engineer with 5.2 yrs; 5 skills matched; response rate 0.86.
+CAND_0011687,27,0.7326,Senior NLP Engineer with 7.8 yrs; 6 skills matched; response rate 0.89.
+CAND_0087630,28,0.7325,AI Engineer with 7.2 yrs; 6 skills matched; response rate 0.45.
+CAND_0037566,29,0.7324,Machine Learning Engineer with 6.9 yrs; 7 skills matched; response rate 0.50.
+CAND_0043829,30,0.7317,AI Research Engineer with 4.8 yrs; 2 skills matched; response rate 0.78.
+CAND_0025640,31,0.7315,AI Research Engineer with 5.6 yrs; 4 skills matched; response rate 0.87.
+CAND_0080766,32,0.7312,Staff Machine Learning Engineer with 8.8 yrs; 6 skills matched; response rate 0.66.
+CAND_0060072,33,0.7311,Staff Machine Learning Engineer with 5.7 yrs; 6 skills matched; response rate 0.10.
+CAND_0069905,34,0.7307,Applied ML Engineer with 6.6 yrs; 4 skills matched; response rate 0.78.
+CAND_0091890,35,0.7303,AI Research Engineer with 4.7 yrs; 5 skills matched; response rate 0.49.
+CAND_0055960,36,0.7302,AI Specialist with 4.9 yrs; 1 skills matched; response rate 0.89.
+CAND_0070398,37,0.7299,Machine Learning Engineer with 7.2 yrs; 6 skills matched; response rate 0.60.
+CAND_0018888,38,0.7295,AI Research Engineer with 6.5 yrs; 1 skills matched; response rate 0.55.
+CAND_0092706,39,0.7287,AI Research Engineer with 5.8 yrs; 0 skills matched; response rate 0.78.
+CAND_0012632,40,0.7284,AI Specialist with 6.0 yrs; 4 skills matched; response rate 0.53.
+CAND_0040677,41,0.7284,AI Research Engineer with 4.2 yrs; 4 skills matched; response rate 0.37.
+CAND_0045475,42,0.7283,ML Engineer with 4.9 yrs; 5 skills matched; response rate 0.55.
+CAND_0078002,43,0.7281,Machine Learning Engineer with 6.3 yrs; 4 skills matched; response rate 0.86.
+CAND_0011643,44,0.7277,AI Research Engineer with 4.2 yrs; 2 skills matched; response rate 0.85.
+CAND_0083307,45,0.7276,Search Engineer with 7.8 yrs; 6 skills matched; response rate 0.70.
+CAND_0086151,46,0.7271,Recommendation Systems Engineer with 7.7 yrs; 8 skills matched; response rate 0.52.
+CAND_0073007,47,0.7243,AI Specialist with 5.8 yrs; 3 skills matched; response rate 0.83.
+CAND_0040310,48,0.7242,AI Research Engineer with 4.8 yrs; 4 skills matched; response rate 0.58.
+CAND_0093193,49,0.724,Senior Machine Learning Engineer with 7.9 yrs; 2 skills matched; response rate 0.61.
+CAND_0016432,50,0.7239,AI Research Engineer with 4.6 yrs; 4 skills matched; response rate 0.60.
+CAND_0077067,51,0.7239,AI Specialist with 5.4 yrs; 3 skills matched; response rate 0.83.
+CAND_0008425,52,0.7237,Senior NLP Engineer with 7.8 yrs; 4 skills matched; response rate 0.66.
+CAND_0060886,53,0.7234,Senior Software Engineer (ML) with 4.6 yrs; 4 skills matched; response rate 0.38.
+CAND_0093401,54,0.7224,AI Specialist with 6.0 yrs; 4 skills matched; response rate 0.85.
+CAND_0024878,55,0.7221,AI Specialist with 5.7 yrs; 5 skills matched; response rate 0.84.
+CAND_0000422,56,0.7218,AI Research Engineer with 6.3 yrs; 3 skills matched; response rate 0.79.
+CAND_0076412,57,0.7218,AI Research Engineer with 5.8 yrs; 2 skills matched; response rate 0.54.
+CAND_0042100,58,0.7213,Machine Learning Engineer with 7.3 yrs; 3 skills matched; response rate 0.87.
+CAND_0076163,59,0.7212,NLP Engineer with 6.9 yrs; 6 skills matched; response rate 0.84.
+CAND_0057563,60,0.7207,NLP Engineer with 6.8 yrs; 4 skills matched; response rate 0.83.
+CAND_0007567,61,0.7204,AI Specialist with 6.1 yrs; 3 skills matched; response rate 0.80.
+CAND_0023458,62,0.7201,AI Research Engineer with 5.0 yrs; 4 skills matched; response rate 0.69.
+CAND_0005649,63,0.7194,Senior Data Scientist with 7.4 yrs; 3 skills matched; response rate 0.57.
+CAND_0094759,64,0.7194,Lead AI Engineer with 8.6 yrs; 4 skills matched; response rate 0.11.
+CAND_0051466,65,0.7188,AI Research Engineer with 5.3 yrs; 4 skills matched; response rate 0.65.
+CAND_0020991,66,0.7183,Junior ML Engineer with 4.9 yrs; 5 skills matched; response rate 0.88.
+CAND_0088441,67,0.7181,AI Specialist with 6.5 yrs; 2 skills matched; response rate 0.38.
+CAND_0051615,68,0.7179,Search Engineer with 4.6 yrs; 3 skills matched; response rate 0.88.
+CAND_0015097,69,0.7174,Senior Software Engineer (ML) with 6.0 yrs; 4 skills matched; response rate 0.69.
+CAND_0039383,70,0.7172,Applied ML Engineer with 7.1 yrs; 5 skills matched; response rate 0.61.
+CAND_0073883,71,0.7165,AI Specialist with 5.3 yrs; 4 skills matched; response rate 0.92.
+CAND_0052682,72,0.7158,NLP Engineer with 6.6 yrs; 4 skills matched; response rate 0.88.
+CAND_0043637,73,0.7145,Junior ML Engineer with 5.5 yrs; 2 skills matched; response rate 0.92.
+CAND_0048509,74,0.7135,AI Research Engineer with 4.2 yrs; 4 skills matched; response rate 0.60.
+CAND_0049540,75,0.7135,ML Engineer with 6.8 yrs; 1 skills matched; response rate 0.86.
+CAND_0099401,76,0.7135,NLP Engineer with 7.7 yrs; 4 skills matched; response rate 0.42.
+CAND_0060257,77,0.7124,AI Specialist with 5.8 yrs; 4 skills matched; response rate 0.57.
+CAND_0028527,78,0.7123,AI Specialist with 5.4 yrs; 4 skills matched; response rate 0.90.
+CAND_0058412,79,0.7121,Senior Software Engineer (ML) with 6.6 yrs; 3 skills matched; response rate 0.43.
+CAND_0094685,80,0.712,AI Research Engineer with 3.5 yrs; 2 skills matched; response rate 0.68.
+CAND_0028793,81,0.7106,Search Engineer with 7.2 yrs; 5 skills matched; response rate 0.57.
+CAND_0075439,82,0.7103,Machine Learning Engineer with 4.3 yrs; 4 skills matched; response rate 0.56.
+CAND_0022127,83,0.7102,Computer Vision Engineer with 5.5 yrs; 2 skills matched; response rate 0.86.
+CAND_0089444,84,0.71,AI Specialist with 4.5 yrs; 3 skills matched; response rate 0.88.
+CAND_0036184,85,0.7095,Recommendation Systems Engineer with 6.0 yrs; 5 skills matched; response rate 0.90.
+CAND_0031593,86,0.7092,Search Engineer with 7.8 yrs; 4 skills matched; response rate 0.58.
+CAND_0081480,87,0.709,Computer Vision Engineer with 5.6 yrs; 2 skills matched; response rate 0.85.
+CAND_0089381,88,0.709,Computer Vision Engineer with 6.0 yrs; 4 skills matched; response rate 0.81.
+CAND_0015967,89,0.7079,Senior Software Engineer (ML) with 5.4 yrs; 3 skills matched; response rate 0.45.
+CAND_0068985,90,0.7062,Senior Software Engineer (ML) with 5.2 yrs; 2 skills matched; response rate 0.88.
+CAND_0061257,91,0.705,Staff Machine Learning Engineer with 8.0 yrs; 2 skills matched; response rate 0.87.
+CAND_0071880,92,0.7047,Senior Software Engineer (ML) with 5.8 yrs; 2 skills matched; response rate 0.55.
+CAND_0014063,93,0.7042,AI Specialist with 5.4 yrs; 4 skills matched; response rate 0.69.
+CAND_0090155,94,0.7042,ML Engineer with 5.8 yrs; 5 skills matched; response rate 0.64.
+CAND_0044855,95,0.7041,Senior Data Scientist with 6.6 yrs; 6 skills matched; response rate 0.57.
+CAND_0001930,96,0.7034,Senior Software Engineer (ML) with 6.9 yrs; 4 skills matched; response rate 0.65.
+CAND_0068811,97,0.703,Applied ML Engineer with 8.0 yrs; 6 skills matched; response rate 0.42.
+CAND_0030953,98,0.7027,Search Engineer with 7.8 yrs; 5 skills matched; response rate 0.63.
+CAND_0025882,99,0.7026,Senior Software Engineer (ML) with 5.6 yrs; 3 skills matched; response rate 0.79.
+CAND_0043860,100,0.7026,Junior ML Engineer with 6.1 yrs; 1 skills matched; response rate 0.81.

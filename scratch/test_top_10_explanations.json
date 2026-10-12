@@ -1,0 +1,427 @@
+[
+  {
+    "candidate_id": "CAND_0095308",
+    "rank": 1,
+    "final_score": 0.7448,
+    "raw_hybrid_score": 0.7448,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.7411,
+      "career_score_20pct": 0.856,
+      "skill_score_15pct": 0.3556,
+      "behavior_score_10pct": 0.7378,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 9.2,
+      "matched_required_skills": [
+        "Redis",
+        "Docker"
+      ],
+      "matched_preferred_skills": [
+        "Terraform",
+        "Grpc"
+      ],
+      "recruiter_response_rate": 0.55,
+      "notice_period_days": 30,
+      "verified_email": true,
+      "verified_phone": true
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 7
+    },
+    "profile_highlights": {
+      "name": "Advik Bhatia",
+      "headline": "Frontend Engineer | Backend systems & APIs",
+      "summary": "Software engineer with 9.2 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. I've spent most of my career on web and API development \u2014 Python/Django and Node.js mostly. I've been keeping up with AI/ML at a self-learner level \u2014 taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project \u2014 but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+      "location": "Ahmedabad, Gujarat",
+      "current_title": "Frontend Engineer",
+      "current_company": "Globex Inc"
+    }
+  },
+  {
+    "candidate_id": "CAND_0040791",
+    "rank": 2,
+    "final_score": 0.7405,
+    "raw_hybrid_score": 0.7405,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.7243,
+      "career_score_20pct": 0.878,
+      "skill_score_15pct": 0.4111,
+      "behavior_score_10pct": 0.6352,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 8.1,
+      "matched_required_skills": [
+        "Redis",
+        "Kubernetes",
+        "Go",
+        "Docker"
+      ],
+      "matched_preferred_skills": [
+        "Aws"
+      ],
+      "recruiter_response_rate": 0.72,
+      "notice_period_days": 90,
+      "verified_email": true,
+      "verified_phone": true
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 5
+    },
+    "profile_highlights": {
+      "name": "Meera Mehta",
+      "headline": "Cloud Engineer | Cloud & DevOps",
+      "summary": "Software engineer with 8.1 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. I've worked across web frontends, REST APIs, and cloud deployments; comfortable in most parts of a typical SaaS stack. I've been keeping up with AI/ML at a self-learner level \u2014 taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project \u2014 but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+      "location": "Ahmedabad, Gujarat",
+      "current_title": "Cloud Engineer",
+      "current_company": "Mphasis"
+    }
+  },
+  {
+    "candidate_id": "CAND_0056049",
+    "rank": 3,
+    "final_score": 0.7278,
+    "raw_hybrid_score": 0.7278,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.6857,
+      "career_score_20pct": 1.0,
+      "skill_score_15pct": 0.1556,
+      "behavior_score_10pct": 0.8013,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.3,
+      "matched_required_skills": [
+        "Kubernetes",
+        "Docker"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.59,
+      "notice_period_days": 120,
+      "verified_email": true,
+      "verified_phone": true
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 7
+    },
+    "profile_highlights": {
+      "name": "Krishna Iyer",
+      "headline": "Backend Engineer | SQL, Spark, Cloud",
+      "summary": "Software / data professional with 7.3 years of experience building data pipelines, backend systems, and analytics infrastructure. Most of my work has been data pipelines and analytics infrastructure; I've shipped a couple of small ML features but it's not the core of my day. My toolkit is solid on the data engineering side \u2014 Python, SQL, Spark, Airflow, warehouse design \u2014 and I've completed a couple of self-directed ML projects (Kaggle competitions, side projects fine-tuning small models). Interested in transitioning toward more AI/ML-focused work, ideally at a company where I can leverage my existing data-infra skills while learning modern ML practice.",
+      "location": "Kolkata, West Bengal",
+      "current_title": "Backend Engineer",
+      "current_company": "Swiggy"
+    }
+  },
+  {
+    "candidate_id": "CAND_0026344",
+    "rank": 4,
+    "final_score": 0.726,
+    "raw_hybrid_score": 0.726,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.6718,
+      "career_score_20pct": 0.88,
+      "skill_score_15pct": 0.3778,
+      "behavior_score_10pct": 0.7458,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 5.8,
+      "matched_required_skills": [
+        "Kafka"
+      ],
+      "matched_preferred_skills": [
+        "Aws",
+        "Terraform",
+        "Grpc"
+      ],
+      "recruiter_response_rate": 0.75,
+      "notice_period_days": 60,
+      "verified_email": true,
+      "verified_phone": true
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 8
+    },
+    "profile_highlights": {
+      "name": "Arnav Pandey",
+      "headline": "Software Engineer | SQL, Spark, Cloud",
+      "summary": "Software / data professional with 5.8 years of experience building data pipelines, backend systems, and analytics infrastructure. Started my career in backend engineering and gradually moved closer to data \u2014 first dashboards, then ETL, now some basic ML. My toolkit is solid on the data engineering side \u2014 Python, SQL, Spark, Airflow, warehouse design \u2014 and I've completed a couple of self-directed ML projects (Kaggle competitions, side projects fine-tuning small models). Interested in transitioning toward more AI/ML-focused work, ideally at a company where I can leverage my existing data-infra skills while learning modern ML practice.",
+      "location": "Ahmedabad, Gujarat",
+      "current_title": "Software Engineer",
+      "current_company": "Tech Mahindra"
+    }
+  },
+  {
+    "candidate_id": "CAND_0048882",
+    "rank": 5,
+    "final_score": 0.7239,
+    "raw_hybrid_score": 0.7239,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.7141,
+      "career_score_20pct": 0.874,
+      "skill_score_15pct": 0.2556,
+      "behavior_score_10pct": 0.7515,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 8.3,
+      "matched_required_skills": [
+        "Kubernetes",
+        "Go"
+      ],
+      "matched_preferred_skills": [
+        "Aws"
+      ],
+      "recruiter_response_rate": 0.83,
+      "notice_period_days": 90,
+      "verified_email": true,
+      "verified_phone": true
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 7
+    },
+    "profile_highlights": {
+      "name": "Riya Sen",
+      "headline": "Cloud Engineer | Backend systems & APIs",
+      "summary": "Software engineer with 8.3 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. My background is full-stack, but my comfort zone is the backend and the database. I've been keeping up with AI/ML at a self-learner level \u2014 taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project \u2014 but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+      "location": "Kolkata, West Bengal",
+      "current_title": "Cloud Engineer",
+      "current_company": "Initech"
+    }
+  },
+  {
+    "candidate_id": "CAND_0056173",
+    "rank": 6,
+    "final_score": 0.7228,
+    "raw_hybrid_score": 0.7228,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.6907,
+      "career_score_20pct": 0.88,
+      "skill_score_15pct": 0.3333,
+      "behavior_score_10pct": 0.7052,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.1,
+      "matched_required_skills": [
+        "Redis",
+        "Microservices",
+        "Postgresql"
+      ],
+      "matched_preferred_skills": [
+        "Terraform"
+      ],
+      "recruiter_response_rate": 0.43,
+      "notice_period_days": 30,
+      "verified_email": true,
+      "verified_phone": true
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 6
+    },
+    "profile_highlights": {
+      "name": "Sanjay Dalal",
+      "headline": "Frontend Engineer | Backend systems & APIs",
+      "summary": "Software engineer with 7.1 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. I've worked across web frontends, REST APIs, and cloud deployments; comfortable in most parts of a typical SaaS stack. I've been keeping up with AI/ML at a self-learner level \u2014 taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project \u2014 but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+      "location": "London",
+      "current_title": "Frontend Engineer",
+      "current_company": "Hooli"
+    }
+  },
+  {
+    "candidate_id": "CAND_0093316",
+    "rank": 7,
+    "final_score": 0.7214,
+    "raw_hybrid_score": 0.7214,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.7127,
+      "career_score_20pct": 0.88,
+      "skill_score_15pct": 0.3333,
+      "behavior_score_10pct": 0.6036,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 4.1,
+      "matched_required_skills": [
+        "Kubernetes",
+        "Go",
+        "Postgresql"
+      ],
+      "matched_preferred_skills": [
+        "Aws"
+      ],
+      "recruiter_response_rate": 0.45,
+      "notice_period_days": 90,
+      "verified_email": true,
+      "verified_phone": true
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 6
+    },
+    "profile_highlights": {
+      "name": "Avni Nair",
+      "headline": "Cloud Engineer | Cloud & DevOps",
+      "summary": "Software engineer with 4.1 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. I've spent most of my career on web and API development \u2014 Python/Django and Node.js mostly. I've been keeping up with AI/ML at a self-learner level \u2014 taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project \u2014 but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+      "location": "Bhubaneswar, Odisha",
+      "current_title": "Cloud Engineer",
+      "current_company": "Initech"
+    }
+  },
+  {
+    "candidate_id": "CAND_0093872",
+    "rank": 8,
+    "final_score": 0.7211,
+    "raw_hybrid_score": 0.7211,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.6961,
+      "career_score_20pct": 0.88,
+      "skill_score_15pct": 0.3556,
+      "behavior_score_10pct": 0.6331,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 7.7,
+      "matched_required_skills": [
+        "Redis",
+        "Python"
+      ],
+      "matched_preferred_skills": [
+        "Aws",
+        "Grpc"
+      ],
+      "recruiter_response_rate": 0.51,
+      "notice_period_days": 60,
+      "verified_email": true,
+      "verified_phone": true
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 7
+    },
+    "profile_highlights": {
+      "name": "Pari Dalal",
+      "headline": "DevOps Engineer | Cloud & DevOps",
+      "summary": "Software engineer with 7.7 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. Most of my work is conventional backend engineering \u2014 APIs, databases, queues, deployments. I've been keeping up with AI/ML at a self-learner level \u2014 taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project \u2014 but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+      "location": "Chennai, Tamil Nadu",
+      "current_title": "DevOps Engineer",
+      "current_company": "Initech"
+    }
+  },
+  {
+    "candidate_id": "CAND_0073268",
+    "rank": 9,
+    "final_score": 0.7199,
+    "raw_hybrid_score": 0.7199,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.7184,
+      "career_score_20pct": 0.88,
+      "skill_score_15pct": 0.3556,
+      "behavior_score_10pct": 0.7321,
+      "quality_score_10pct": 0.8,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.1,
+      "matched_required_skills": [
+        "Redis",
+        "Microservices"
+      ],
+      "matched_preferred_skills": [
+        "Terraform",
+        "Grpc"
+      ],
+      "recruiter_response_rate": 0.48,
+      "notice_period_days": 60,
+      "verified_email": true,
+      "verified_phone": true
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 7
+    },
+    "profile_highlights": {
+      "name": "Ved Joshi",
+      "headline": "Frontend Engineer | Cloud & DevOps",
+      "summary": "Software engineer with 6.1 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. My background is full-stack, but my comfort zone is the backend and the database. I've been keeping up with AI/ML at a self-learner level \u2014 taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project \u2014 but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+      "location": "Toronto",
+      "current_title": "Frontend Engineer",
+      "current_company": "Initech"
+    }
+  },
+  {
+    "candidate_id": "CAND_0035302",
+    "rank": 10,
+    "final_score": 0.7187,
+    "raw_hybrid_score": 0.7187,
+    "category": "VALID",
+    "multiplier": 1.0,
+    "scoring_breakdown": {
+      "semantic_score_40pct": 0.7099,
+      "career_score_20pct": 0.88,
+      "skill_score_15pct": 0.2333,
+      "behavior_score_10pct": 0.7371,
+      "quality_score_10pct": 1.0,
+      "product_company_score_5pct": 1.0
+    },
+    "strengths": {
+      "experience_years": 6.6,
+      "matched_required_skills": [
+        "Redis",
+        "Kubernetes",
+        "Docker"
+      ],
+      "matched_preferred_skills": [],
+      "recruiter_response_rate": 0.47,
+      "notice_period_days": 90,
+      "verified_email": true,
+      "verified_phone": true
+    },
+    "weaknesses": {
+      "consulting_history": false,
+      "missing_skills_count": 6
+    },
+    "profile_highlights": {
+      "name": "Zara Krishnan",
+      "headline": "Cloud Engineer | Full-stack development",
+      "summary": "Software engineer with 6.6 years of experience across web, backend, and cloud systems. Strong fundamentals in software development and system design. I've spent most of my career on web and API development \u2014 Python/Django and Node.js mostly. I've been keeping up with AI/ML at a self-learner level \u2014 taken some online courses, played with the OpenAI and Anthropic APIs, built a small RAG side project \u2014 but I haven't done it in a professional capacity yet. Open to roles where I can either deepen my software engineering work or, if the team is open to it, start contributing to ML-adjacent systems.",
+      "location": "Kochi, Kerala",
+      "current_title": "Cloud Engineer",
+      "current_company": "Stark Industries"
+    }
+  }
+]

@@ -1,10 +1,9 @@
 import os
 import sys
 import argparse
-import shutil
-import tempfile
+import json
 import logging
-import importlib.util
+import pandas as pd
 
 # Ensure project root is in sys.path
 project_root = os.path.dirname(os.path.abspath(__file__))
@@ -19,96 +18,107 @@ logging.basicConfig(
 )
 logger = logging.getLogger("rank_entry")
 
-def import_from_path(module_name, file_path):
-    spec = importlib.util.spec_from_file_location(module_name, file_path)
-    module = importlib.util.module_from_spec(spec)
-    sys.modules[module_name] = module
-    spec.loader.exec_module(module)
-    return module
+from SelectedCandidates.src.utils.dynamic_jd_parser import parse_jd
+from SelectedCandidates.src.ranking.dynamic_ranker import run_dynamic_ranking, get_embedding_model
+
+def load_candidates_dataset(candidates_arg_path: str):
+    """
+    Loads candidates dataframe, automatically utilizing candidates_cache.parquet if available.
+    """
+    cache_path = os.path.join(project_root, "data/candidates_cache.parquet")
+    
+    # If the user specifically supplied an existing parquet file
+    if candidates_arg_path.endswith(".parquet") and os.path.exists(candidates_arg_path):
+        logger.info(f"Loading candidates from user supplied Parquet: {candidates_arg_path}")
+        return pd.read_parquet(candidates_arg_path)
+
+    # If the cache parquet exists in data/candidates_cache.parquet
+    if os.path.exists(cache_path):
+        logger.info(f"Loading candidates from fast parquet cache: {cache_path}")
+        return pd.read_parquet(cache_path)
+
+    # Otherwise build the cache from candidates_arg_path or data/candidates.jsonl
+    raw_path = candidates_arg_path
+    if not os.path.exists(raw_path):
+        raw_path = os.path.join(project_root, "data/candidates.jsonl")
+    if not os.path.exists(raw_path):
+        raw_path = os.path.join(project_root, "Redrobsdataset/candidates.jsonl")
+
+    if not os.path.exists(raw_path):
+        raise FileNotFoundError(f"Candidates file not found at {candidates_arg_path} or default locations.")
+
+    logger.info(f"Building fast candidate cache from {raw_path}...")
+    from build_cache import build_candidates_cache
+    build_candidates_cache(
+        jsonl_path=raw_path,
+        val_parquet_path=os.path.join(project_root, "outputs/validated_candidates.parquet"),
+        output_cache_path=cache_path
+    )
+    return pd.read_parquet(cache_path)
 
 def main():
-    parser = argparse.ArgumentParser(description="End-to-End Candidate Ranking Pipeline")
-    parser.add_argument("--candidates", type=str, default="./candidates.jsonl", help="Path to raw candidates JSON/JSONL dataset")
+    parser = argparse.ArgumentParser(description="End-to-End Dynamic Candidate Ranking Pipeline")
+    parser.add_argument("--jd", type=str, default="Redrobsdataset/job_description.docx", help="Path to Job Description (PDF, DOCX, or TXT)")
+    parser.add_argument("--candidates", type=str, default="data/candidates.jsonl", help="Path to raw candidates JSON/JSONL dataset or parquet cache")
+    parser.add_argument("--top", type=int, default=100, choices=[10, 50, 100], help="Number of top candidates to output (10, 50, or 100)")
     parser.add_argument("--out", type=str, default="./submission.csv", help="Path to output ranked candidates CSV file")
     args = parser.parse_args()
 
-    # Resolve paths
-    candidates_path = os.path.abspath(args.candidates)
-    output_csv_path = os.path.abspath(args.out)
-    
-    # Check that candidates file exists
-    if not os.path.exists(candidates_path):
-        logger.error(f"Candidates file not found at: {candidates_path}")
-        sys.exit(1)
-
-    jd_path = os.path.join(project_root, "Redrobsdataset", "job_description.docx")
+    # 1. Resolve JD Path
+    jd_path = os.path.abspath(args.jd)
     if not os.path.exists(jd_path):
-        # Try SelectedCandidates/Redrobsdataset/job_description.docx
-        jd_path = os.path.join(project_root, "SelectedCandidates", "Redrobsdataset", "job_description.docx")
-        
-    if not os.path.exists(jd_path):
-        logger.error(f"Job description docx not found. Checked: {jd_path}")
-        sys.exit(1)
+        fallback_jd = os.path.join(project_root, "Redrobsdataset/job_description.docx")
+        if os.path.exists(fallback_jd):
+            jd_path = fallback_jd
+        else:
+            logger.error(f"Job Description file not found at: {jd_path}")
+            sys.exit(1)
 
-    # Create a temporary directory for preprocessed splits
-    temp_dir = tempfile.mkdtemp(prefix="redrobs_preprocess_", dir=project_root)
-    logger.info(f"Created temporary directory for preprocessing splits: {temp_dir}")
-    
-    try:
-        # Step 1: Preprocess candidate profiles
-        logger.info("Step 1: Running Candidate Preprocessing and Validation Engine...")
-        
-        # Load preprocessing module dynamically to prevent namespace/collision issues
-        prep_script_path = os.path.join(project_root, "Preprocessing pipeline", "preprocess.py")
-        preprocess_module = import_from_path("preprocess_pipeline_runner", prep_script_path)
-        
-        # Run the validation and preprocessing pipeline
-        preprocess_module.run_pipeline(candidates_path, temp_dir)
-        
-        # Construct expected paths
-        valid_path = os.path.join(temp_dir, "valid.json")
-        review_path = os.path.join(temp_dir, "review.json")
-        weak_path = os.path.join(temp_dir, "weak.json")
-        
-        # Verify splits exist
-        for p in [valid_path, review_path, weak_path]:
-            if not os.path.exists(p):
-                logger.error(f"Preprocessing did not generate expected split file: {p}")
-                sys.exit(1)
+    logger.info(f"Ingesting Job Description from: {jd_path}")
+    parsed_jd = parse_jd(jd_path)
+    logger.info(f"Parsed Job Title: {parsed_jd.get('title')}")
+    logger.info(f"Target Experience: {parsed_jd.get('experience_preferred')}")
+    logger.info(f"Required Skills ({len(parsed_jd.get('required_competencies', []))}): {', '.join(parsed_jd.get('required_competencies', [])[:8])}...")
 
-        # Step 2: Rank candidates
-        logger.info("Step 2: Running Semantic Vector Ranking Engine...")
-        
-        # Import ranker from SelectedCandidates package
-        from SelectedCandidates.src.ranking.ranker import run_ranking_pipeline
-        
-        # Define output directory and cache directory for ranker
-        ranker_output_dir = os.path.join(temp_dir, "ranker_output")
-        cache_dir = os.path.join(project_root, "SelectedCandidates", "models")
-        os.makedirs(ranker_output_dir, exist_ok=True)
-        
-        results = run_ranking_pipeline(
-            docx_path=jd_path,
-            valid_path=valid_path,
-            review_path=review_path,
-            weak_path=weak_path,
-            output_dir=ranker_output_dir,
-            cache_dir=cache_dir
-        )
-        
-        generated_csv = results["csv_path"]
-        
-        # Copy output to the requested destination
-        logger.info(f"Copying generated CSV from {generated_csv} to {output_csv_path}...")
-        os.makedirs(os.path.dirname(output_csv_path), exist_ok=True)
-        shutil.copy2(generated_csv, output_csv_path)
-        
-        logger.info("Pipeline execution completed successfully!")
-        
-    finally:
-        # Cleanup temporary files
-        logger.info(f"Cleaning up temporary directory: {temp_dir}")
-        shutil.rmtree(temp_dir, ignore_errors=True)
+    # 2. Ingest Candidates
+    df_cands = load_candidates_dataset(args.candidates)
+    logger.info(f"Loaded {len(df_cands)} candidate profiles.")
+
+    # 3. Dynamic Ranking with Honeypot Detector & Vector Semantic Model
+    logger.info(f"Executing dynamic candidate ranking for Top {args.top} candidates...")
+    results = run_dynamic_ranking(
+        jd_info=parsed_jd,
+        candidates_df=df_cands,
+        top_limit=args.top
+    )
+
+    df_top = results["df"].head(args.top)
+    explanations = results["explanations"][:args.top]
+
+    # 4. Save Output CSV
+    out_csv = os.path.abspath(args.out)
+    os.makedirs(os.path.dirname(out_csv), exist_ok=True)
+    df_top[["candidate_id", "rank", "score", "reasoning"]].to_csv(out_csv, index=False)
+    logger.info(f"Top {args.top} candidates saved to CSV: {out_csv}")
+
+    # 5. Save Output Explanations JSON alongside CSV
+    out_json = os.path.splitext(out_csv)[0] + "_explanations.json"
+    with open(out_json, "w", encoding="utf-8") as f:
+        json.dump(explanations, f, indent=2)
+    logger.info(f"Detailed candidate explanations saved to JSON: {out_json}")
+
+    # 6. Validate CSV compliance if top 100
+    if args.top == 100:
+        val_script = os.path.join(project_root, "Redrobsdataset/validate_submission.py")
+        if os.path.exists(val_script):
+            from Redrobsdataset.validate_submission import validate_submission
+            errors = validate_submission(out_csv)
+            if errors:
+                logger.warning(f"Compliance validation had notices: {errors}")
+            else:
+                logger.info("Compliance validation SUCCESS: Submission file is 100% compliant!")
+
+    logger.info("Pipeline completed successfully!")
 
 if __name__ == "__main__":
     main()
