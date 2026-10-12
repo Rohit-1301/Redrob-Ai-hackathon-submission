@@ -41,19 +41,25 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
 
-html, body, [class*="css"] {
-    font-family: 'Inter', sans-serif;
-    background-color: #0B1120;
-    color: #CBD5E1;
+html, body, [class*="css"], .stApp, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stToolbar"] {
+    font-family: 'Inter', sans-serif !important;
+    background-color: #0B1120 !important;
+    color: #CBD5E1 !important;
 }
-h1, h2, h3, h4 {
+.stAppViewBlockContainer {
+    background-color: #0B1120 !important;
+}
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Outfit', sans-serif !important;
     color: #F8FAFC !important;
     letter-spacing: -0.02em;
 }
+p, span, label {
+    color: #CBD5E1;
+}
 section[data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #0B1222 0%, #111E36 100%);
-    border-right: 1px solid rgba(255,255,255,0.08);
+    background: linear-gradient(180deg, #0B1222 0%, #111E36 100%) !important;
+    border-right: 1px solid rgba(255,255,255,0.08) !important;
 }
 section[data-testid="stSidebar"] * { color: #CBD5E1 !important; }
 
@@ -282,6 +288,18 @@ if "ranked_results" not in st.session_state:
 if "cohort_size" not in st.session_state:
     st.session_state.cohort_size = 100
 
+def sync_cohort_size():
+    sel = st.session_state.get("sidebar_cohort_selector", None)
+    if sel:
+        if "10 " in sel:
+            st.session_state.cohort_size = 10
+        elif "50" in sel:
+            st.session_state.cohort_size = 50
+        elif "100" in sel:
+            st.session_state.cohort_size = 100
+
+sync_cohort_size()
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Sidebar: Navigation & Controls
 # ─────────────────────────────────────────────────────────────────────────────
@@ -310,11 +328,26 @@ with st.sidebar:
     )
 
     st.markdown("---")
+    st.markdown("<p style='font-weight:700; font-size:0.85rem; color:#F8FAFC; margin-bottom:8px;'>👥 Candidate Cohort View</p>", unsafe_allow_html=True)
+    cohort_options = ["Top 10 Candidates", "Top 50 Candidates", "Top 100 Candidates"]
+    current_cohort = st.session_state.cohort_size
+    curr_idx = 0 if current_cohort == 10 else (1 if current_cohort == 50 else 2)
+
+    sidebar_cohort = st.radio(
+        "Candidate Cohort View Option",
+        options=cohort_options,
+        index=curr_idx,
+        key="sidebar_cohort_selector",
+        on_change=sync_cohort_size,
+        label_visibility="collapsed"
+    )
+    sync_cohort_size()
+
     st.markdown(
         f"""
-        <div style='background:rgba(30,41,59,0.7); border:1px solid rgba(56,189,248,0.3); border-radius:10px; padding:12px; text-align:center;'>
+        <div style='background:rgba(30,41,59,0.85); border:1px solid rgba(56,189,248,0.35); border-radius:12px; padding:12px; text-align:center; margin-top:10px;'>
           <span style='font-size:0.75rem; color:#94A3B8; text-transform:uppercase; letter-spacing:1px;'>Active View Cohort</span><br>
-          <span style='font-family:Outfit; font-size:1.6rem; font-weight:800; color:#38BDF8;'>Top {st.session_state.cohort_size}</span><br>
+          <span style='font-family:Outfit; font-size:1.7rem; font-weight:800; color:#38BDF8;'>Top {st.session_state.cohort_size}</span><br>
           <span style='font-size:0.72rem; color:#64748B;'>From 100,000 Pool</span>
         </div>
         """,
@@ -417,19 +450,29 @@ st.markdown(f"""
 # ─────────────────────────────────────────────────────────────────────────────
 # Prominent Cohort Size Selector (Top 10 / 50 / 100)
 # ─────────────────────────────────────────────────────────────────────────────
-col_sel_left, col_sel_right = st.columns([1.2, 2.8])
+col_sel_left, col_sel_right = st.columns([1.3, 3.7])
 with col_sel_left:
-    st.markdown("<div style='padding-top:6px; font-weight:700; font-size:1.0rem; color:#F8FAFC;'>👥 Candidate Cohort View:</div>", unsafe_allow_html=True)
+    st.markdown(f"<div style='padding-top:6px; font-weight:700; font-size:1.05rem; color:#F8FAFC;'>👥 Active Cohort: <span style='color:#38BDF8;'>Top {st.session_state.cohort_size} Candidates</span></div>", unsafe_allow_html=True)
 with col_sel_right:
-    cohort_radio_val = st.radio(
-        "Candidate Cohort View Option",
-        options=["Top 10 Candidates", "Top 50 Candidates", "Top 100 Candidates"],
-        index=0 if st.session_state.cohort_size == 10 else (1 if st.session_state.cohort_size == 50 else 2),
-        horizontal=True,
-        label_visibility="collapsed",
-        key="global_cohort_selector"
-    )
-    st.session_state.cohort_size = 10 if "10" in cohort_radio_val else (50 if "50" in cohort_radio_val else 100)
+    c10_col, c50_col, c100_col = st.columns(3)
+    with c10_col:
+        is_active = (st.session_state.cohort_size == 10)
+        if st.button("👥 Top 10 Candidates" + ("  ✓" if is_active else ""), key="btn_cohort_10", use_container_width=True, type="primary" if is_active else "secondary"):
+            st.session_state.sidebar_cohort_selector = "Top 10 Candidates"
+            st.session_state.cohort_size = 10
+            st.rerun()
+    with c50_col:
+        is_active = (st.session_state.cohort_size == 50)
+        if st.button("👥 Top 50 Candidates" + ("  ✓" if is_active else ""), key="btn_cohort_50", use_container_width=True, type="primary" if is_active else "secondary"):
+            st.session_state.sidebar_cohort_selector = "Top 50 Candidates"
+            st.session_state.cohort_size = 50
+            st.rerun()
+    with c100_col:
+        is_active = (st.session_state.cohort_size == 100)
+        if st.button("👥 Top 100 Candidates" + ("  ✓" if is_active else ""), key="btn_cohort_100", use_container_width=True, type="primary" if is_active else "secondary"):
+            st.session_state.sidebar_cohort_selector = "Top 100 Candidates"
+            st.session_state.cohort_size = 100
+            st.rerun()
 
 st.markdown("<div style='margin-bottom:12px;'></div>", unsafe_allow_html=True)
 
@@ -511,12 +554,23 @@ if page == "📊 Overview & KPIs":
     st.markdown("<br><div class='sec-header'><h3>📉 Score Band Distribution</h3></div>", unsafe_allow_html=True)
     fig, ax = plt.subplots(figsize=(10, 3.2))
     set_dark_figure(fig, ax)
-    score_bins = pd.cut(df["score"], bins=5)
-    band_counts = score_bins.value_counts().sort_index()
+    try:
+        n_b = min(5, max(1, df["score"].nunique()))
+        if n_b > 1 and df["score"].max() > df["score"].min():
+            score_bins = pd.cut(df["score"], bins=n_b)
+            band_counts = score_bins.value_counts().sort_index()
+            bin_labels = [f"{b.left:.2f}–{b.right:.2f}" for b in band_counts.index]
+            bin_vals = band_counts.values
+        else:
+            bin_labels = [f"{df['score'].min():.4f}"]
+            bin_vals = [len(df)]
+    except Exception:
+        bin_labels = [f"{df['score'].min():.4f}–{df['score'].max():.4f}"]
+        bin_vals = [len(df)]
     colors = [BLUE, PURPLE, TEAL, AMBER, GREEN]
     bars = ax.bar(
-        [f"{b.left:.2f}–{b.right:.2f}" for b in band_counts.index], band_counts.values,
-        color=colors[:len(band_counts)], width=0.55
+        bin_labels, bin_vals,
+        color=colors[:len(bin_vals)], width=0.55
     )
     for bar in bars:
         ax.text(
@@ -561,17 +615,21 @@ elif page == "📈 Data Analysis":
         st.markdown("<div class='sec-header'><h3>Experience Distribution</h3></div>", unsafe_allow_html=True)
         fig, ax = plt.subplots(figsize=(6, 4))
         set_dark_figure(fig, ax)
-        exp_bins = pd.cut(df["experience"], bins=[0, 4, 6, 8, 10, 20], labels=["<4y", "4–6y", "6–8y", "8–10y", "10y+"])
+        exp_bins = pd.cut(df["experience"], bins=[-0.1, 4, 6, 8, 10, 100], labels=["<4y", "4–6y", "6–8y", "8–10y", "10y+"])
         exp_counts = exp_bins.value_counts().sort_index()
         colors_exp = [TEAL, BLUE, PURPLE, AMBER, GREEN]
-        wedges, texts, autotexts = ax.pie(
-            exp_counts.values, labels=exp_counts.index, autopct="%1.0f%%",
-            colors=colors_exp[:len(exp_counts)], startangle=140, pctdistance=0.75,
-            textprops={"color": "#CBD5E1", "fontsize": 8}
-        )
-        for at in autotexts:
-            at.set_color("#0B1120")
-            at.set_fontweight("bold")
+        active_mask = exp_counts.values > 0
+        if active_mask.any():
+            wedges, texts, autotexts = ax.pie(
+                exp_counts.values[active_mask], labels=exp_counts.index[active_mask], autopct="%1.0f%%",
+                colors=np.array(colors_exp[:len(exp_counts)])[active_mask], startangle=140, pctdistance=0.75,
+                textprops={"color": "#CBD5E1", "fontsize": 8}
+            )
+            for at in autotexts:
+                at.set_color("#0B1120")
+                at.set_fontweight("bold")
+        else:
+            ax.text(0.5, 0.5, "No data", color="#CBD5E1", ha="center")
         ax.set_title("Years of Experience Share", color="#F1F5F9", fontsize=11, fontweight="bold")
         fig.tight_layout()
         st.pyplot(fig)
@@ -582,7 +640,7 @@ elif page == "📈 Data Analysis":
         st.markdown("<div class='sec-header'><h3>Recruiter Response Rate Bands</h3></div>", unsafe_allow_html=True)
         fig, ax = plt.subplots(figsize=(6, 4))
         set_dark_figure(fig, ax)
-        rr_bins = pd.cut(df["response_rate"], bins=[0, 0.3, 0.5, 0.7, 0.9, 1.01], labels=["<30%", "30–50%", "50–70%", "70–90%", ">90%"])
+        rr_bins = pd.cut(df["response_rate"], bins=[-0.01, 0.3, 0.5, 0.7, 0.9, 1.01], labels=["<30%", "30–50%", "50–70%", "70–90%", ">90%"])
         rr_counts = rr_bins.value_counts().sort_index()
         bars = ax.bar(rr_counts.index.astype(str), rr_counts.values, color=[RED, AMBER, TEAL, BLUE, GREEN][:len(rr_counts)], width=0.55)
         for bar in bars:
@@ -714,7 +772,10 @@ elif page == "💼 Role & Experience":
         bars2 = ax.barh(role_scores.index[::-1], role_scores.values[::-1], color=AMBER, height=0.65)
         for bar in bars2:
             ax.text(bar.get_width() + 0.002, bar.get_y() + bar.get_height()/2, f"{bar.get_width():.4f}", va="center", ha="left", color="#CBD5E1", fontsize=8)
-        ax.set_xlim(df["score"].min() - 0.02, df["score"].max() + 0.02)
+        s_min = df["score"].min()
+        s_max = df["score"].max()
+        if s_min < s_max:
+            ax.set_xlim(max(0.0, s_min - 0.02), min(1.0, s_max + 0.02))
         ax.set_xlabel("Avg Score", color="#CBD5E1", fontsize=9)
         ax.xaxis.grid(True, linestyle="--", alpha=0.15)
         fig.tight_layout()
@@ -723,11 +784,11 @@ elif page == "💼 Role & Experience":
 
     st.markdown("<br><div class='sec-header'><h3>Experience Tier Breakdown</h3></div>", unsafe_allow_html=True)
     df_exp = df.copy()
-    df_exp["tier"] = pd.cut(df_exp["experience"], bins=[0, 4, 6, 8, 20], labels=["Junior (<=4y)", "Mid-Level (4-6y)", "Senior (6-8y)", "Lead/Staff (8y+)"])
-    exp_summary = df_exp.groupby("tier").agg(
+    df_exp["tier"] = pd.cut(df_exp["experience"], bins=[-0.1, 4, 6, 8, 100], labels=["Junior (<=4y)", "Mid-Level (4-6y)", "Senior (6-8y)", "Lead/Staff (8y+)"])
+    exp_summary = df_exp.groupby("tier", observed=False).agg(
         Count=("candidate_id", "count"),
-        Avg_Score=("score", lambda x: round(x.mean(), 4)),
-        Avg_Skills=("skills", lambda x: round(x.mean(), 1))
+        Avg_Score=("score", lambda x: round(x.mean(), 4) if len(x) > 0 else 0.0),
+        Avg_Skills=("skills", lambda x: round(x.mean(), 1) if len(x) > 0 else 0.0)
     ).reset_index()
     exp_summary.columns = ["Experience Tier", "Candidates Count", "Avg Score", "Avg Competencies Matched"]
     st.dataframe(exp_summary, use_container_width=True, hide_index=True)
@@ -905,17 +966,31 @@ elif page == "🔍 Candidate Deep-Dive":
         unsafe_allow_html=True,
     )
 
-    candidate_options = [f"Rank #{row['rank']} · {row['name']} ({row['candidate_id']}) — Score: {row['score']:.4f}" for _, row in df.iterrows()]
-    selected_option = st.selectbox("Select Candidate to Inspect:", candidate_options)
-    selected_cid = re.search(r"\((CAND_\d+)\)", selected_option).group(1)
+    candidate_options = [f"Rank #{int(row['rank'])} · {row['name']} ({row['candidate_id']}) — Score: {row['score']:.4f}" for _, row in df.iterrows()]
+    select_key = f"select_cand_inspect_{cohort_n}"
+    selected_option = st.selectbox("Select Candidate to Inspect:", options=candidate_options, index=0, key=select_key)
+    
+    selected_cid = None
+    if selected_option:
+        m = re.search(r"\((CAND_\d+)\)", selected_option)
+        if m:
+            selected_cid = m.group(1)
 
-    if selected_cid in exp_dict:
-        item = exp_dict[selected_cid]
+    if not selected_cid and len(df) > 0:
+        selected_cid = df.iloc[0]["candidate_id"]
+
+    cand_match = df[df["candidate_id"] == selected_cid]
+    if cand_match.empty and len(df) > 0:
+        cand_match = df.iloc[[0]]
+        selected_cid = cand_match.iloc[0]["candidate_id"]
+
+    if not cand_match.empty:
+        cand_row = cand_match.iloc[0]
+        item = exp_dict.get(selected_cid, {})
         ph = item.get("profile_highlights", {})
         breakdown = item.get("scoring_breakdown", {})
         strengths = item.get("strengths", {})
         weaknesses = item.get("weaknesses", {})
-        cand_row = df[df["candidate_id"] == selected_cid].iloc[0]
 
         # Candidate Hero Card
         st.markdown(f"""
@@ -1027,13 +1102,28 @@ elif page == "📋 Full Candidates Table":
 
     f1, f2, f3 = st.columns(3)
     with f1:
-        min_score = st.slider("Filter Minimum Score", float(df["score"].min()), float(df["score"].max()), float(df["score"].min()), step=0.001, format="%.4f")
+        s_min = float(df["score"].min())
+        s_max = float(df["score"].max())
+        if s_min >= s_max:
+            min_score = s_min
+            st.caption(f"Score for all candidates: {s_min:.4f}")
+        else:
+            slider_key = f"filter_score_slider_{cohort_n}"
+            min_score = st.slider(
+                "Filter Minimum Score",
+                min_value=s_min,
+                max_value=s_max,
+                value=s_min,
+                step=0.001,
+                format="%.4f",
+                key=slider_key
+            )
     with f2:
         roles = ["All"] + sorted(df["title"].unique().tolist())
-        sel_role = st.selectbox("Filter Job Title", roles)
+        sel_role = st.selectbox("Filter Job Title", roles, key=f"filter_role_select_{cohort_n}")
     with f3:
         locs = ["All"] + sorted(df["location"].unique().tolist())
-        sel_loc = st.selectbox("Filter Location", locs)
+        sel_loc = st.selectbox("Filter Location", locs, key=f"filter_loc_select_{cohort_n}")
 
     fdf = df[df["score"] >= min_score].copy()
     if sel_role != "All":
